@@ -1,0 +1,55 @@
+---
+author: admin
+comments: true
+date: 2022-12-06 13:41:33+00:00
+layout: post
+link: https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part2/
+slug: how-i-work-with-english-with-tools-part2
+title: 私、英語とこんな付き合い方をしています（ツール編）〜 Part 2 〜
+wordpress_id: 1877
+categories:
+- 仕事
+language:
+- 日本語
+tags:
+- English
+- Plain English
+- Study
+- プレイン・イングリッシュ
+- 英語学習
+---
+
+## ライティング：プレイン・イングリッシュ
+
+
+[前回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part1/)は、文章（主に文法的な）校正に関するツールを紹介しました。今回は文体に関するお話をしたいと思います。
+
+そもそも、皆さん、英語を書く時に「カッコいい英語」を書きたいと思って書いていることが多いんではないでしょうか。例えば、関係代名詞がビシッと入ってて、受動態使って格式高く、さらにちょっと小難しい単語が入った英語が使えたらなんとなくカッコいいですよね？
+
+ただ、こういうカッコいい英語書くことが必ずしもいい結果を産まないという考えもあるのです。できる限りシンプルな方がいいと。 そのような考え方は「**プレイン・イングリッシュ**」と言われています。
+
+Wikipediaによると「プレイン・イングリッシュ」は、
+
+
+<blockquote>プレイン・イングリッシュは、明確さと簡潔さを強調し、専門用語を回避するコミュニケーション様式の総称であり、とくに法律を含む政府の公式発表等と関係したものである。目的は、対象とする読者に容易に理解できる方法で記述することである。その読解力と知識に適しており、クリアでダイレクトであり、陳腐な表現（クリシェ）や不必要な隠語（ジャーゴン）のないものである。</blockquote>
+
+
+となっています。
+
+このプレイン・イングリッシュについて簡潔に説明されている良書があります。比較的薄い本なので興味がある方はぜひ読んでみてください。[![](https://blog.shin.do/wp-content/uploads/2022/12/Plain-English-Book-208x300.jpg)](https://blog.shin.do/wp-content/uploads/2022/12/Plain-English-Book.jpg)
+
+プレイン・イングリッシュの考えに基づくと、この本の表紙にあるように、"There is no one who doesn't know Ichiro." と書くより "Everybody knows Ichiro." と書くべきである、ということになります。日本語だと「イチローを知らない人はいない」という文は自然ですが、それをそのまま英訳すると前者のようになってしまうわけです。「知らない人がいない」のなら「みんな知っている」ということなので、そのように表現する。それがプレイン・イングリッシュということなんですね。なんかすごく安っぽい英語に見えるかもしれませんが、実は簡潔で品格がある英語である、ということになるのです。
+
+自分がふだん書いている英語に自信がなくなってきましたか？　朗報があります。皆さんが書いた英語がどれぐらいプレイン・イングリッシュなのかを調べるツールがあるのです。[English Readability Analyzer](https://jpelc.org/readability/)というツールです。このWebサイトにアクセスしてテキストを入力するとプレイン・イングリッシュ度診断をしてくれます。例えば、私の英語[ブログ記事](https://blog.shin.do/2019/10/overlay-technologies-and-me-en/)の最初のパラグラフを与えると、以下のような診断結果を出してくれます。[![](https://blog.shin.do/wp-content/uploads/2022/12/My-score-as-plain-English.png)](https://blog.shin.do/wp-content/uploads/2022/12/My-score-as-plain-English.png)この「FRE = 52」というのが総合評価で、レベルはおおよそ高校1〜3年生レベルである、という判定をしてくれています。 大の大人が書いた英語が高校生レベルっていうのはちょっと情けないように思われるかもしれませんが、 プレイン・イングリッシュ的観点からは実はこれでもちょっと難しすぎるという判定なのです。一般的にプレイン・イングリッシュと考えられるのは、FREスコアが60〜70以上で、学校レベルで言うと、中学2〜3年生ぐらいのレベルの英語である、ということになっています。私の書いた文章は52点なので若干面倒くさい英語になっているいうことですね。
+
+[caption id="attachment_1886" align="alignnone" width="926"][![](https://blog.shin.do/wp-content/uploads/2022/12/Simple-English-scores.png)](https://blog.shin.do/wp-content/uploads/2022/12/Simple-English-scores.png) https://jpelc.org/readability/ より引用[/caption]
+
+トランプ（前）大統領の演説の英語は概ね60〜70点らしいので、まさにプレイン・イングリッシュ、誰でも分かる英語になっていると言えそうです。皆さんが英語を書かれた時に、ちょっと幼稚な英語になってない か心配になったり、逆にまどろっこしすぎないかと思われた時は、このツールを使って自分の書いた英語が適切な簡潔度を持っているか、適度なプレイン・イングリッシュになってるかどうかを調べてみると良いと思います。
+
+
+## 次回
+
+
+今回はプレイン・イングリッシュについてお話ししました。このような視点もあるので、皆さん自信を持って英語を書いていきましょう！　[次回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part3/)は辞書サービスのお話をしようと思います。
+
+Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/simple?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
