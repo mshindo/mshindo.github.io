@@ -1,12 +1,7 @@
 ---
-author: admin
-comments: true
 date: 2022-12-12 22:33:05+00:00
 layout: post
-link: https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part5/
-slug: how-i-work-with-english-with-tools-part5
 title: 私、英語とこんな付き合い方をしています（ツール編）〜 Part 5 〜
-wordpress_id: 1927
 categories:
 - 仕事
 language:

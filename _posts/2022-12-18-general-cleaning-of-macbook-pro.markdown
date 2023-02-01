@@ -1,12 +1,7 @@
 ---
-author: admin
-comments: true
 date: 2022-12-18 23:40:57+00:00
 layout: post
-link: https://blog.shin.do/2022/12/general-cleaning-of-macbook-pro/
-slug: general-cleaning-of-macbook-pro
 title: 塵も積もれば
-wordpress_id: 2100
 categories:
 - コンピュータとインターネット
 - 仕事
