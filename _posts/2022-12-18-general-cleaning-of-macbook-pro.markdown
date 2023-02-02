@@ -17,13 +17,13 @@ tags:
 
 いつ頃からか定かではないのですが、私が普段使っているMacBook Proがやたら重たくなり、作業がままならなくなることがしばしばありました。このような状態になると文字入力がほぼできなくなり、アクティブなウィンドウの切り替えなどに数秒かかるようになります。比較的CPU負荷が高いと考えられるZoomのバーチャル・バックグラウンド機能を使っている時によく起こります。このような状態に陥っている時にTerminalでtopコマンドを叩くと、多くの場合Load Avgが100を超えており、ひどい時は下のように240とか見たことないような値になります。%CPUで上位を占めるプロセスはWindowServerプロセスやOneDriveプロセスであることが多いのですが、これらのプロセスがそんなにCPUを食い潰すような使い方をしているわけではありません。[![](https://blog.shin.do/wp-content/uploads/2022/12/Top-on-Terminal-1024x711.png)](https://blog.shin.do/wp-content/uploads/2022/12/Top-on-Terminal.png)一方、Activity Monitorで確認すると、kernel_taskが%CPUを占有している状態であることが分かります（ただ、同じタイミングでtopコマンドを取るとkernel_taskはそうCPUを食っているように見えません。なぜActivity Monitorとtopでkernel_taskの見え方が異なるのかはよくわかりません）。[![](https://blog.shin.do/wp-content/uploads/2022/12/Activity-Monitor-1024x686.png)](https://blog.shin.do/wp-content/uploads/2022/12/Activity-Monitor.png)このkernel_taskが何をやっているのかを調べてみたら、以下のようなAppleのKBを見つけました。
 
-[caption id="attachment_2110" align="alignnone" width="660"][![](https://blog.shin.do/wp-content/uploads/2022/12/kernel_task-1024x428.png)](https://blog.shin.do/wp-content/uploads/2022/12/kernel_task.png) https://support.apple.com/ja-jp/HT207359 から引用[/caption]
+[![](https://blog.shin.do/wp-content/uploads/2022/12/kernel_task-1024x428.png)](https://blog.shin.do/wp-content/uploads/2022/12/kernel_task.png) https://support.apple.com/ja-jp/HT207359 から引用
 
 どうやら温度に関係しているようです。それでは、ということで、このような操作不能状態に陥ったらMacBook Proを氷枕で冷やしてみることにしました。そうすると、確かに効果は的面、冷えてくるとkernel_taskの負荷は下がり、MacBook Proの操作が正常にできる状態に戻ることが分かりました。
 
 これでほぼ熱が原因ということが分かりました。でも、なんでそんなに熱を持つのか？　一番怪しそうなのは内臓のファンです。そこで、MacBook Proの筐体を開いて調べてみることにしました。MacBook Proに限らず、Appleの製品の多くは通常のネジが使われておらず、特殊な星型ネジが使われています。そこでAmazonで以下の製品を購入しました。
 
-[caption id="attachment_2112" align="aligncenter" width="268"][![](https://blog.shin.do/wp-content/uploads/2022/12/71og4A6SsXL._AC_SX679_-268x300.jpg)](https://blog.shin.do/wp-content/uploads/2022/12/71og4A6SsXL._AC_SX679_.jpg) https://www.amazon.co.jp/dp/B09TP9MQ75/ より引用[/caption]
+[![](https://blog.shin.do/wp-content/uploads/2022/12/71og4A6SsXL._AC_SX679_-268x300.jpg)](https://blog.shin.do/wp-content/uploads/2022/12/71og4A6SsXL._AC_SX679_.jpg) https://www.amazon.co.jp/dp/B09TP9MQ75/ より引用
 
 これで道具は揃いました。ただ、MacBook Proの蓋を開けるは若干コツが要ります。以下のサイトを参照しながら慎重に作業を進めました。
 

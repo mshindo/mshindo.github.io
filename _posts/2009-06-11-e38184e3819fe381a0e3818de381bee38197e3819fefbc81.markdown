@@ -1,0 +1,15 @@
+---
+date: 2009-06-11 01:38:07+00:00
+layout: post
+title: いただきました！
+categories:
+- 仕事
+language:
+- 日本語
+---
+
+INTEROPのBest of Show Award、ShowNetデモンストレーション部門において、弊社出展のGenieATM 6000がグランプリをいただきました！
+
+[_http://www.interop.jp/exhibition/bsa.html_](http://www.interop.jp/exhibition/bsa.html)
+
+[![](http://blog.shin.do/wp-content/uploads/2010/09/img_grandprix.gif?w=90)](http://blog.shin.do/wp-content/uploads/2010/09/img_grandprix.gif?w=90)

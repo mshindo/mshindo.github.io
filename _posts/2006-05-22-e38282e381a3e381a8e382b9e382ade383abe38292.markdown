@@ -1,0 +1,17 @@
+---
+date: 2006-05-22 13:26:04+00:00
+layout: post
+title: もっとスキルを
+categories:
+- 仕事
+language:
+- 日本語
+---
+
+常に技術を極めることを目標に精進をしてきたここ10年でしたが、最近すこし自分を省みれるようになってきました。
+
+そんな中、たまたま今日見つけた
+
+[http://jibun.atmarkit.co.jp/ljibun01/rensai/eh14/eh01.html](http://jibun.atmarkit.co.jp/ljibun01/rensai/eh14/eh01.html)
+
+な記事。ちょっとだけ思い当たるところもあるなー、などと思うのであります。

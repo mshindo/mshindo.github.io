@@ -1,0 +1,49 @@
+---
+date: 2019-10-15 22:29:44+00:00
+layout: post
+title: Overlay technologies and me
+categories:
+- Computer and Networking
+language:
+- English
+post_translations:
+- pll_5da6400c1a610
+tags:
+- Ascend
+- cosine
+- ipsec
+- l2tp
+- nicira
+- NSX
+- overlay
+- sd-wan
+- vmware
+---
+
+The other day, someone told me about [this article](https://pc.watch.impress.co.jp/docs/2004/0917/config018.htm) (This article is in Japanese. A related article in English is [here](https://www.theregister.co.uk/2004/09/09/retro_net/)). It was a great surprise for me to know that Pat Gelsinger, CTO of Intel as of the writing of this article, CEO of VMware today, had envisioned the overlay network concept in 2004. Considering that he was at Intel at that time, I imagine that the environment he envisioned was desktop and notebook computers connecting to multiple overlay networks to access various services. The overlay networks haven't reached our desktop environment to the extent that Pat might have envisioned. However, Cloud and datacenter today have become very close to his vision. It is quite surprising that Pat had such foresight in 2004.
+
+Admittedly, I don't have such an insight as Pat does, but I've been working with many overlay network technologies to date. Let's take a look back at the overlay network technologies I have been involved in.
+
+I joined Ascend Communication in 1997. Ascend dominated in the remote access server market, and most of the ISPs were using it. I joined Ascend as a SE without any experience working as a network engineer. For the first year, I've always asked myself a question of how much I was contributing to the company. I was struggling among the very talented people who can easily debug PPP with the hex dump. Then I realized that I should do something different from what other people were doing. I chose Ascend Tunneling Management Protocol (ATMP) as a start, which was the first encounter for me with the overlay network technology. Dial-up based tunneling protocols were in chaos at that time because of many vendor-led protocols such as ATMP, PPTP, L2F. To settle such a chaotic situation, IETF decided to create a vendor-neutral tunneling protocol called L2TP. Thanks to Ascend, one of the companies leading this standardization effort, I was able to access the early implementation of L2TP by Ascend. Roughly at the same time, a volunteer-based group called "vpnops," who were testing various VPN technologies and sharing the operational insight, called for an interoperability testing for L2TP. It was so lucky that I was invited to such interoperability testing. To debug the L2TP protocol during the interoperability test, I wrote an L2TP dissector for tcpdump, which was later merged to the trunk of tcpdump thanks to itojun-san.
+
+Through these experiences, I ended up having a decent knowledge of L2TP. In the meantime, NTT was in preparation for the first flat-rate internet access service in Japan called "FLETS ISDN," which could leverage L2TP as a basis of its architecture. I was seemingly the person who had the most experience with L2TP at Ascend Japan, and I was engaged in this project as a consequence. This project was indeed a pivot point of my life as a network engineer, and I can't thank more to people who helped me in this project. In the end, I was able to speak all control messages that the L2TP protocol defines from memory (LoL).
+
+One thing that I feel regret when I was at Ascend was that I wasn't able to be involved in IPsec as a technology. Ascend had a prototype, but it didn't come out as a product. Because I was so interested in IPsec, I decided to leave Ascend and joined CoSine Communication. IPsec was not the only reason but undoubtedly one of the biggest reasons I joined CoSine. What CoSine was trying to do was to create an overlay-type VPN by implementing pure virtual routers and connecting them with an IPsec tunnel. Considering it was the time when VRF emerged as a part of BGP/MPLS VPN, what CoSine was trying to do was very advanced. Nevertheless, the quality of software CoSine had was not very good, which troubled many people involved. Please accept an apology.
+
+In 2000, VPN was categorized into two models. One was a "peer model," and another was called an "overlay model." The most representative form of peer model VPN was the so-called BGP/MPLS VPN (RFC2547/RFC4364). On the other hand, the VPN model that CoSine was adopting was an overlay-model. It is worth noting that "overlay" here doesn't mean the one in a data plane (i.e., the presence/absence of a tunneling/encapsulation). Instead, it means how routing information from customer sites is handled. In a peer-model, routing information from customer sites and the backbone in the service provider are treated equally, thus called a "peer" model. In an overlay model, a service provider is oblivious about the routing information from customer sites. Routing information from customer sites is typically exchanged over a tunnel between the customer edge by running a routing protocol on the tunnel.
+
+We sometimes had a flame war about the type of VPNs over the IETF mailing list. Most of the time, peer model advocates predominated over the overlay model advocates. Typical claim from peer model advocates was "Overlay model won't scale" while overlay model advocates claimed it would. Putting aside which statement from each group was correct, BGP/MPLS VPN was clearly the winner from a commercial perspective.
+
+In 2011, I came across Nicira (please read [this](http://blog.shin.do/2014/03/%e7%a7%81%e3%81%8cnicira%e3%81%ab%e5%85%a5%e3%81%a3%e3%81%9f%e3%82%8f%e3%81%91/) how it all happened; sorry it's only written in Japanese). Coincidentally, Nicira was also a company based on an overlay technology. The main idea of NVP, software being developed by Nicira, was to decouple network functions from the underlying hardware. NVP realizes the virtual network by connecting virtual switches with a tunneling protocol called STT (Stateless Transport Tunneling). VMware acquired Nicira in 2012. The core part of NVP was incorporated into NSX, one of the mainstream products of VMware, and it became a 1 billion dollar run-rate business today.
+
+After I left VMware, I joined a company called Viptela, an SD-WAN startup in 2016. SD-WAN is also based on overlay technology. Most of the SD-WAN products use IPsec tunnels as a data plane. The flexibility and ubiquitousness of SD-WAN come not only from the presence of "controller" but also from the overlay network architecture. In the context of the peer-model vs. overlay-model I described above, SD-WAN falls into the category of overlay-model VPN because the customer routing information is exchanged by the CPEs. Service providers are not involved there. Recalling the harsh "bashing" against the overlay model VPN in 2010, I can't help from feeling somewhat delighted to see that overlay technology like SD-WAN has been deployed at a large scale and working just fine 15 years later from the flame war.
+
+Performance overhead always comes with the overlay technologies as an inevitable tax. Sometimes people criticize the overlay technologies because of such overhead. I think such criticism is short-sighted. Upon the emergence of new overlay technology, it is often done by a new encapsulation, which hardware doesn't do an excellent job in handling such packets. Therefore, it leads to performance degradation. However, such a performance issue is often resolved over time. Encapsulation, in particular, is a relatively easy problem for hardware to solve. In the long run, we would appreciate the benefit of "abstraction" realized by the overlay technologies much more than the tax we need to pay.
+
+Let's take a few examples (but not from the area of networking). Modern computers and the operating systems use a virtual memory system by mapping the memory from a virtual address space to a physical address space. This mapping is possible thanks to the mechanism such as MMU and TLB that the CPU has. There is no one today who doubts the benefit of this virtual memory system just because of the potential performance penalty incurred. It is so apparent that the advantage is way more than the disadvantages. Let's think about another example. In the early days, it was believed that x86 CPU could not be virtualized without sacrificing the performance significantly due to its inherent architecture. (BTW, VMware was the first company who proved that it could be done with reasonable performance). However, with the advent of virtualization assistance features introduced on CPUs such as Intel VT and AMD-V, it became possible to virtualize the x86 processor without significant performance degradation. The same thing is very likely to happen to the overlay network. The abstraction first brings innovations, and then the associated overhead is remedied with the help of hardware later.
+
+I have to confess, however, that I have not been choosing the technologies and companies for the last 20 years under a clear insight or philosophy I described above. Instead, it was more of a coincidental artifact. Or, I just like the abstraction by the overlay technology and a sense of excitement that comes out of it.
+
+Up until recently, the network has been built and managed by "touching" the networking gears as they have been always physically accessible. Today, we are in a Cloud Era, however. Not to mention, there are switches and routers in the Cloud, but they are no longer accessible from us. Then, how can we build and manage the network end-to-end in an environment where not all network gears are accessible? It seems very natural to me that we should build the network by software as an overlay and manage it end-to-end in the Cloud Era.
+
+With that all being said, I want to continue to be actively involved in overlay technologies.

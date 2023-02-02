@@ -1,0 +1,17 @@
+---
+date: 2007-01-17 15:02:51+00:00
+layout: post
+title: NetFlowネタ
+categories:
+- コンピュータとインターネット
+language:
+- 日本語
+---
+
+先日経験したNetFlowネタをひとつ。
+
+GenieATMでフローを見ていたら、かけているトラフィックからすると ICMP Echo Request と Reply が両方見えてしかるべきなのに、なぜか ICMP Echo Reply しか見えません。「バグ？？」って一瞬焦りましたが、原因は Exporter 側にありました。
+
+使っていたのは Juniper ですが、Juniper の NetFlow （彼等は cflowd と呼んでいます）の実装は、ICMPに関するフローレコードを出すときに ICMP の Type と Code をポート番号にマップして載せてくれないようで、ポート番号のフィールドは 0 で埋められて出てきます。Cisco はこのようなマップをしてくれるようになっているので、GenieATM はそれを元に ICMP の種類を判定しています。Type=0, Code=0 は ICMP Echo Reply なので、GenieATM ではすべて ICMP Echo Reply に見えてしまった、という次第。
+
+この辺は微妙に各社ベンダーごとに実装が異なるんですね！

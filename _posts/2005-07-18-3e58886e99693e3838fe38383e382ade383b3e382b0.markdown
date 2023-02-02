@@ -1,0 +1,128 @@
+---
+date: 2005-07-18 09:00:36+00:00
+layout: post
+title: 3分間ハッキング
+categories:
+- 仕事
+language:
+- 日本語
+---
+
+Britestreamという弊社取り扱い製品についてくるucliというユーティリティーは、単にstdinからfgets()しているだけで不便だったので、readline()するようにしてみました。とりあえずLinux版のみ。これでちょいとは便利になりました。
+
+以下パッチ。
+
+    
+    diff -cr cli/Makefile clinew/Makefile
+    *** cli/Makefile 2005-07-18 11:55:29.000000000 +0900
+    --- clinew/Makefile 2005-07-18 15:14:24.000000000 +0900
+    ***************
+    *** 1,7 ****
+    # Lines starting with the pound sign are comments.
+    #
+    
+    ! SRC_DIR = ..
+    MID_DIR = .
+    OUT_DIR = .
+    
+    --- 1,7 ----
+    # Lines starting with the pound sign are comments.
+    #
+    
+    ! SRC_DIR = .
+    MID_DIR = .
+    OUT_DIR = .
+    
+    ***************
+    *** 108,114 ****
+    
+    # Ultralock Management API
+    APIINCLUDE = $(SRC_DIR)/../api
+    ! APILIB =  $(SRC_DIR)/../api/linux/libulapi.a
+    
+    SSLBASE = $(SRC_DIR)/../../Library/Openssl/openssl-0.9.7c
+    SSLINCLUDE1 = $(SSLBASE)/Linux/include
+    --- 108,114 ----
+    
+    # Ultralock Management API
+    APIINCLUDE = $(SRC_DIR)/../api
+    ! APILIB =  $(SRC_DIR)/../api/libulapi.a
+    
+    SSLBASE = $(SRC_DIR)/../../Library/Openssl/openssl-0.9.7c
+    SSLINCLUDE1 = $(SSLBASE)/Linux/include
+    ***************
+    *** 116,122 ****
+    #ifeq ($(SECURE_CHANNEL),yes)
+    SSLLIB = $(SSLBASE)/Linux/libssl.a
+    #endif
+    ! SSLLIB += $(SSLBASE)/Linux/libcrypto.a
+    
+    #ifdef CHIPDEV
+    # Layer N internal code control
+    --- 116,123 ----
+    #ifeq ($(SECURE_CHANNEL),yes)
+    SSLLIB = $(SSLBASE)/Linux/libssl.a
+    #endif
+    ! #SSLLIB += $(SSLBASE)/Linux/libcrypto.a ! SSLLIB += /usr/lib/libcrypto.a
+    
+    #ifdef CHIPDEV
+    # Layer N internal code control
+    diff -cr cli/gcli.c clinew/gcli.c
+    *** cli/gcli.c 2005-07-18 11:55:29.000000000 +0900
+    --- clinew/gcli.c 2005-07-18 17:19:29.000000000 +0900
+    ***************
+    *** 25,30 ****
+    --- 25,33 ----
+    #include <ctype.h>
+    #endif
+    
+    + #include <readline/readline.h>
+    + #include <readline/history.h>
+    +
+    #include "gcli.h"
+    #ifdef UMC_IF
+    #include "ultralock_umcif.h"
+    ***************
+    *** 223,228 ****
+    --- 226,232 ----
+    #ifdef UMC_IF
+    char cmdBuffer[2048]; int cmdLen;
+    #endif
+    +   char *rl = NULL;
+    
+    // Read in one whole line
+    if(fp_current) {
+    ***************
+    *** 264,274 ****
+    #endif
+    else {
+    // use fgets() to get the command
+    !     printf_STD("%s", cli_prompt);
+    !     fflush(stdout); // important flush, do not remove
+    !     status = (int)(fgets(command_line, MAX_LINE_LEN, stdin)!=NULL);
+    !     if(!status)
+    return ERR_READLINE;
+    }
+    
+    // get rid of newline character at end of line (if any)
+    --- 268,287 ----
+    #endif
+    else {
+    // use fgets() to get the command
+    !     // printf_STD("%s", cli_prompt);
+    !     // fflush(stdout); // important flush, do not remove
+    !     // status = (int)(fgets(command_line, MAX_LINE_LEN, stdin)!=NULL);
+    !
+    !     rl = readline("uclinew> ");
+    !     if (rl == NULL) {
+    !       free(rl);
+    return ERR_READLINE;
+    +     }
+    +     else {
+    +       status = (rl != NULL);
+    +       strncpy(command_line, rl, MAX_LINE_LEN);
+    +     }
+    +     free(rl);
+    }
+    
+    // get rid of newline character at end of line (if any)

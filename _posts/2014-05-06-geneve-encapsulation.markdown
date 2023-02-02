@@ -1,0 +1,91 @@
+---
+date: 2014-05-06 01:27:08+00:00
+layout: post
+title: Geneve Encapsulation
+categories:
+- コンピュータとインターネット
+- 仕事
+language:
+- 日本語
+tags:
+- GENEVE
+- NVGRE
+- STT
+- VXLAN
+---
+
+L2 over L3のencapsulationとしては、GRE, NVGRE, VXLAN, STTなどが良く知られているものですが、新たなencapsulationとして “Geneve” というものがIETFに提案されています（draft-gross-geneve-00.txt）。ドラフトにはWorking Group名は入っておらずまだ個人名になっていますが、現在nvo3 (Network Virtualization Overlays) Worging Groupで議論がされています。ドラフトを書いているのはVMware, Microsoft、RedHat、Intelの人たちです。
+
+現時点でも十分にいろいろな種類のL2 over L3 encapsulation方式があり、それぞれ実装も多数あるのに、なぜさらに新しいencapsulation方式を作る必要があるのでしょう？　まず、前提として各種L2 over L3 encapsulationは、多少の差こそあれ、本質的にはL2フレームをL3データグラムで包んでやる事が主目的であり、それを実現するために幾つもの方式があるのは、作る側（ベンダー）にとっても使う側（ユーザ）にとっても嬉しい事ではないであろう、ということがあります。
+
+その上で、Geneveが目指すのは、主に以下のの2点となります。
+
+
+
+	
+  * 拡張性を備える事
+
+	
+  * オフロード機能を有効に活用できる事
+
+
+NVGRE, VXLAN, STTヘッダはいずれも固定長で自由に拡張する事ができないため、今後新たに必要となるさまざまな要件に対応するのが困難です。そのような新たな要件として1つ想定されるのが “metadata” のサポートです。ここでいうmetadataとは、パケット自体ではなくそれに付随するさまざまなcontext情報の事を意味します。例えばパケットがどのようなサービスを経由すべきか（いわゆるservice chaining）や、そのパケットが誰が出したどのようなアプリケーションのパケットであるのか、などと言った情報がmetadataにあたります。NVGRE, VXLANはいずれも原則仮想ネットワーク識別子しか扱えず、このようなメタな情報を伝えるのが困難です。STTには64bit長の “Context ID” というフィールドがあるので、ここを利用する事でNVGREやVXLANよりは多くの情報を伝える事ができますが、64bitという固定長フィールドですので伝えられる情報量には限りがあります。
+
+そこでGeneveでは、encapsulationに拡張性を持たせられるように、固定フィールドに加え、自由に伝える情報を拡張する事が出来る可変長のOptionフィールドが定義されています。このフィールドはいわゆるTLV (Type/Length/Value）形式を取っており、自由に拡張をすることができます。また、Typeの前にはOption Classというフィールドがあり、Typeの名前空間を定義できます。ここに（IANAから割り当てられた）ベンダーIDを入れる事でベンダー固有のTypeを自由に定義・追加できるように設計されています。
+
+[![Geneve class=](http://blog.shin.do/wp-content/uploads/2014/05/GeneveHeadr.svg)](http://blog.shin.do/wp-content/uploads/2014/05/GeneveHeadr.svg) Geneve Header 
+
+[![Geneve Options](http://blog.shin.do/wp-content/uploads/2014/05/GeneveOptions.svg)](http://blog.shin.do/wp-content/uploads/2014/05/GeneveOptions.svg) Geneve Options
+
+Geneveヘッダには2種類のフラグ（O、C）が定義されいます。OフラグはOAMフレームを表し、CフラグはCriticalフレームを表しています。GeneveのOAMはEnd-to-EndのOAMを想定しており、途中の経由するノードがこのフラグを見てなにかしらの解釈してはしてはいけない事になっています。また、GeneveのEndノードはOフラグが立ったパケットを優先的に処理する事が期待されています。一方、Cフラグが立っているオプションを受け取ったEndノードはそれを解釈しなければなりません。逆に言うと、Cフラグが立っていなければ、それを受け取ったノードはそれを無視しても良い、ということになります。
+
+VXLAN、NVGREと同様、Geneveでも仮想ネットワークを識別するための識別子（VXLANではVNI、NVGREではVSID）は24bit長となっています。また、VXLANと同様、GeneveでもUDPでトランスポートするよう定められており、UDPソースポート番号を適切に使うこととにより、ファブリックのようなマルチパスネットワークの帯域を最大限有効に使えるようにになっています。
+
+2つ目のGeneveのDesign Goalのである「オフロード機能を有効に使えるようにする」という点はL2 over L3 encapsulationする際に高い性能を実現する上でとても重要です。各種オフロード機能の中でも特にSegmentation Offload機能は性能向上において非常に有効に機能します。Segmentation Offload機能は、最近の多くのNICで実装されている機能の一つで、CPUの負荷を減らしつつ高いスループットを実現する事のできる仕組みです。具体的には、オペレーティングシステムからNICに対して非常に大きなパケットの送信を依頼しするようにします。そのような大きなパケットは実際にはネットワーク上に出す事は出来ませんので（MTUの制限）、パケットを小さく分断（segmentation）してネットワーク上に出してやる必要があるのですが、通常はこの処理はソフトウェア（オペレーティングシステム）が行います。Segmenation Offload機能を持つNICの場合は、このsegmenation処理をオペレーティングシステムに代わってNICがハードウェアで処理をしてくれます。このような機能は一般的にはLarge Segmenation Offload機能と呼ばれており、特にTCPパケットにに対して行う場合TSO (TCP Segmenation Offload）機能と呼ばれています。LSO/TSOが機能すればホストのCPUサイクルを使わずに済みますので、ホストのCPUに負荷をかけず高いスループットを実現する事ができます。実際STTではこのNICのTSO機能を上手く利用できるように工夫されていて、TCPでEncapsulationをするようになっています。
+
+Encapsulationの拡張性と性能はトレードオフの側面があります。Encapsulationに拡張性を持たせるために、ヘッダにOptionフィールドを儲けて自由に情報を追加できるようにすると、NICからするとどこからデータが始まるのかが分からずにSegmentation Offloadを行うのが困難になるからです。そこで、GeneveヘッダにはOptionの長さがはっきり（一つ一つのOptionをパースしなくとも）とわかるように、明示的にOption長を入れるようになっています。このフィールドの値を見ればNICはすぐにデータがどこから始まるのか判断する事ができます。Geneveではこのフィールドは6bit長ありますが、実際のOptionの長さはこのフィールドの値の4の倍数の長さになるので、最大64*4=256バイトのOptionを扱う事ができる、ということになります。
+
+STTはTSO機能を持った既存のNICでH/Wアクセラレーション効果を享受できますが、Geneveではどうでしょう？　上述したように、Geneveでencapsulationされたパケットに対してNICのSegmentaion Offload機能を利用するためには、GeneveのOption長フィールドを意識する必要があり、Segmentationする際にGeneveのヘッダ（Optionも含む）を全てのSegmentにコピーしてやる必要もありますので、NIC自体がGeneve対応（Geneve-aware）になっている必要があります。現在はこのようなNICは存在しませんが、Geveneではこのような実装をハードウェアで行いやすいように慎重に設計されているのが特徴になっています。今後GeneveのOptionがいかに増えようとも、Geveve自体の仕様を変える必要はなく、また、Geneve-awareなNICのSegmentaion Offload機能になんら影響を与えずにOptionを自由に追加していくことができます。Geneveでは拡張性と性能を両立させる事ができるわけです。
+
+一方、Geneveに反対をしている人たちもいます。そのような人たちの主張はおおかた以下のよなものです。
+
+
+
+	
+  * Geneveで実現しようとしている事は、既存のencapsulation（L2TPv3のstatic tunnelingやVXLAN）の拡張で実現可能なので、新たなencapsulationは要らない。
+
+	
+  * metadataをencapsulationにbindするべきではない。
+
+	
+  * VNIが24bitでは不十分。最低でも32bitは欲しい。
+
+
+
+一般的にはL2TPはシグナリングを含みますが、L2TPのシグナリングを使わずに両端で静的に必要な設定をする事でL2TPを使う事も可能です。これをL2TP static tunnelingといい、この場合は純粋なencapsulation (Pseudo Wire）方式ということになります。L2TPv3自体は2005年にRFCになっていますので、十分に枯れた仕様であり実装も十分にあります。例えばCisco IOSでも実装されていますし、Linuxでもip l2tpコマンドで利用できます。
+
+L2TPv3のデータパケットのencapsulationには実質上Session IDとCookieしかありません（Tフラグは常に0、Verは3である必要があります）。
+
+[![L2TPv3 Data Header](http://blog.shin.do/wp-content/uploads/2014/05/L2TPv3.svg)](http://blog.shin.do/wp-content/uploads/2014/05/L2TPv3.svg) L2TPv3 Data Header
+
+L2TPv3 encapsulationではSession IDがVXLAN/GeneveのVNIに相当する事になり、ここは32bit長となっています。
+
+このパケットフォーマットを変えないままL2TPv3 static tunnelにGeneveのような拡張性を持たせる事も可能ですが、その場合は両端で（合意できる）設定をして、それをSeesion IDとして表す事になります（この点を考慮すると、Session IDを純粋にVNIとして使える訳ではない、ということになります）。この暗黙の合意はEnd Point同士でしか分かりませんので、途中のノードがそれを解釈することはできません。この「途中のノード」にはNICも含まれることに注意をすべきでしょう。
+
+一方、Segmentation Offload機能を使えるか、という点については、現状のL2TPv3の仕様的には難しいでしょう。L2TPv3 encapsulationではCookieの長さもパケットを見ただけではわかりません（極端な話、その有無さえもわかりません）。これらはL2TPのシグナリングの過程（static tunnelの場合は両端の静的設定）で決められます。どこからデータが始まっているのかをNICなどに伝える事ができないためSegmentation Offloadを実現するのは困難です。ただしL2TPv3の前身のプロトコルであるL2TPv2には “Offset” というフラグとフィールドが定義されていて、これでデータがどこから始まるのかをヘッダー部分に入れる事ができるようになっています。L2TPv3 encapsulationにはこのOffsetフィールドは（RFC的には）定義されていませんが、L2TPv2時代の名残りでL2TPv3でもこのOffsetフィールドを使う事ができる場合が多いようです。
+
+上記のような観点からは、VXLANもL2TPv3 encapsulationとあまり大きな違いはありません。
+
+[![VXLAN Header](http://blog.shin.do/wp-content/uploads/2014/05/VXLAN.svg)](http://blog.shin.do/wp-content/uploads/2014/05/VXLAN.svg) VXLAN Header
+
+標準で規定されている以外の情報（現状はVNIしか伝える事しか出来ない）を伝えようとすると、現状のReservedとなっているフラグやフィールドを使って拡張をするか、パケットのフォーマットを大幅に変更をする事になるでしょう。例えば、現状のVXLANヘッダにはencpasulationするフレームがどのようなフレームなのかを示すフィールドがなくencapsulationの対象となるフレームはEthernetのみですが、VXLANでEthernetフレーム以外をencapsulationするようにするための拡張が提案されています（draft-quinn-vxlan-gpe）。この拡張はまさにReservedなフラグとフィールドを使ってVXLANを拡張しています。Encapsulation対象のフレームの種類を表すだけならなんとかReservedのフィールドでおさまるので、VXLANのパケットフォーマットを変更せずに済みますが、これ以外の拡張をしたくなったらもはや使えるフィールドはないので、フレームフォーマットの変更を余儀なくされるでしょう。
+
+現状のVXLANヘッダは8バイトで固定なので、Segmentation Offloadはし易い仕様になっていますが、このフレームフォーマットを超えた拡張情報を扱いたくなった場合には、Segmentation Offloadするのは困難になってくるでしょう。
+
+一方、metadataをencapsulationにbindすべきではない、という意見はそれなりに的を得ているように思います。metadataはencapsulationに対して直交しているべきで、どのようなencapsulation（VXLAN, NVGRE, L2TPv3, etc.)でも使えるべきだ、と考えるのは自然です。実際metadataを一般的な枠組みとしてどのように扱うかについては、IETFのsfc（Service Function Chaining）Working Groupというnvo3 WGとは別のWGで議論されています。ただ、だからといってGeneveがmetadataにbindされている、という指摘をするのはいささか勇み足でしょう。Geneveはmetadataを格納できるような仕組み（フレームワーク）を提供するだけで、そこにmetadataを入れる事を強要しませんし、metadataをどのように表現するかも規定していません。あくまで、Optionフィールドの使い方の一つとして考えられるのがmetadataの格納である、というだけです。Service Function Chaining方式とmetadataの表現方法が標準化されればそれに従えばよく、それまでの間はGeneveのOptionフィールドを使ってmetadataを運べるようそのような枠組みを用意しておく、というのは非常に合理的だと思います。Optionフィールドはmetadata以外の目的にも使えるわけですし。
+
+VNIが24bitでは足りない、という意見ですが、24bitでも1600万個のネットワークを表現できるので、これで足りないという主張は私はあまりピント来ません。このような主張をしている人たちは、このVNIを純粋にネットワークの識別子としてだけ使うのではなく、そこに何かしらのsemanticsやmetadata的なものを含めようとすると24bitでは足らなくなくなる、という事を懸念しているように思います。GeneveではOptionフィールドでmetadataなどのcontextを表現できますので、VNIは純粋に仮想ネットワーク識別子として使えます。であれば24bitあれば十分なのではないでしょうか？
+
+結局のところ、Geneveの存在意義があるかないか（既存のencapsulationで十分ではないか）という議論は、encapsulation方法としてmetadata以外に想定される拡張機能が必要か否か、という点に行き着くのではないかと思います。もし、metadata以外に想定される拡張機能が必要ないのであれば、sfc Working Groupの標準化を待ち、既存のencapsulation（あるいはその若干の修正形）を使えば良いでしょう。Geneveが提供してくれる他の機能（OAMの識別や、Ethernet以外のフレームを扱える枠組み）は他のencpsulation方式もフレームフォーマットを大きく変更することなく対応できるでしょうし、そのような拡張もすでに提案されています。逆に、今後metadata以外での拡張の必要性が見込まれるのであれば、新たに必要となるOptionが増えてもNICのSegmenation Offload機能を利用できるGeneveは非常に理にかなったencpasulationであると言えます。
+
+Geneveは拡張性を備えつつもVXLAN/NVGREのようにハードウェアで処理しやすいように（特にNICでのSegmentation Offloadが機能するように）設計された、STTとVXLAN/NVGREの両方のエッセンスを汲んだ新たなencpasulationです。この新しいencpasulation方式が市民権を得られるかどうかは、Geneveをサポートしたハードウェアやソフトウェアがどれくらい早く市場に現れてそれが受け入れられるか、という点にかかっていると思います。

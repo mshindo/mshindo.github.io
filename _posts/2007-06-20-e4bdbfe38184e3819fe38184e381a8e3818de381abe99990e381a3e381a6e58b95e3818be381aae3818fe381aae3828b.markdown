@@ -1,0 +1,23 @@
+---
+date: 2007-06-20 16:05:37+00:00
+layout: post
+title: 使いたいときに限って動かなくなる
+categories:
+- コンピュータとインターネット
+language:
+- 日本語
+---
+
+Wiresharkをsvnで使ってます。
+
+今日、仕事でWiresharkを使って調べたいことがあったのに、そういうときに限ってなぜかWireshark君が動いてくれない。epan/prefs.cのregister_preference()の中の
+
+    
+    g_assert(find_preference(module, name) == NULL);
+
+
+で引っかかる。本来やならければいけない仕事をサスペンドし、この問題をやっつけにかかる。
+
+どうやら同じ名前のものが2度registerされてしまっているために引っかかっているらしい。調べてみると、いくつかのpluginが2度registerされている。どうやら、つい先日の変更でsvnリポジトリ上ではいくつかのpluginがpluginではなくなったようなのだが、私のsvn working directory上ではplugin directoryの下に残っていたので、pluginとしても再度registerされてしまっていた、というのが原因だった。あー厄介じゃ厄介じゃ。
+
+これで本業に戻れる。トホホ。

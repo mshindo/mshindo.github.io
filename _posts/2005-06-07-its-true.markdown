@@ -1,0 +1,15 @@
+---
+date: 2005-06-07 05:39:58+00:00
+layout: post
+title: It's true!
+categories:
+- コンピュータとインターネット
+language:
+- 日本語
+---
+
+アップルがIntelを使うという発表にはちょっとビックリしました。でも、もっとグッときたのは、ジョブズのプレゼン。冒頭で「It's true!」とだけ画面に出し、その'e'が少し下にずれている、という憎い演出。うーん、さすが、と唸ってしまいました。
+
+[http://pc.watch.impress.co.jp/docs/2005/0607/apple2_805.jpg](http://pc.watch.impress.co.jp/docs/2005/0607/apple2_805.jpg)
+
+今週私も喋る機会があるわけですが、こういう「掴み」をしたいものです！

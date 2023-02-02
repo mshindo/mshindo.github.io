@@ -1,0 +1,15 @@
+---
+date: 2007-11-08 14:23:00+00:00
+layout: post
+title: 複雑な心境
+categories:
+- 仕事
+language:
+- 日本語
+---
+
+私が日頃やらせていただいているプレゼンテーションも、多くの先人たちの偉業の上に成り立っているので、あまり固いことは言いたくはないのですが、これはさすがにちょっとなー、と思うわけです。
+
+[http://www.cc.gatech.edu/classes/AY2005/cs6262_spring/Wireless_Security.ppt](http://www.cc.gatech.edu/classes/AY2005/cs6262_spring/Wireless_Security.ppt)
+
+絵なんてそのままですからね～。大学のクラスでの発表資料みたいなので、しかたないのかなー。

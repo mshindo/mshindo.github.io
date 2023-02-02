@@ -1,0 +1,26 @@
+---
+date: 2005-11-17 11:50:23+00:00
+layout: post
+title: IW2005の資料
+categories:
+- 仕事
+language:
+- 日本語
+---
+
+またもや締め切りを過ぎてしまいましたが、IW2005の資料の提出が終わりました。フー。
+
+今年やるのは（去年から引き続き）、
+
+
+
+
+ 	
+  * **[T22 : VPN 再考。～ IP-VPN vs SoftEther 他 ～](http://internetweek.jp/program/shosai.asp?progid=T22)**
+
+ 	
+  * [**T26 : 間違いだらけの無線 LAN セキュリティー** ](http://internetweek.jp/program/shosai.asp?progid=T26)
+
+
+
+の2本だす。今年もうまくいきますように。。

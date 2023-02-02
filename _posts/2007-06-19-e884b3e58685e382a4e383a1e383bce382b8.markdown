@@ -1,0 +1,15 @@
+---
+date: 2007-06-19 03:45:17+00:00
+layout: post
+title: 脳内イメージ
+categories:
+- 日常
+language:
+- 日本語
+---
+
+私の脳みそ、こんなかんじらしい。
+
+ここで作れます。
+
+[http://maker.usoko.net/nounai/](http://maker.usoko.net/nounai/)

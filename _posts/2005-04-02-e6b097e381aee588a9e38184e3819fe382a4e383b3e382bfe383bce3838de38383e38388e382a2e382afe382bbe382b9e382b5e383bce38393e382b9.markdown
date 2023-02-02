@@ -1,0 +1,13 @@
+---
+date: 2005-04-02 02:25:58+00:00
+layout: post
+title: 気の利いたインターネットアクセスサービス
+categories:
+- コンピュータとインターネット
+language:
+- 日本語
+---
+
+今回泊まったHoliday Inn Express at San MateoのインターネットアクセスPublic IP addressを要求できるようになっている。ちょっぴり気が利いていて気に入った。
+
+でも、試しにPublic IP address要求してみたら、「割り当てるIPアドレスがありません」と怒られてしまった。Public IP addressがなんたるか分かっている人も分かってない人も、盲目的にPublic IP addressを要求してしまうので、アドレスが足らなくなっているのだと思われる。要改善ですな。

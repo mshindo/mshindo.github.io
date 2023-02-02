@@ -1,0 +1,44 @@
+---
+date: 2006-09-29 14:45:57+00:00
+layout: post
+title: FreeBSDのRST挙動
+categories:
+- コンピュータとインターネット
+language:
+- 日本語
+---
+
+友人から「FreeBSDは不正なシーケンス番号のRSTを受けた場合でもセッションを切ってしまう」、と言われたので、まさかいまどきそんなこともあるまい、と思い調べてみました。FreeBSD 6.1Rのnetinet/tcp_input.cを見てみると、
+
+    
+    static int tcp_insecure_rst = 0;
+    SYSCTL_INT(_net_inet_tcp, OID_AUTO, insecure_rst, CTLFLAG_RW,
+        &tcp_insecure_rst, 0,
+        "Follow the old (insecure) criteria for accepting RST packets.");
+    
+                                              :
+                                              :
+    
+            if (thflags & TH_RST) {
+                    if ((SEQ_GEQ(th->th_seq, tp->last_ack_sent) &&
+                        SEQ_LT(th->th_seq, tp->last_ack_sent + tp->rcv_wnd)) ||
+                        (tp->rcv_wnd == 0 && tp->last_ack_sent == th->th_seq)) {
+                            switch (tp->t_state) {
+    
+                            case TCPS_SYN_RECEIVED:
+                                    so->so_error = ECONNREFUSED;
+                                    goto close;
+    
+                            case TCPS_ESTABLISHED:
+                                    if (tp->last_ack_sent != th->th_seq &&
+                                        tcp_insecure_rst == 0) {
+                                            tcpstat.tcps_badrst++;
+                                            goto drop;
+                                    }
+                                              :
+                                              :
+
+
+てな感じになっているので、ESTABLISHEDになっているところにRSTが来た場合、自分が最後に送ったACKと異なるシーケンス番号を持ったRSTが来てもBad RSTのカウンタだけ上げてドロップすることが分かりました。sysctlでこの挙動をコントロールできるようになっているところを見ると、確かに過去は友人のような動作をしていたみたいです。
+
+一安心です。

@@ -1,0 +1,200 @@
+---
+date: 2009-04-20 07:05:38+00:00
+layout: post
+title: Michael
+categories:
+- コンピュータとインターネット
+language:
+- 日本語
+---
+
+久しぶりに無線ネタです。
+
+先日Tews/Beckが発表したTKIPに対する攻撃では、Michaelが一方向関数になっていないことを利用していますが、これが本当かどうかを確かめるためにMichaelとその逆関数を実装してみました。うーーん、確かに平文とMichaelの64bitハッシュ値があれば、MIC Keyが逆算できますね。こら、盲点だった。言われて初めて気が付きました。
+
+この64ビットMIC Keyは、256ビットのPairwise Master Key (PMK) を512ビットに拡張して得られるPairwise Transient Key (PTK) の1/8に相当するわけですので、大ざっぱに言うとPMKの1/8に相当する部分が解読されたことになりますが、PMKをPTKに拡張する際には、PMKをかなり激しくHMAC-SHA-1で攪拌していますので、解読できたMIC KeyからPMKを解読するのは、直観的にはかなり厳しそうに思えます。
+
+Tews/Beckの攻撃は現実的には大きな脅威ではありませんが、TKIP攻撃に関しては大きな一歩を踏み出したと言えるでしょう。
+
+    
+    u_int32_t lrot(u_int32_t a, int n)
+    {
+        u_int32_t t;
+    
+        if (n == 0 || n == 32)
+            return a;
+        t = (a >> (32 - n));
+        return (a << n) + t;
+    }
+    
+    u_int32_t rrot(u_int32_t a, int n)
+    {
+        u_int32_t t;
+    
+        if (n == 0 || n == 32)
+            return a;
+        t = (a << (32 - n)); return t + (a >> n);
+    }
+    
+    u_int32_t xswap(u_int32_t a)
+    {
+        u_int8_t b[4];
+    
+        b[0] = (a & 0x0000ff00) >> 8;
+        b[1] = a & 0x000000ff;
+        b[2] = (a & 0xff000000) >> 24;
+        b[3] = (a & 0x00ff0000) >> 16;
+    
+        return (b[3] << 24) + (b[2] << 16) + (b[1] << 8) + b[0]; 
+    }
+    
+    void b(u_int32_t l, u_int32_t r, u_int32_t *lv, u_int32_t *rv) {
+        r = r ^ (lrot(l, 17));
+        l = l + r;
+        r = r ^ xswap(l);
+        l = l + r;
+        r = r ^ (lrot(l, 3));
+        l = l + r;
+        r = r ^ (rrot(l, 2));
+        l = l + r;
+        *lv = l;
+        *rv = r;
+    }
+    
+    void b_inv(u_int32_t l, u_int32_t r, u_int32_t *lv, u_int32_t *rv) {
+        l = l - r;
+        r = r ^ (rrot(l, 2));
+        l = l - r;
+        r = r ^ (lrot(l, 3));
+        l = l - r;
+        r = r ^ xswap(l);
+        l = l - r;
+        r = r ^ (lrot(l, 17));
+        *lv = l;
+        *rv = r;
+    }
+    
+    void michael(u_int32_t k0, u_int32_t k1, u_int8_t msg[], int n, u_int32_t *lv, u_int32_t *rv) {
+        u_int32_t l, r, ll, rr;
+        u_int8_t *ptr;
+        u_int32_t *m;
+        int i;
+    
+        ptr = calloc(n + 8, sizeof(u_int8_t));
+        memcpy(ptr, msg, n);
+        *(ptr+n) = 0x5a;
+        m = (u_int32_t *)ptr;
+    
+        l = k0;
+        r = k1;
+        for (i=0; i < n/4 + 2; i++) {
+            l = l ^ *m;
+            b(l, r, &ll, &rr);
+            l = ll;
+            r = rr;
+            m++;
+        }
+        *lv = l;
+        *rv = r;
+        free(ptr);
+    }
+    
+    void michael_inv(u_int32_t *k0, u_int32_t *k1, u_int8_t msg[], int n, u_int32_t lv, u_int32_t rv) {
+        u_int32_t l, r, ll, rr;
+        u_int8_t *ptr;
+        u_int32_t *m;
+        int i;
+    
+        ptr = calloc(n + 8, sizeof(u_int8_t));
+        memcpy(ptr, msg, n);
+        *(ptr+n) = 0x5a;
+        m = (u_int32_t *)ptr + n/4 + 1;
+    
+        l = lv;
+        r = rv;
+        for (i=0; i < n/4 + 2; i++) { b_inv(l, r, &ll, &rr); l = ll; r = rr; l = l ^ *m; m--; } *k0 = l; *k1 = r; free(ptr); } void michael_print(u_int32_t l, u_int32_t r) { printf("%02x%02x%02x%02x", (l & 0x000000ff), ((l >>  8) & 0x000000ff),
+                ((l >> 16) & 0x000000ff),
+                ((l >> 24) & 0x000000ff));
+            printf("%02x%02x%02x%02xn",
+                (r & 0x000000ff),
+                ((r  >> 8) & 0x000000ff),
+                ((r >> 16) & 0x000000ff),
+                ((r >> 24) & 0x000000ff));
+    }
+    
+    int main()
+    {
+        u_int32_t l, r, lv, rv;
+        u_int32_t k0, k1;
+        u_int8_t msg[] = {'M', 'i', 'c', 'h', 'a', 'e', 'l'};
+        int i;
+    
+        /*
+            test vectors for block function
+        */
+        b(0x0, 0x0, &lv, &rv);
+        printf("b(00000000, 00000000) * 1 = (%08x, %08x)n", lv, rv);
+        /* (00000000, 00000000) */
+    
+        b(0x0, 0x1, &lv, &rv);
+        printf("b(00000000, 00000001) * 1 = (%08x, %08x)n", lv, rv);
+        /* (c00015a8, c0000b95) */
+    
+        b(0x1, 0x0, &lv, &rv);
+        printf("b(00000001, 00000000) * 1 = (%08x, %08x)n", lv, rv);
+        /* (6b519593, 572b8b8a) */
+    
+        b(0x1234567, 0x83659326, &lv, &rv);
+        printf("b(01234567, 83659326) * 1 = (%08x, %08x)n", lv, rv);
+        /* (441492c2, 1d8427ed) */
+    
+        l = 0x1;
+        r = 0x0;
+        for (i=0; i<1000; i++) {
+            b(l, r, &lv, &rv);
+            l = lv;
+            r = rv;
+        }
+        printf("b(00000001, 00000000) * 1000 = (%08x, %08x)n", lv, rv);
+        /* (9f04c4ad, 2ec6c2bf) */
+    
+        /********
+         inverse
+        *********/
+        b_inv(0x0, 0x0, &lv, &rv);
+        printf("b_inv(0x0, 0x0) * 1 = (%08x, %08x)n", lv, rv);
+        /* (00000000, 00000000) */
+    
+        b_inv(0xc00015a8, 0xc0000b95, &lv, &rv);
+        printf("b_inv(0xc00015a8, 0xc0000b95) * 1 = (%08x, %08x)n", lv, rv);
+        /* (00000000, 00000001) */
+    
+        /************************
+         test vectors for michael
+        *************************/
+        l = 0x0;
+        r = 0x0;
+        michael(l, r, msg, 0, &l, &r);
+        michael_print(l, r); // 82925c1ca1d130b8
+        michael(l, r, msg, 1, &l, &r);
+        michael_print(l, r); // 434721ca 40639b3f
+        michael(l, r, msg, 2, &l, &r);
+        michael_print(l, r); // e8f9becae97e5d29
+        michael(l, r, msg, 3, &l, &r);
+        michael_print(l, r); // 90038fc6cf13c1db
+        michael(l, r, msg, 4, &l, &r);
+        michael_print(l, r); // d55e100510128986
+        michael(l, r, msg, 7, &l, &r);
+        michael_print(l, r); // 0a942b124ecaa546
+    
+        /****************************
+         test vectors for michael^-1
+        *****************************/
+        michael_inv(&k0, &k1, msg, 0, 0x1c5c9282, 0xb830d1a1);
+        printf("*** k0 = %08x k1 = %08x ***n", k0, k1);
+    
+        michael_inv(&k0, &k1, msg, 1, 0xca214743, 0x3f9b6340);
+        printf("*** k0 = %08x k1 = %08x ***n", k0, k1);
+    
+        return 0;
+    }

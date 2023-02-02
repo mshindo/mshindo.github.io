@@ -1,0 +1,22 @@
+---
+date: 2019-05-13 17:23:37+00:00
+layout: post
+title: RADIO 2019
+categories:
+- コンピュータとインターネット
+- 仕事
+language:
+- 日本語
+tags:
+- innovation
+- radio
+- vmware
+---
+
+VMwareが行なっているRADIOというイベントに参加するためにサンフランシスコに来ています。RADIOはResearch And Development Innovation Offsiteの略で、年に一度VMwareのエンジニアリングチームが集まり、４日間かけて先進的な取り組みついて発表をする場となっています。RADIOでセッションをするためには社内論文を出して採択される必要があり、かなり狭き門となっています。そのためRADIOでの発表はエンジニアリングにとって大きなモチベーションになっていて、これに向けて１年（あるいは複数年に渡って）頑張ってリサーチに取り組んでいるエンジニアも多いです。ここで発表されものから多くの特許が生まれ、また実際に製品となったりします。特に優秀と認められたものには全員の前で発表するResearch Talkが認められ、その他にも各種Breakoutセッション、BoF、JIT BoF（その場でテーマが決められて行うBoF）、Posterセッション（ブース出展）、など様々な機会が与えられています。VMwareのExecutiveたちも参加しますので、Executiveたちからの話を聞けるのはもちろんのこと、毎年著名なGeust Speakerを呼んで話をしてもらうのが通例となっているようです（今年誰が来るのかはまだ分かりません）。
+
+2000名近くのエンジニアが一堂に会して、かつ、キャンパスででなくオフサイトで行われるイベントですのでコストもそれなりにかかっていると思われますが、「会社が元気 -> R&Dに投資できる -> イノベーションが生まれ新製品が出てくる -> 収益が上がり会社が元気になる」という正のフィードバックループがうまく回っているな、と感じます。
+
+原則エンジニアリング向けのイベントなのでフィールドから参加することはできないのですが、若干名フィールドからの参加が認められており、今回日本からも数名参加をしています。実は私もRADIOに参加するのは今回が初めてです。今まで何度か参加の機会はあったのですが、色々な理由で実際に参加することはできていませんでした。同僚からはRADIOの素晴らしさはよく聞くのでとてもワクワクしています。RADIOでされる話は製品化前の話がほとんどですので、どんな話があったかは基本的に非公開でお話しすることはできないのですが、一部はメディアに公開される予定ですのでご期待ください。
+
+（Photo by [Kristopher Roller](https://unsplash.com/photos/PC_lbSSxCZE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/innovation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)）

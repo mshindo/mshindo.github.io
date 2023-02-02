@@ -22,9 +22,9 @@ tags:
 
 以下、両サービスの画面の例です。英辞郎の方は無料プランなので広告がいっぱいです（笑）
 
-[caption id="attachment_1893" align="aligncenter" width="2270"][![](https://blog.shin.do/wp-content/uploads/2022/12/Weblio.png)](https://blog.shin.do/wp-content/uploads/2022/12/Weblio.png) Weblioの画面[/caption]
+[![](https://blog.shin.do/wp-content/uploads/2022/12/Weblio.png)](https://blog.shin.do/wp-content/uploads/2022/12/Weblio.png) Weblioの画面
 
-[caption id="attachment_1894" align="aligncenter" width="2294"][![](https://blog.shin.do/wp-content/uploads/2022/12/Eijiro.png)](https://blog.shin.do/wp-content/uploads/2022/12/Eijiro.png) 英辞郎の画面。無料版なので広告がいっぱいw[/caption]
+[![](https://blog.shin.do/wp-content/uploads/2022/12/Eijiro.png)](https://blog.shin.do/wp-content/uploads/2022/12/Eijiro.png) 英辞郎の画面。無料版なので広告がいっぱいw
 
 どちらも素晴らしいサービスですが、想定している使い方が若干異なっているように思います。Weblioはどちらかというと単語の意味を調べたり覚えるために使われることを想定しているのに対し、英辞郎は例文が豊富で、単語の意味だけではなく、その単語が文章の中でどう使われるかを調べる、というような使い方を想定しているようです。したがって、どちらのサービスががいい or 悪い、という話ではなく、目的によって使い分けるべきでしょう。私は、Weblioは有料サービス、英辞郎は無料プランを使っています。Weblioの無料サービスだと単語帳に200語までしか登録できず、すぐに一杯になってしまうので、やむなく有料版のWeblioを使っています。
 

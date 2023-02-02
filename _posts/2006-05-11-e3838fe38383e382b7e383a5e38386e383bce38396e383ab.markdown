@@ -1,0 +1,15 @@
+---
+date: 2006-05-11 08:56:17+00:00
+layout: post
+title: ハッシュテーブル
+categories:
+- コンピュータとインターネット
+language:
+- 日本語
+---
+
+ハッシュテーブルについてちょっと思い出そうと思ってググッてみたら、
+
+[http://en.wikipedia.org/wiki/Hash_table](http://en.wikipedia.org/wiki/Hash_table)
+
+に出くわしました。必要にして十分！　おかげでCLR本を引っ張り出してこなくても済みました。いい時代になったものだ。

@@ -1,0 +1,11 @@
+---
+date: 2011-09-25 03:32:55+00:00
+layout: post
+title: ブログ引っ越し
+categories:
+- 日常
+language:
+- 日本語
+---
+
+Microsoft (MSN) Spacesが終了しWordpressに引き継がれてから、まったく更新をしてきませんでしたが、やっと少しまじめにBlogを書いてみようかな、という気になり、自前のBlogに引っ越す事にしました。
