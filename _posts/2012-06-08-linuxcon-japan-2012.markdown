@@ -8,7 +8,7 @@ language:
 - 日本語
 ---
 
-[![LinuxCon Japan 2012](http://blog.shin.do/wp-content/uploads/2012/06/lfe_head_lcjp12_new.png)](http://blog.shin.do/wp-content/uploads/2012/06/lfe_head_lcjp12_new.png)Open vSwitchのリードエンジニアの一人であるJesse GrossがLinuxConでスピーカーを務める事になった事もあり、私も初めてLinuxConというイベントに参加することにした。
+[![LinuxCon Japan 2012]({{site.baseurl}}/images/lfe_head_lcjp12_new.png)Open vSwitchのリードエンジニアの一人であるJesse GrossがLinuxConでスピーカーを務める事になった事もあり、私も初めてLinuxConというイベントに参加することにした。
 
 いくつかのトラックがあったが、私はVirtualization MiniSummitというトラックとoVirt Workshopに参加した。横浜パシフィコでの開催であり、参加者の8割くらいは日本人と思われる状態だが、全てのセッションは英語で行われる。日本人のスピーカーとほぼ日本人の受講者で構成されるセッションででも英語でやる、というのは私としては珍しい体験w
 

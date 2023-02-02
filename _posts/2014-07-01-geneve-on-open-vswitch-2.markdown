@@ -15,7 +15,7 @@ tags:
 
 A few weeks back, I posted a blog (sorry it was done only in Japanese) about a new encapsulation called “Geneve” which is being proposed to IETF as an Internet-Draft. Recently the first implementation of Geneve became available for Open vSwitch (OVS) contributed by Jesse Gross, a main author of Geneve Internet Draft, and the patch was upstream to a master branch on github where the latest OVS code resides. I pulled the latest source code of OVS from github and played with Geneve encapsulation. The following part of this post explains how I tested it. Since this effort is purely for testing Geneve and nothing else, I didn’t use KVM this time. Instead I used two Ubuntu 14.04 VM instances (host-1 and host-2) running on VMware Fusion with the latest OVS installed. In terms of VMware Fusion configuration, I assigned 1 Ethernet NIC on each VM which obtains an IP address from DHCP provided by Fusion by default. In the following example, let’s assume that host-1 and host-2 obtained an IP address 192.168.203.151 and 192.168.203.149 respectively. Next, two bridges are created (called br0 and br1), where br0 connecting to the network via eth0 while br1 on each VM talking with each other using Geneve encapsulation.
 
-[![Geneve Test with Open vSwitch](http://blog.shin.do/wp-content/uploads/2014/07/geneve-test.svg)](http://blog.shin.do/wp-content/uploads/2014/07/geneve-test.svg) Geneve Test with Open vSwitch
+[![Geneve Test with Open vSwitch]({{site.baseurl}}/images/geneve-test.svg) Geneve Test with Open vSwitch
 
 OVS configuration for host-1 and host-2 are shown below:
 
@@ -59,7 +59,7 @@ Once this configuration has been done, now ping should work between br1 on each 
 
 Let’s take a closer look how Genve encapsulated packets look like using Wireshark. A Geneve dissector for Wireshark became available recently (this is also a contribution from Jesse, thanks again!) and merged into the latest master branch. Using this latest Wireshark, we can see how Geneve packet looks like as follows:
 
-[![Geneve Frame by Wireshark](http://blog.shin.do/wp-content/uploads/2014/07/geneve-300x207.png)](http://blog.shin.do/wp-content/uploads/2014/07/geneve.png) Geneve Frame by Wireshark
+[![Geneve Frame by Wireshark]({{site.baseurl}}/images/geneve-300x207.png) Geneve Frame by Wireshark
 
 As you can see, Geneve uses 6081/udp as its port number. This is a port number officially assigned by IANA on Mar.27, 2014. Just to connect two bridges together by Geneve tunnel, there’s no need to specify a VNI (Virtual Network Identifier) specifically. If VNI is not specified, VNI=0 will be used as you can see in this Wireshark capture.
 
@@ -71,7 +71,7 @@ On the other hand if you need to multiplex more than 1 virtual networks over a s
 
 The following is a Wireshark capture when VNI was specified as 5000 (0x1388):
 
-[![Geneve Frame with VNI 5000 by Wireshark](http://blog.shin.do/wp-content/uploads/2014/07/geneve-vni5000-300x207.png)](http://blog.shin.do/wp-content/uploads/2014/07/geneve-vni5000.png) Geneve Frame with VNI 5000 by Wireshark
+[![Geneve Frame with VNI 5000 by Wireshark]({{site.baseurl}}/images/geneve-vni5000-300x207.png) Geneve Frame with VNI 5000 by Wireshark
 
 Geneve is capable of encapsulating not only Ethernet frame but also arbitrary frame types. For this purpose Geneve header has a field called “Protocol Type”. In this example, Ethernet frames are encapsulated so this filed is specified as 0x6558 meaning "Transparent Ethernet Bdiging".
 

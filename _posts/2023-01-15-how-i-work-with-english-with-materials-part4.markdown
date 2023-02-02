@@ -2,6 +2,7 @@
 date: 2023-01-15 21:45:13+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 4〜
+image: '/images/convertkit-waxDxYM2XI4-unsplash.jpg'
 categories:
 - 仕事
 language:
@@ -22,7 +23,9 @@ tags:
 
 まず一つ目は「**Hapa英会話Podcast**」です。割と有名だと思いますので、ご存じ・ご利用されている方も多いかと。アメリカと日本のハーフのJun SenesacさんがやっているPodcastです。1エピソードおおよそ30分、週一ぐらいで配信をしてくれています。
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Hapa-Eikaiwa-Podcast-1024x860.png)]  https://hapaeikaiwa.com/blog/category/podcast-column/　より引用
+
+![]({{site.baseurl}}/images/Hapa-Eikaiwa-Podcast-1024x860.png)
+*https://hapaeikaiwa.com/blog/category/podcast-column/ より引用*
 
 内容的にはビジネスよりも日常会話や口語的表現を取り上げることが多いように思います。ずーっと英語で流れる訳ではなく、半分日本語、半分英語で解説をしてくれるので敷居は低いのではないかと。非常にためになる口語表現を取り上げてくれるので、私は結構好きです。またBlogに全スクリプトが載っているので、さらに掘り下げてやりた勉強することもできます。 難易度は割と易しめで、星⭐︎⭐︎、ぐらいな感じです。
 
@@ -34,7 +37,8 @@ tags:
 
 次に紹介するのは「**NPR News Now**」というPodcastです。NPR (National Public Radio) がやっているもので、日本で言うとNHKにあたるような放送局なのではないかと思っています。毎時放送されている5分間の短いプログラムです。前述したポリティカル・スペクトラム的には中道かやや左にあたるメディアなので、私は好んでこれを聞いています。英語はいわゆる "The American English" で、取り上げるニュースもアメリカのニュースが中心です。難易度は星⭐︎⭐︎⭐︎くらいです。
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/NPR-News-Now-1024x960.png)]  https://www.npr.org/podcasts/500005/npr-news-now より引用
+![]({{site.baseurl}}/images/NPR-News-Now-1024x960.png)
+*https://www.npr.org/podcasts/500005/npr-news-now より引用*
 
 
 
@@ -44,7 +48,8 @@ tags:
 
 アメリカ以外のグローバルでどんなことが起こっているかを知るにはNPR News Nowでは十分ではないので、私はNPR News Nowに加えて「**BBC Global News Podcast」**も聞くようにしています。
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/BBC-Global-News-Podcast-1024x1014.png)]  https://www.bbc.co.uk/programmes/p02nq0gn/episodes/downloads より引用
+![]({{site.baseurl}}/images/BBC-Global-News-Podcast-1024x1014.png)
+*https://www.bbc.co.uk/programmes/p02nq0gn/episodes/downloads より引用*
 
 言わずと知れた英国放送協会のニュースですが、"Global News" と謳っているだけあって、世界中のニュースを取り上げてくれます。一本30分と少々長めで聞きごたえがあります。1日に2エピソード配信されていて、話されている英語は主にBritish Englishです。ただ、各国にレポーターがいて現地の取材などをしてくれるので、アフリカ英語だったり、インド英語だったり、いろいろなタイプの英語を聞くこともできるのがちょっとありがたいところ。難易度はNPR News Nowと同様、星⭐︎⭐︎⭐︎くらいかと。
 
@@ -60,7 +65,8 @@ BBC Global Newsを聞くと日本のニュースがいかにドメスティッ�
 
 前回もちょっと書きましたが、私はアメリカ英語以外の英語がとても苦手です（アメリカ英語が得意というわけではなく、あくまで比較論です）。中でも一番苦手なのはオーストラリアの英語でして、もう別の言語ではないかと思えるくらい苦手。それをなんとか克服したいと思って、いろいろ探して見つけたのが「**Accented**」と言うPodcastです。オーストラリア英語に特化したものではないですが、その名の通りで、さまざまな国の人々への電話インタビューを通じて、いろいろなアクセントを持った英語を紹介してくれるPodcastです。1エピソード20分ぐらいで気軽に聞けるので、これもしばしば聞いています。有料プログラムに入ればスクリプトもあるようです。アクセントもあり少々難易度高めです。星⭐︎⭐︎⭐︎⭐︎くらいでしょうか。
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Accented-Podcast-1024x429.png)]  https://accented.firstory.io/ より引用
+![]({{site.baseurl}}/images/Accented-Podcast-1024x429.png)
+*https://accented.firstory.io/ より引用*
 
 
 

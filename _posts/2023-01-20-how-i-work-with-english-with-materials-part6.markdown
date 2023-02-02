@@ -23,25 +23,25 @@ tags:
 リスニングに関しては**NPR News Now**、**BBC Global News**、**HAPA英会話**などのPodcastを聴くようにしています。ただ、これらを全部聴いていると結構長い時間が必要になってしまいます。そこで私は、これらのPodcastは、基本ランニング中に聞くようにしています。元々走るのは大嫌いだったのですが、2020年のコロナ禍で家からあまり出なくなってしまい（1日の歩数が月平均で300歩程度という月が数ヶ月続きました。流石に酷すぎますね^^;）、このままではさすがに不健康であろうということで、家の周りを少し走るようになりました。その時間を利用してPodcastを聴くようにしています。
 
 {: align="center"}
-![](https://blog.shin.do/wp-content/uploads/2022/12/kate-trifo-jf_YIwWKg8Q-unsplash-300x205.jpg)
+![]({{site.baseurl}}/images/kate-trifo-jf_YIwWKg8Q-unsplash-300x205.jpg)
 *Podcastは基本ランニング中に*
 
 その際に活躍してくれるのが、**Apple Watch**と**AirPods Pro**です。iPhoneを持ち歩くことなく、Podcastを聴けるので大変便利。その上、AppleWatchは走った距離やバイタルを記録してくれるので、もう手放せないですね。AppleWatchにはGPS+CellularモデルとGPSモデルがありますが、このような使い方をするならGPS+Cellularが圧倒的にお勧めです。格安モバイルブランドの中でもahamoはワンナンバーサービスが利用できますので、AppleWatchのGPS+Cellularモデルを活用することができます。
 
 {: align="center"}
-![](https://blog.shin.do/wp-content/uploads/2022/12/AppleWatch-300x289.png)
+![]({{site.baseurl}}/images/AppleWatch-300x289.png)
 
 AirPods Proの「アクティブノイズキャンセリング機能の優秀さは定評がありますが、AirPods Proは「外部オン取り込みモード」にすることもできます。このモードにしておくと、走っている最中に後ろから来る車の音などもちゃんと聞こえて安心です。
 
 {: align="center"}
-![](https://blog.shin.do/wp-content/uploads/2022/12/AirPodsPro-300x262.png)
+![]({{site.baseurl}}/images/AirPodsPro-300x262.png)
 
 * * *
 
 最後にお話をするのはObservabilityです。何事にも「見える化」は大切ですよね。上記のような学習の時間を記録するするために、私は「**Studyplus**」というアプリを使っています。このアプリ使うと、毎日の何にどれくらい時間を使ったかを簡単に記録をすることができます。
 
 {: align="center"}
-![](https://blog.shin.do/wp-content/uploads/2022/12/Studyplus-300x280.png)
+![]({{site.baseurl}}/images/Studyplus-300x280.png)
 *Studyplusの画面*
 
 
@@ -55,7 +55,7 @@ AirPods Proの「アクティブノイズキャンセリング機能の優秀さ
 「[私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 1〜](https://blog.shin.do/2023/01/how-i-work-with-english-with-materials-part1/)」の冒頭で簡単な数式を紹介しました。最後にまた簡単な数式で締めたいと思います。
 
 {: align="center"}
-![](https://blog.shin.do/wp-content/uploads/2022/12/Equation-365days-300x108.png)
+![]({{site.baseurl}}/images/Equation-365days-300x108.png)
 
 この式の意味するところは、一目瞭然です。1日に1%の向上を目指して、それを365日（1年間）続ける、一年後には37倍の力がついている、と。 一方、毎日1%ずつサボっていくと1年後には 2.5%（1/40）の実力になってしまう、ということです。「**継続は力なり**」ですね。
 
@@ -69,7 +69,7 @@ AirPods Proの「アクティブノイズキャンセリング機能の優秀さ
 
 しかし、ただ単にZoomのレコーディングを聞き直して文字に書き起こすのでは能がないので、今回は少しだけテクノロジーを活用することにしました。具体的には、Zoomのレコーディング（mp4）ファイルから音声だけを取り出して（MacならQuickTime Playerで簡単に行えます）m4aファイルに変換し、そのファイルをWindows上のOffice 365のWordの**トランスクリプト機能**を使ってテキストファイルに書き起こしをしました。そのようにしてできたテキストに修正加筆を行いブログの記事にしました。以下の動画はその時の作業の様子です。
 
-[video width="960" height="540" mp4="https://blog.shin.do/wp-content/uploads/2022/12/Microsoft-Word-Dictation-Transcript.mp4"][/video]
+[video width="960" height="540" mp4="/images/Microsoft-Word-Dictation-Transcript.mp4"][/video]
 
 Microsoft Wordのトランスクリプト機能のおかげで、書き起こし作業に関して大幅に省力化ができましたが、同時に大きな気づきが1つありました。それは、いかに自分が喋っているときに、いわゆる "**Filller**" （「ええ」や「まあ」など）が多いか、ということです。このトランスクリプト機能を使うと、本当に実直なまでに「ええ」や「まあ」を拾ってテキストにしてくれます。私が、「私、英語とこんな付き合い方をしています（ツール編」）で喋った小一時間の間に、なんと「ええ」が818回、「まあ」が212回もありました！　自分の喋りはこんなだったのか。酷い、酷すぎる！　と、深く深く反省をした次第です。
 

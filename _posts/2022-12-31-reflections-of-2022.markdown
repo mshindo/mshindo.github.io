@@ -2,6 +2,7 @@
 date: 2022-12-31 03:00:04+00:00
 layout: post
 title: 2022年総括
+image: '/images/choong-deng-xiang-Z_9iLLLJgUs-unsplash.jpg'
 categories:
 - エンターテイメント
 - グルメ
@@ -19,60 +20,34 @@ language:
 
 ## 主な出来事
 
-
-1月 PC壊れ焦る
-2月 IELTS受験、目標には届かず
-3月 3回目ワクチン打つも無反応、胃・大腸内視鏡検査
-4月 話し方教室に通い始める、CoSine Reunion、IELTS、またも届かず
-5月 BroadcomがVMware買収の意向を発表！
-6月 INTEROP講演、SDN翻訳本発売
-7月 ジョージマイケル映画、泣いた
-8月 R.I.P. オリビア、泣いた
-9月 VMバンドライブ、実家解体
-10月 横浜7kmマラソン
-11月 the Networking Channel、VMware Explore、4回目ワクチン接種打つも無反応
-12月 コロナ濃厚接触となるも無事。バチェツアー
+  * 1月 PC壊れ焦る
+  * 2月 IELTS受験、目標には届かず
+  * 3月 3回目ワクチン打つも無反応、胃・大腸内視鏡検査
+  * 4月 話し方教室に通い始める、CoSine Reunion、IELTS、またも届かず
+  * 5月 BroadcomがVMware買収の意向を発表！
+  * 6月 INTEROP講演、SDN翻訳本発売
+  * 7月 ジョージマイケル映画、泣いた
+  * 8月 R.I.P. オリビア、泣いた
+  * 9月 VMバンドライブ、実家解体
+  * 10月 横浜7kmマラソン
+  * 11月 the Networking Channel、VMware Explore、4回目ワクチン接種打つも無反応
+  * 12月 コロナ濃厚接触となるも無事。バチェツアー
 
 
 ## 新たな取り組み
 
-
-
-
-
- 	
   * 16時間断食ダイエット
-
- 	
   * Studyplusによる勉強時間の記録
-
- 	
   * 話し方教室
-
- 	
   * リバースメンタリング
-
- 	
   * 7kmマラソン
-
- 	
   * 29ON
-
-
 
 
 ## 止めたこと
 
-
-
-
-
- 	
   * 16時間断食ダイエット
-
- 	
   * 固定電話
-
 
 こう見てみるとそこそこいろいろな事にチャレンジした年でした。
 
@@ -92,15 +67,11 @@ language:
 
 今年、Facebookで最も「いいね！」が多かった投稿は、
 
-3位 肉＠INTEROP作戦会議（140件）
-2位 新年挨拶（202件）
-1位 VMware在籍4周年（218件）
+  * 3位 肉＠INTEROP作戦会議（140件）
+  * 2位 新年挨拶（202件）
+  * 1位 VMware在籍4周年（218件）
 
 となりました。2度目のVMwareも5年目に突入。早いですねー。肉がランクインしてくれてホッとしています（笑）
-
-
-
-
 
 なお、今年はFacebookはあまりやらず、SNSはTwitterを中心に投稿した年でもありました。今年、Twitterで最も多くのインプレッションを得たのは、
 
@@ -116,23 +87,15 @@ https://twitter.com/motonori_shindo/status/1527467774653517824
 
 今年見た映画のベスト3
 
-
-
- 	
   1. ジョージマイケル: フリーダム<アンカット完全版>
-
- 	
   2. リンダロンシュタット　サウンド・オブ・マイ・ヴォイス
-
- 	
   3. ビリオンダラーコード
 
+![]({{site.baseurl}}/images/George-Michael-Freedom-Uncut-210x300.png) https://movies.yahoo.co.jp/movie/383184/
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/George-Michael-Freedom-Uncut-210x300.png)]  https://movies.yahoo.co.jp/movie/383184/
+![]({{site.baseurl}}/images/Linda-Ronstadt-The-Sound-of-My-Voice-209x300.png) https://movies.yahoo.co.jp/movie/381274/
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Linda-Ronstadt-The-Sound-of-My-Voice-209x300.png)]  https://movies.yahoo.co.jp/movie/381274/
-
-![](https://blog.shin.do/wp-content/uploads/2022/12/Billion-Dollar-Code-169x300.jpeg)]  https://www.netflix.com/title/81074012
+![]({{site.baseurl}}/images/Billion-Dollar-Code-169x300.jpeg) https://www.netflix.com/title/81074012
 
 なぜか音楽ものが多くなりました。今年は「これがイチオシ！」という作品はなかったように思います。
 
@@ -142,7 +105,7 @@ https://twitter.com/motonori_shindo/status/1527467774653517824
 
 今年は9冊（うち洋書が1冊）。全体としてはまだまだ少ないですが、今年はいわゆる「純粋な技術書」は読みませんでした。全く読まないつもりだったわけではないのですが、毎年技術書しか読まなことを深く反省していたので、この部分に関しては今年は大きな進歩があった、と言えそうです。政治、科学、生物学、物理学、組織論、などに関する本などを読みましたが、今年読んで良かったものはなんといっても「**Kafka on the Shore**」です。みなさんよくご存知の村上春樹の「海辺のカフカ」の英語版です。今まで技術書を原書（英語）で読むことは多かったのですが、non技術書の長編を英語で読んだのは今回が初めてでした。村上春樹は好き嫌いが分かれると思いますが、私は大好きなので、これも大いに楽しめました。後半はもう読むのが止められない、という感じ。とはいうものの、やはり英語で読むのには時間がかかります。これを読むだけで3ヶ月くらいかかったかな。このせいで今年の読書の冊数が少なめになってしまいました。ちょっと長いですが、Kafka on the Shore、春樹がお好きならお薦めですよ！
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Kafka-on-the-Shore-194x300.jpeg)]  https://www.amazon.co.jp/Kafka-Shore-Vintage-International-English-ebook/dp/B000FC2ROU/ より引用
+![]({{site.baseurl}}/images/Kafka-on-the-Shore-194x300.jpeg) Amazon より引用
 
 
 ## バイタル＆健康
@@ -150,19 +113,19 @@ https://twitter.com/motonori_shindo/status/1527467774653517824
 
 今年は2Kgほど体重が増えました。大きいリバウンドは回避できているものの、このままだと数年後には元に戻ってしまうかも。気をつけなければ。。
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Weight-2022-139x300.png)] 
+![]({{site.baseurl}}/images/Weight-2022-139x300.png)
 
 今年初めていわゆるマラソン大会に参加しました。マラソンといっても7kmですが＾＾；　みなとみらいの周りを走る大会があったので参加をしてみました。最近のランニング大会はいろいろテクノロジーが活用されているのですね。RFIDタグをつけてゲート間の時間を記録してくれたり、自分が写っている写真をゼッケン番号から画像認識で自動的にピックアップしてくれたり。アベマでの中継もありました。
 
 昨年から継続して、家の周りのランニングも続けています。今年は去年に比べると走る時間が取れず不甲斐ない結果となってしまいました（ちなみに去年は1,200kmほど走りました）。
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/NRC-2022-139x300.png)] 
+![]({{site.baseurl}}/images/NRC-2022-139x300.png)
 
 相変わらず走った後に稀に血尿が出ることがありますが、他に特に大きな病気をすることはありませんでした。また、幸いコロナに罹患することもありませんでした（濃厚接触者にはなったのですが、なんとか感染は免れました＾＾）。
 
 今年の平均睡眠時間は5時間54分。去年より若干増えました。これくらい眠れてれば十分ですね。
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Sleep-2022-139x300.png)] 
+![]({{site.baseurl}}/images/Sleep-2022-139x300.png)
 
 
 ## 仕事
@@ -183,28 +146,17 @@ https://twitter.com/motonori_shindo/status/1527467774653517824
 
 ## 買って良かったもの
 
-
-
-
-
- 	
   * Withings Body Cardio
-
- 	
   * Philips Shaver S9985/50
-
- 	
   * Mac Book解体用ドライバー
-
 
 乗るだけでデータが自動的にクラウド側にアップロードされるWithingsの Smart Body Analyzer（ヘルスメータ）は大変便利で、長年愛用してきたのですが、今年、同社のBody Cardioという製品にアップグレードしました。利便性はそのままで、今まで測れなかった筋肉量などが測れるようになって大変満足しています。
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Withings-Body-Cardio-300x275.jpg)]  https://www.amazon.co.jp/gp/product/B07B4RFH3Y/
+![]({{site.baseurl}}/images/Withings-Body-Cardio-300x275.jpg) https://www.amazon.co.jp/gp/product/B07B4RFH3Y/
 
 また、髭剃りも今年買い替えました。今まではPanasonicのラムダッシュ派だったのですが、今回初めてPhilipsにしてみました。ラムダッシュに比べると深剃り感が薄いので、最初はなんとなく物足りなかったのですが、慣れてくるとこれはこれでいいのかも、と思うようになりました。あんまり役に立ちませんが、Bluetoothで接続してアプリからコントロールもできます。髭剃りもそういう時代になってきたのか、と妙に感心してしまいました。でも、まあ、あまり役に立たないアプリなんですが（しつこい）。
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Philips-S9985-300x269.jpg)]  https://www.amazon.co.jp/dp/B09QL4Q7W4/
-
+![]({{site.baseurl}}/images/Philips-S9985-300x269.jpg) https://www.amazon.co.jp/dp/B09QL4Q7W4/
 
 
 なお、MacBook Pro解体用ドライバについてはこちらの[記事](https://blog.shin.do/2022/12/general-cleaning-of-macbook-pro/)を参照ください。
@@ -234,25 +186,11 @@ https://twitter.com/motonori_shindo/status/1527467774653517824
 
 ## 今年新規開拓した肉屋
 
-
-
-
-
- 	
   * A5和牛肉料理専門店 ONIQUE TOKYO
-
- 	
   * うしごろ 貫 恵比寿本店
-
- 	
   * うしごろバンビーナ 恵比寿本店
-
- 	
   * ロウリーズ・ザ・プライムリブ　恵比寿ガーデンプレイス店
-
- 	
   * 炭火焼肉 あもん
-
 
 この中でベストだったのは「ONIQUE TOKYO」です。
 
@@ -266,49 +204,23 @@ https://twitter.com/motonori_shindo/status/1527467774653517824
 
  	
   * 筋肉つける（筋肉量50Kgを目指す） => 未達
-
- 	
   * 読書20冊（技術書10冊、non技術書10冊）=> non技術書は達成、技術書は未達
-
- 	
   * Blog 4本（できれば英語でも）=> 全体としては達成、英語での投稿は未達
-
- 	
   * 1 Project にコードの貢献 => 未達（いつになったらやるねん！）
-
- 	
   * TOEIC 950、IELTS Academic 7.5 => 未達（TOEICは受けず、IETLTSは7.0止まり）
-
- 	
   * ハーフマラソンに参加 => 未達（7kmランにとどまる）
-
- 	
   * せめて月1料理を => 全くもって未達
-
 
 となり、今年もかなりの部分が未達に終わってしまいました。この状況を鑑み、2023年の抱負は少し敷居を下げようかなと思います（おいおい、それでいいんか！）
 
  	
   * 読書10冊（技術書5冊、non技術書5冊、うち1冊は英語で）
-
- 	
   * Blog 10本（うち英語で2本）
-
- 	
   * コミュニティでの発表3回
-
- 	
   * 1 Project にコードの貢献
-
- 	
   * CourseraでMLのコースを修了
-
- 	
   * 1000km走る
-
- 	
   * 2月に1度は料理
-
 
 それでもなお未達が多かったら、みなさん私を叱ってください（笑）。それでは、皆さんまた来年もよろしくお願いいたします。
 

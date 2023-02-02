@@ -2,6 +2,7 @@
 date: 2023-01-13 22:24:08+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 3〜
+image: '/images/denise-jans-Lq6rcifGjOU-unsplash.jpg'
 categories:
 - 仕事
 language:
@@ -21,19 +22,23 @@ tags:
 
 まず、一つ目に紹介をしたいのは「**Friends**」というドラマです。有名なので、ご存じの方も多いのではないかと。いわゆる「シチュエーション・コメディ（シットコム）」というジャンルの代表的作品です。アメリカの大学卒業して間もない男女たちが繰り広げている会話が中心なので、ビジネスシーンとはあまり縁がありませんが、話はとても面白いです（あくまで個人的感想）。
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Friends-1024x569.png)]  Source: https://www.chobirich.com/vod/friend/ より引用
+![]({{site.baseurl}}/images/Friends-1024x569.png)
+*https://www.chobirich.com/vod/friend/ より引用*
 
 ただ、英語は結構難しいです。字幕なしで見るのは（少なくとも私の実力では）かなりしんどい。単に英語が難しいだけではなく、文化的な背景が分からないと理解できないことが多い、というのもあります。シットコムに特徴的なドラマに被せて入っている笑い声、あれと一緒に笑うのはなかなか難しく、私もいつも一緒に笑えず悔しい思いをしています。しかし、朗報があります！　Friedsには世界中に多くのファンがおり、ありがたいことに日本のファンの中にもドラマ中の会話の解説をするBlogを書いてくれている方がいるのです。例えば以下のようなサイトです。
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Friends-Blog-1.png)]  https://sites.google.com/site/learnenglishwithfriends/home/season-1
+![]({{site.baseurl}}/images/Friends-Blog-1.png)
+*https://sites.google.com/site/learnenglishwithfriends/home/season-1 より引用*
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Friends-Blog-2.png)]  https://eigolog.net/friends/
+![]({{site.baseurl}}/images/Friends-Blog-2.png)
+*https://eigolog.net/friends/ より引用*
 
 これらのブログでは、会話のスクリプトと共に、その中で分かりにくい箇所を解説してくれています。また、言葉だけではなく、文化的な背景まで解説をしてくれています。これらを活用すればFriendsをより一層楽しむことができるでしょう。
 
 二つ目に紹介するのは「ビリオンダラー・コード」というドラマです。Netflixで配信されています。
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Billion-Dollar-Code-1024x577.jpg)]  https://www.netflix.com/title/81074012
+![]({{site.baseurl}}/images/Billion-Dollar-Code-1024x577.jpg)
+*https://www.netflix.com/title/81074012 より引用*
 
 これが特別英語の教材として優れた題材であるというわけでもないのですが、なかなか面白かったので紹介をしたいと思いました。この作品は「自分たちが先に作ったテクノロジー（コード）をGoogle に盗まれて、Google Earthとしてリリースされた」という主張のもとにGoogleを訴える会社にまつわるドラマです。実話（ドキュメンタリー）という設定になっていますが、真偽の程は定かではありません。ただ、ドラマとしてはなかなか面白かったです。インターネット黎明期の懐かしいエピソードもたくさん出てきて、そういう意味でも楽しめました。訴えを起こすのがドイツの会社なので、劇中で話されている英語はドイツ訛りの英語なんですが、逆にそれが日本人にとっては分かり易かったかも、と思います。
 

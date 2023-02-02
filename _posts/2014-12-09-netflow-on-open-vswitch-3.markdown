@@ -27,9 +27,9 @@ NetFlowには幾つかのバージョンがあります。その中でV5とV9が
 
 以下に、NetFlow V5パケットのヘッダーとフローレコード（1 NetFlowパケットに最大30個まで入ります）を示します。
 
-[![NetFlow V5 header format](http://blog.shin.do/wp-content/uploads/2014/12/NetFlow-V5-Header.svg)](http://blog.shin.do/wp-content/uploads/2014/12/NetFlow-V5-Header.svg) NetFlow V5 header format
+[![NetFlow V5 header format]({{site.baseurl}}/images/NetFlow-V5-Header.svg) NetFlow V5 header format
 
-[![NetFlow V5 flow record format](http://blog.shin.do/wp-content/uploads/2014/12/NetFlow-V5-Flow-Record.svg)](http://blog.shin.do/wp-content/uploads/2014/12/NetFlow-V5-Flow-Record.svg) NetFlow V5 flow record format
+[![NetFlow V5 flow record format]({{site.baseurl}}/images/NetFlow-V5-Flow-Record.svg) NetFlow V5 flow record format
 
 NetFlow V5はIPv6のフローレコードを扱うことができません。IPv6トラフィックをモニターしたい場合は、sFlowかIPFIXを使ってください。
 

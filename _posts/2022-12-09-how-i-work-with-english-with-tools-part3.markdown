@@ -2,6 +2,7 @@
 date: 2022-12-09 00:04:20+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（ツール編）〜 Part 3 〜
+image: '/images/edho-pratama-T6fDN60bMWY-unsplash.jpg'
 categories:
 - 仕事
 language:
@@ -22,9 +23,11 @@ tags:
 
 以下、両サービスの画面の例です。英辞郎の方は無料プランなので広告がいっぱいです（笑）
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Weblio.png)]  Weblioの画面
+![]({{site.baseurl}}/images/Weblio.png)
+*Weblioの画面*
 
-![](https://blog.shin.do/wp-content/uploads/2022/12/Eijiro.png)]  英辞郎の画面。無料版なので広告がいっぱいw
+![]({{site.baseurl}}/images/Eijiro.png)
+*英辞郎の画面。無料版なので広告がいっぱいw*
 
 どちらも素晴らしいサービスですが、想定している使い方が若干異なっているように思います。Weblioはどちらかというと単語の意味を調べたり覚えるために使われることを想定しているのに対し、英辞郎は例文が豊富で、単語の意味だけではなく、その単語が文章の中でどう使われるかを調べる、というような使い方を想定しているようです。したがって、どちらのサービスががいい or 悪い、という話ではなく、目的によって使い分けるべきでしょう。私は、Weblioは有料サービス、英辞郎は無料プランを使っています。Weblioの無料サービスだと単語帳に200語までしか登録できず、すぐに一杯になってしまうので、やむなく有料版のWeblioを使っています。
 
@@ -34,13 +37,13 @@ Quizletの面白い点は、ソーシャルネットワーク的な要素を取�
 
 Quizletの単語カードの画面は以下のような感じです。ここで示したのはiPhoneアプリの例ですが、ほぼ同様のことがPC上のWebインターフェースでもできます。
 
-[video width="250" height="540" mp4="https://blog.shin.do/wp-content/uploads/2022/12/Quizlet-Demo.mp4"][/video]
+[video width="250" height="540" mp4="/images/Quizlet-Demo.mp4"][/video]
 
 ここで使っている単語帳は巷の受験生がよく使う「東大英単語熟語」（俗に「鉄壁」と呼ばれている）という本が元になっています。この単語帳は私自身が作ったわけではなく、誰か別の人が作った単語帳を使わせていただいているわけです。元ネタが書籍なので、著作権的には少々グレーな気もしますが、ともかくQuizletが持つソーシャル的な側面はご理解いただけるのではないかと思います。
 
 また、Quizletのゲーミフィケーションによる学習の様子を以下に示します。
 
-[video width="250" height="540" mp4="https://blog.shin.do/wp-content/uploads/2022/12/Quizlet-Game-Demo.mp4"][/video]
+[video width="250" height="540" mp4="/images/Quizlet-Game-Demo.mp4"][/video]
 
 以前はもう少しゲームの種類もあったように思いますが、現在は単純なマッチング・ゲームしかないようです。
 

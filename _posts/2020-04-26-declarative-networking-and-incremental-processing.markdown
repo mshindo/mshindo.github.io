@@ -2,6 +2,7 @@
 date: 2020-04-26 22:49:23+00:00
 layout: post
 title: 宣言的ネットワーキングとインクリメンタル処理
+image: '/images/irvan-smith-5eBW5GomfhY-unsplash.jpg'
 categories:
 - コンピュータとインターネット
 language:
@@ -40,7 +41,7 @@ https://twitter.com/rafiror/status/1219984617513472000?s=20
 
 非常に妥当なご意見だと思いますし、他にも同じように感じられた方も多かったようです。なぜ今日のネットワークはKubernetes的な宣言性を持ち得ていないのか、どのようにしたらそれを実現できるのか、という点に興味を抱いている人は多いんですね。これは大変興味深い話であり、私自身も大きな関心を持っています。
 
-個人的には、今日のネットワークがKubernetes的な宣言性を持てていない理由の一つとして「Desired Stateを定義するのが難しく、Reconciliationするのも難しい」という点があるのではないかと思っています。KubernetesのDeploymentであれば、どのようなコンテナがいくつ動いているかを把握したり、アプリケーションが応答するかをlivenessProbeなどで監視して、Desired Stateとのズレがあったら基本的に再度コンテナを立ち上げ直す事でReconciliationを図ります。では、ネットワークのDesired Stateって何でしょう？　おそらく「ホストAからホストBにパケットが届く事」あるいはL4まで考えれば「ホストA上のサービスCからホストB上のサービスDへパケットが届く事」ということになるのではないかと思います。このようなDesired Stateを検出するのはなかなか困難です。コンテナは一次元的な要素なので比較的シンプルですが、ネットワークはsourceとdestinationがある二次元的な要素ですので、N^2問題に直面します。ホストがN台あったとすると、全ての到達性を確認するためにはN*Nのprobeをしなければいけません。Network Policy（ACL）も含めてネットワークのDesired Stateを考えると複雑性はN*Nでは済まず、サービス数Mも含めて考えてN*M*N*Mでの到達性を把握する必要があります。パケットの到達性はsourceに依存するので、このようなprobeをどこからしたら良いのか、という点も悩ましいです。また、仮にこのようなProbeできてネットワークのDesired Stateと現在のStateにズレをうまく検出できたとしても、それをどのようにReconcileするかも難しいです。KubernetesのDeployment/Podの場合は、単純にコンテナを作り直す、という戦略を取っているわけですが、ネットワークの場合は、単純にネットワークを実現しているコンテナを再起動しても解決しない場合が多いと思います。ネットワークのエンドポイントに問題はなく、途中の経路に何か問題があって疎通性が阻害されている場合には、いくらエンドポイントを再起動してもおそらく問題は解決しないでしょう。
+個人的には、今日のネットワークがKubernetes的な宣言性を持てていない理由の一つとして「Desired Stateを定義するのが難しく、Reconciliationするのも難しい」という点があるのではないかと思っています。KubernetesのDeploymentであれば、どのようなコンテナがいくつ動いているかを把握したり、アプリケーションが応答するかをlivenessProbeなどで監視して、Desired Stateとのズレがあったら基本的に再度コンテナを立ち上げ直す事でReconciliationを図ります。では、ネットワークのDesired Stateって何でしょう？　おそらく「ホストAからホストBにパケットが届く事」あるいはL4まで考えれば「ホストA上のサービスCからホストB上のサービスDへパケットが届く事」ということになるのではないかと思います。このようなDesired Stateを検出するのはなかなか困難です。コンテナは一次元的な要素なので比較的シンプルですが、ネットワークはsourceとdestinationがある二次元的な要素ですので、N^2問題に直面します。ホストがN台あったとすると、全ての到達性を確認するためにはN\*Nのprobeをしなければいけません。Network Policy（ACL）も含めてネットワークのDesired Stateを考えると複雑性はN\*Nでは済まず、サービス数Mも含めて考えてN\*M\*N\*Mでの到達性を把握する必要があります。パケットの到達性はsourceに依存するので、このようなprobeをどこからしたら良いのか、という点も悩ましいです。また、仮にこのようなProbeできてネットワークのDesired Stateと現在のStateにズレをうまく検出できたとしても、それをどのようにReconcileするかも難しいです。KubernetesのDeployment/Podの場合は、単純にコンテナを作り直す、という戦略を取っているわけですが、ネットワークの場合は、単純にネットワークを実現しているコンテナを再起動しても解決しない場合が多いと思います。ネットワークのエンドポイントに問題はなく、途中の経路に何か問題があって疎通性が阻害されている場合には、いくらエンドポイントを再起動してもおそらく問題は解決しないでしょう。
 
 このように、現在のネットワークにKubernetes的な宣言的特性や自己修復性を持たせるのは簡単なことではないように思います（少しドメインを限定すればネットワークにも宣言性を持たせることは可能という考え方もあります[[3](https://codeout.hatenablog.com/entry/2020/07/06/130233)]）。ただ、上記のような宣言的ネットワーキング / Declarative Networkingの困難さに立ち向かおうとしている人はきっといるはずです。非常に有望な「研究課題」と言えるでしょう。
 
@@ -64,7 +65,7 @@ Niciraの創業者の一人であるMatin Casadoから聞いた話なのです�
 
 仮に2台のハイパーバイザ（Host1とHost2）と仮想マシンが3台（VM1、VM2、VM3）があり、VM1とVM2がHost1上で動いていて、VM3がHost2上で動いていたとしましょう。
 
-![](http://blog.shin.do/wp-content/uploads/2020/04/Figure-1.png)](http://blog.shin.do/wp-content/uploads/2020/04/Figure-1.png)
+![]({{site.baseurl}}/images/Figure-1.png)
 
 SDNコントローラはそのような状況を表す以下のようなテーブルを持っているはずです。
 
@@ -202,7 +203,7 @@ Action
 
 ここで、仮にVM2がHost1からHost2に移動（vMotion/Live Migration）したとしましょう。
 
-![](http://blog.shin.do/wp-content/uploads/2020/04/Figure-2.png)](http://blog.shin.do/wp-content/uploads/2020/04/Figure-2.png)
+![]({{site.baseurl}}/images/Figure-2.png)
 
 コントローラはこのようなVMの移動を把握することができますので、自分が持っているテーブルを以下のように更新します。
 
@@ -484,7 +485,7 @@ ddlogによって生成されたRustコードをDifferential Dataflowのライ�
 
 今回の例だと、flowtable.dlに記述されたルールエンジンを持つライブラリlibflowtable_ddlog.a、libflowtable_ddlog.rlibと、CLIコマンドのflowtable_cliが生成されます。
 
-本来であれば、このlibflowtable_ddlog.(a|rlib)を使ったコードをRust、C/C++、Java、Goなどで書くべきなのですが、今回は生成されたCLIツールを使って処理性能を簡易的に調べてみることにします。
+本来であれば、このlibflowtable_ddlog.(a,rlib)を使ったコードをRust、C/C++、Java、Goなどで書くべきなのですが、今回は生成されたCLIツールを使って処理性能を簡易的に調べてみることにします。
 
 100台のホスト上に10,000台の仮想マシンが動いている初期状態の作成と、そのうちの一台の仮想マシン（VM0）がホスト0からホスト1に移動をDifferential Datalogで書くと以下のようになります。これで、VMが一台ホストを移動した際のフローテーブルの更新を模擬することができます。また、かかった時間を調べるために、各処理の途中で時刻を表示するようにしてあります。
 
@@ -542,14 +543,8 @@ ddlogによって生成されたRustコードをDifferential Dataflowのライ�
 
 Differential Datalogを使ってテーブル処理を書く主なメリットは、
 
-
-
- 	
   * よりメンテナンス性の高いコードになる
-
- 	
   * インクリメンタルな更新による性能向上
-
 
 の２点です。まず、メンテナンス性の高いコードになる、とう点をみてみましょう。以下は、OVNのmeterおよびmeter_bandテーブルを管理する部分のコードです（OVNはC言語で書かれています）。
 
@@ -716,16 +711,14 @@ Differential Datalogを使ってテーブル処理を書く主なメリットは
 
 Differential Datalogを適用することのもう一つのメリットは、インクリメンタルアップデートの性能向上です。eBayのHan Zhouが、Cで実装されたovn-northdを使った場合とDifferential Datalog版のovn-northdを使った時のスケールテストの結果を共有してくれています [1]。結果は以下の通りです。
 
-Cバージョン　67分47秒
-DDlogバージョン　7分39秒
+* Cバージョン　67分47秒
+* DDlogバージョン　7分39秒
 
 Differential Datalogを使うことで、およそ10倍程度の性能向上があったことになります。残念ながらこのテストの詳しいテストシナリオははっきりしないのですが、OVNを使ったOpenStack環境でスケール試験を行なったようです。
 
 また、RedHatのMark Michelsonらが別の性能評価をしています。Markが行ったテストは、1つの論理ルータの下に159個の論理スイッチを作り、それぞれの仮想スイッチに92個の論理ポートを作った上でACLを適用する、というものです [2]。その結果をグラフしたのが以下になります。
 
 [embed]https://imgur.com/bIsbeMN[/embed]
-
-
 
 このテストは約15,000論理ポートを順次作成していく、というシナリオなので、インクリメンタルな処理性能を測るのにあまり適したシナリオではありませんが（インクリメンタルな処理性能が最も顕著に現れるのは、すでにある大規模な環境に若干の更新をした場合です）、それでもCでの実装に比べるとDifferential Datalog (DDlog)の実装の方がかなりいい性能が得られていることが分かります。
 
@@ -744,9 +737,8 @@ ovn-northdのDifferential Datalog実装は現時点ではまだmasterとは別�
 
 #### 参考リンク
 
-
-[1] https://mail.openvswitch.org/pipermail/ovs-dev/2019-July/360604.html
-[2] https://mail.openvswitch.org/pipermail/ovs-dev/2019-July/360889.html
-[3] https://codeout.hatenablog.com/entry/2020/07/06/130233
+* [1] https://mail.openvswitch.org/pipermail/ovs-dev/2019-July/360604.html
+* [2] https://mail.openvswitch.org/pipermail/ovs-dev/2019-July/360889.html
+* [3] https://codeout.hatenablog.com/entry/2020/07/06/130233
 
 Photo by [Irvan Smith](https://unsplash.com/@mr_vero?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/programming?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

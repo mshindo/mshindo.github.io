@@ -27,7 +27,7 @@ OVNの目指すところはOVSと同様で、ハイパーバイザ1000台規模�
 
 以下に、OVNの基本アーキテクチャを以下に示します。
 
-[![OVN Architecture](http://blog.shin.do/wp-content/uploads/2015/12/OVN-Architecture.png)](http://blog.shin.do/wp-content/uploads/2015/12/OVN-Architecture.png) OVNアーキテクチャ
+[![OVN Architecture]({{site.baseurl}}/images/OVN-Architecture.png) OVNアーキテクチャ
 
 OVNには主に二つのコンポーネント（プロセス）があります。一つはovn-northd、もう一つはovn-controllerです。ovn-northdはその名前からも分かる通り、CMSに対して "northbound" （北向き）なインターフェースを提供しています。現状、ovn-northdはOVNのデプロイメントに1つだけ存在しますが、将来的にはこの部分は冗長化、スケールアウト化していく予定です。
 
@@ -47,7 +47,7 @@ OVNのL3の機能はいわゆる分散論理ルーティング機能を提供し
 
 従来、OpenStack NeutronのOVS Pluginでは、Linux Bridge上のtapインターフェース（vnet）にiptablesを使ってACLをかけることによってSecurity Groupを実現していました。OVSのBridgeとLinux Bridgeが混在しているので、いささか複雑なアーキテクチャだったと言えます。
 
-[![under-the-hood-scenario-1-ovs-compute](http://blog.shin.do/wp-content/uploads/2015/12/under-the-hood-scenario-1-ovs-compute.png)](http://blog.shin.do/wp-content/uploads/2015/12/under-the-hood-scenario-1-ovs-compute.png) 従来のOpenStack Neutron OVS pluginのアーキテクチャ（http://docs.ocselected.org/openstack-manuals/kilo/networking-guide/content/figures/6/a/a/common/figures/under-the-hood-scenario-1-ovs-compute.png より引用）
+[![under-the-hood-scenario-1-ovs-compute]({{site.baseurl}}/images/under-the-hood-scenario-1-ovs-compute.png) 従来のOpenStack Neutron OVS pluginのアーキテクチャ（http://docs.ocselected.org/openstack-manuals/kilo/networking-guide/content/figures/6/a/a/common/figures/under-the-hood-scenario-1-ovs-compute.png より引用）
 
 しかしOVS 2.4からOVSがconntrackと連携できるようになったので、iptablesに頼ることなくOVSでステートフルなACLをネイティブに実現できるようになりました。OVNはこのOVSとconntrackの連携機能を使ってACLを実現しています。
 

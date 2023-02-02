@@ -63,7 +63,7 @@ Kubernetes環境の構築ツールにはkubeadm、kops、Kubesprayなど多数�
   * vSphere
 
 
-一般的にはKubernetesはコンテナ管理のプラットフォーム（オーケストレータ）として知られていますが、実はKubernetesはコンテナ以外のものも管理することできる枠組みが備わっています。Kubernetes のアーキテクチャの根本をなす部分として、システムをあるべき状態（Desired State）に保つ、という機能があります。Kubernetesでは、さまざまなリソースのあるべき状態を宣言的に定義しリソースの作成を行うと、それらのリソースの状態は常に監視され、あるべき状態と現在の状態（Current State）に差が生じている事を検出すると、あるべき状態に戻そうという動きをします。これはKubernetesのReconciliation Loopと呼ばれるメカニズムによって実現されています。[![Reconciliation Loop](http://blog.shin.do/wp-content/uploads/2019/09/ReconciliationLoop.png)](http://blog.shin.do/wp-content/uploads/2019/09/ReconciliationLoop.png)
+一般的にはKubernetesはコンテナ管理のプラットフォーム（オーケストレータ）として知られていますが、実はKubernetesはコンテナ以外のものも管理することできる枠組みが備わっています。Kubernetes のアーキテクチャの根本をなす部分として、システムをあるべき状態（Desired State）に保つ、という機能があります。Kubernetesでは、さまざまなリソースのあるべき状態を宣言的に定義しリソースの作成を行うと、それらのリソースの状態は常に監視され、あるべき状態と現在の状態（Current State）に差が生じている事を検出すると、あるべき状態に戻そうという動きをします。これはKubernetesのReconciliation Loopと呼ばれるメカニズムによって実現されています。[![Reconciliation Loop]({{site.baseurl}}/images/ReconciliationLoop.png)
 
 例えば、Podが3つ動いているはずなのに実際にはPodが2つしか動いていなければ、Kubernetesは自動的にPodを1つ新たに立ち上げて、常に3つのPodが動いているように調整（修復）をしてくれます。このようないわゆる自己修復（Self Healing）機能が働くのはReconciliation Loopのおかげです。
 

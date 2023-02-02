@@ -16,7 +16,7 @@ tags:
 
 [先日のBlog](http://blog.shin.do/2014/05/geneve-encapsulation/)でGeneveという新しいEncapsulation方式について紹介をしましたが、さっそくOpen vSwitch（OVS）に実装されmasterにマージされましたので試してみました。今回はGeneveを検証する事が目的ですので、KVMなどは使わずに、単純に異なるホストにある2つのOVS BridgeをGeneveトンネルで繋いでみることにします。VMware FusionでUbuntu 14.04を2つ（host-1、host-2）動かし、それぞれgithubから取ってきた最新のOVSをインストールしました。各仮想マシンにはNATによるEthernetインターフェースを1つ設定し、DHCPでアドレスをとる事にします。以下の例ではそれぞれのホストで192.168.203.151と192.168.203.149というIPアドレスがDHCPで取れた場合の例です。Bridgeを2つ（br0、br1）作成し、br0を物理ネットワークと接続するブリッジとし、br1の間にGeneveのトンネルを張る事にします。
 
-[![Geneve Test with Open vSwitch](http://blog.shin.do/wp-content/uploads/2014/07/geneve-test.svg)](http://blog.shin.do/wp-content/uploads/2014/07/geneve-test.svg) Geneve Test with Open vSwitch
+[![Geneve Test with Open vSwitch]({{site.baseurl}}/images/geneve-test.svg) Geneve Test with Open vSwitch
 
 host-1, host-2でのOVSの設定は以下の通りです。
 
@@ -60,7 +60,7 @@ host-1, host-2でのOVSの設定は以下の通りです。
 
 Wiresharkでパケットを見てみましょう。Wiresharkにも2014/06/16にGeneveのdissectorが追加されていますので、最新のWiresharkをビルドすればGeneveパケットの中身を見る事ができます。
 
-[![Geneve Frame by Wireshark](http://blog.shin.do/wp-content/uploads/2014/07/geneve-300x207.png)](http://blog.shin.do/wp-content/uploads/2014/07/geneve.png) Geneve Frame by Wireshark
+[![Geneve Frame by Wireshark]({{site.baseurl}}/images/geneve-300x207.png) Geneve Frame by Wireshark
 
 Geneveが使うポート番号は6081/udpです（このポート番号は2014/03/27にIANAに登録されています）。また、今回のように単純にOVSのBridge同士を繋ぐだけであれば特にVNIは必要はありませんので、明示的にVNIの値を指定していません。その場合はVNIの値は0になります。VNIの値を明示的に設定したい場合は、
 
@@ -70,7 +70,7 @@ Geneveが使うポート番号は6081/udpです（このポート番号は2014/0
 
 というようにoptionsでkeyというパラメータで指定すればOKです。その際のパケットは以下のようになります（10進数の5000は16進数では0x1388）。
 
-[![Geneve Frame with VNI 5000 by Wireshark](http://blog.shin.do/wp-content/uploads/2014/07/geneve-vni5000-300x207.png)](http://blog.shin.do/wp-content/uploads/2014/07/geneve-vni5000.png) Geneve Frame with VNI 5000 by Wireshark
+[![Geneve Frame with VNI 5000 by Wireshark]({{site.baseurl}}/images/geneve-vni5000-300x207.png) Geneve Frame with VNI 5000 by Wireshark
 
 GeneveはEthernetフレームだけではなく、他のタイプのフレームもトンネルできるようになっています。そのためにProtocol Typeというフィールドが用意されています。今回の例ではEthernetフレームをトンネルしていますので、Protocol Typeの値はTransparent Ethernet Bridgingを示す0x6558が指定されています。
 

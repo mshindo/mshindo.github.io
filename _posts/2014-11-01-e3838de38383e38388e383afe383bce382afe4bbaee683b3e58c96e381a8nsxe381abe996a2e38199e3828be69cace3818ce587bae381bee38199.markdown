@@ -18,7 +18,7 @@ tags:
 
 いままでなにか形になったものを残したいとずっと思っていましたが、少しだけ目標が叶いました。このたび、ヴイエムウェアの同僚たち数名と「[詳解VMware NSX ネットワーク仮想化の基礎と応用](http://www.amazon.co.jp/dp/4844337114)」という書籍を出す事になりました。
 
-[![詳解VMware NSX](http://blog.shin.do/wp-content/uploads/2014/11/29dc77e4a22f58375aeeee8cf6079309-234x300.jpg)](http://blog.shin.do/wp-content/uploads/2014/11/29dc77e4a22f58375aeeee8cf6079309.jpg) 詳解VMware NSX
+[![詳解VMware NSX]({{site.baseurl}}/images/29dc77e4a22f58375aeeee8cf6079309-234x300.jpg) 詳解VMware NSX
 
 翻訳本ではなく完全書き下ろしです。500ページを越えるボリュームなので、ちょっとお値段も張ってしまい申し訳ありませんが、もしご興味があれば買ってみてください。
 

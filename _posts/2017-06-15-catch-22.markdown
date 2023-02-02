@@ -8,14 +8,14 @@ language:
 - 日本語
 ---
 
-本日、iPhoneのバッテリーがなくなってしまい、ソフトバンクショップに駆け込んだ。モバイル・バッテリーは持っていたものの、Lightningケーブルを忘れてしまったので充電することができなかったのだ。ショップで充電はしてくれたのだが、その間仕事ができないので、ソフトバンクショップで繋がる無線LANを探すも、残念ながら無料で繋がるものはなし。0001softbankというSSIDは繋がるものの、ソフトバンクのデバイスでないと使えないので、Mac/PCはダメ。![](http://blog.shin.do/wp-content/uploads/2017/06/6dd95d44492f6104b05bb88e1be8c2f3-136x300.png)](http://blog.shin.do/wp-content/uploads/2017/06/6dd95d44492f6104b05bb88e1be8c2f3.png)
+本日、iPhoneのバッテリーがなくなってしまい、ソフトバンクショップに駆け込んだ。モバイル・バッテリーは持っていたものの、Lightningケーブルを忘れてしまったので充電することができなかったのだ。ショップで充電はしてくれたのだが、その間仕事ができないので、ソフトバンクショップで繋がる無線LANを探すも、残念ながら無料で繋がるものはなし。0001softbankというSSIDは繋がるものの、ソフトバンクのデバイスでないと使えないので、Mac/PCはダメ。![]({{site.baseurl}}/images/6dd95d44492f6104b05bb88e1be8c2f3-136x300.png)
 
 一方、SWS1dayというSSIDはソフトバンクのWi-Fiスポットで、ソフトバンク以外の端末でも一日467円で使えるようだ。
 
-![](http://blog.shin.do/wp-content/uploads/2017/06/d73868a01fe74169c900112e34f98739.png)
+![]({{site.baseurl}}/images/d73868a01fe74169c900112e34f98739.png)
 
 しかたない、何事も経験かと思い、これを使おうと試みてみたが、サインアップの過程でメールでPINが送られてくる模様。ネット接続できないからネット接続サービスに申し込もうとしているのに、申し込みにネット接続がいる。詰んだ orz
 
-![](http://blog.shin.do/wp-content/uploads/2017/06/311103195486a88ff38dc4c27cfb09bc.png)](http://blog.shin.do/wp-content/uploads/2017/06/311103195486a88ff38dc4c27cfb09bc.png)
+![]({{site.baseurl}}/images/311103195486a88ff38dc4c27cfb09bc.png)
 
 こんな顛末をオフラインで書いている間に充電されたiPhoneが戻ってきました。ちゃんちゃんw

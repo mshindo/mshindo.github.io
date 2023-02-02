@@ -15,7 +15,7 @@ tags:
 
 It has been my desire that I would like to contribute something "visible" to the world and my dream came true (at least to some extent). I am pleased to announce that I wrote a book about VMware NSX with a couple of my colleagues, which can be found [here](http://www.amazon.co.jp/dp/4844337114).
 
-[![VMware NSX Illustrated](http://blog.shin.do/wp-content/uploads/2014/11/29dc77e4a22f58375aeeee8cf6079309-234x300.jpg)](http://blog.shin.do/wp-content/uploads/2014/11/29dc77e4a22f58375aeeee8cf6079309.jpg) VMware NSX Illustrated
+[![VMware NSX Illustrated]({{site.baseurl}}/images/29dc77e4a22f58375aeeee8cf6079309-234x300.jpg) VMware NSX Illustrated
 
 This is not a translation of an existing book, instead it is written from scratch. We apology that this books is available only in Japanese for the time being, while we are getting several requests outside Japan for the translation of this book into other languages. We are not certain if such a work will take place, but we do hope it will. That said,  you can purchase it today  from www.amazon.co.jp (sorry it is not available on www.amazon.com) if you're interested.
 

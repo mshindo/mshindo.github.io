@@ -2,6 +2,7 @@
 date: 2020-01-06 14:13:12+00:00
 layout: post
 title: Antrea - Yet Another CNI Plug-in for Kubernetes
+image: '/images/manuel-sardo-EzUfDwJTOzw-unsplash.jpg'
 categories:
 - コンピュータとインターネット
 language:
@@ -23,27 +24,13 @@ tags:
 "Antrea"という名前ですが、実は[Antrea Net](https://en.wikipedia.org/wiki/Antrea_Net)から来ています。Antreaはフィンランドに近いロシアの街で、世界最古の漁網が見つかった場所として知られており、その網は見つかった場所にちなみんで「Antrea Net」と呼ばれています。Kubernetesという名前は「操舵手」というギリシャ語から付けられたものですが、これに倣ってKubernetes関連のプロジェクトには船や海にちなんだ名前（例えばhelm/tillerなど）がつけられることが多くなっています。一方、CNIのプラグインであるCalicoやFlannelはどちらも繊維（ファブリック）に関係のある名前になっています（「ネットワーク」と「ファブリック」をかけている？？）。この「海」と「ファブリック」の二つの要素を兼ね合わせた「漁網」であるAntrea Netに因んでAntreaという名前がつけられました。
 
 Antreaの特徴は以下のような点になります。
-
-
-
  	
   * Open vSwitchによるデータプレーン
-
- 	
   * Network Policyのサポート（iptablesからの脱却）
-
- 	
   * LinuxとWindowsサポート（予定）
-
- 	
   * 幅広いプラットフォームサポート
-
- 	
   * Octantとの連携
-
- 	
   * rspanやIPFIXのサポートなど（予定）
-
 
 Antreaは仮想スイッチとして広く使われているOpen vSwitch (OVS)をデータパスに使用しているのがもっとも大きな特徴です。OVSをデータパスに使用することでいくつかのメリットが得られます。KubbernetesのNetwork PolicyやServiceのロードバランスを実現するために、他のCNIプラグインの多くはiptablesを使っています。iptablesは古くからある実績豊富な機能ではありますが、性能はあまりよろしくありません。iptabblesはルール数が多くなると、CPUに対する負荷、遅延、設定時間が非常に大きくなることが知られています。複雑なNetwork Policyや多数のServiceを使っているKubernetes環境では、iptablesベースのCNIでは期待した性能が得られないことが予想されます。一方、AntreaはOVSをデータプパスに使っているため、iptablesに起因する性能的問題を回避することができます。
 
@@ -63,7 +50,7 @@ Antrea はKubernetesに特化したネットワークプラグインです。例
 
 アーキテクチャーは以下通りです。
 
-![](http://blog.shin.do/wp-content/uploads/2020/01/arch.svg-300x277.png)](http://blog.shin.do/wp-content/uploads/2020/01/arch.svg.png)
+![]({{site.baseurl}}/images/arch.svg-300x277.png)
 
 Antreaはいくつかのコンポーネントによって構成されます。Antrea Conrollerはいわゆるコントローラで、Deploymentとして作成さられます。Kubernetes APIを使って関連するオブジェクトの追加や削除を監視しています。一方、Antrea AgentはDaemonSetとして作られ、各ノードで動作します。Antrea agentはOpenFlowの設定をOVS に対して行います。antrea-cniはKubeletからのCNIコマンドをAntrea Agentに引き渡します。antctlコマンドはAntrea Controllerに対するCLIインターフェースを提供するもので、現在絶賛開発中です。
 
@@ -79,9 +66,7 @@ OctantはKubernetes Clusterの状況を可視化してくれるダッシュボ�
 
 標準的な方法でCluster APIでKubernetes環境を作ります。ノードが上がってきたら、各ノードでOVSのカーネルモジュールを入れます。Cluster APIで作られるノードは再構築される可能性があるため、本来ならばCluster APIで使うOVAテンプレートに予めOVSを組み込んでおくべきですが、今回はテストなのでそのステップは省略することにします。各ノードで 以下のコマンド
 
-    
     sudo apt update ; sudo apt -y install openvswitch-switch
-
 
 を実行して、OVSをインストールします。次にカーネルモジュールが正しく読み込まれたか確認しましょう。
 
@@ -231,23 +216,11 @@ ConfigMapを確認してみましょう。
 
 これをみて分かるように、ConfigMapでは、
 
-
-
- 	
   * Integration Bridge名（default: br-int）
-
- 	
   * DataPath タイプ（default: system）
-
- 	
   * ホストと通信するインターフェース名（default: gw0)
-
- 	
   * トンネル（Encapsulation）タイプ（default: vxlan）
-
- 	
   * MTU値（default: 1450）
-
 
 などを設定することができます。
 
@@ -286,7 +259,7 @@ ConfigMapを確認してみましょう。
     
 
 
-![](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-20.41.34-300x141.png)](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-20.41.34.png)
+![]({{site.baseurl}}/images/Screen-Shot-2020-01-06-at-20.41.34-300x141.png)
 
 無事にnginxにアクセスするすることができました。
 
@@ -355,7 +328,7 @@ Podとしてデプロイします。
 
 上記のyamlファイルはNodePortを作るようになっていますので、そこに接続するとOctantのUIにアクセスすることができます。
 
-![](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-18.45.50-300x191.png)](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-18.45.50.png)![](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-18.59.47-300x191.png)](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-18.59.47.png)
+![]({{site.baseurl}}/images/Screen-Shot-2020-01-06-at-18.45.50-300x191.png)
 
 
 ### 今後の予定
@@ -367,8 +340,6 @@ Windowsの対応、No Encapsulationモードの対応、OVSベースのService L
 
  	
   * IPv6でのPod Network対応
-
- 	
   * DPDKやAF_XDPなどの高速データパス技術への対応
 
 

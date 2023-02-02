@@ -23,7 +23,7 @@ tags:
 
 
 
-![](http://blog.shin.do/wp-content/uploads/2018/12/logo-small-200-1-1024x355.png)
+![]({{site.baseurl}}/images/logo-small-200-1-1024x355.png)
 
 
 
@@ -61,7 +61,7 @@ Knative というのは Google Cloud Next 2018 で発表されたプロジェク
 
 
 
-![](http://blog.shin.do/wp-content/uploads/2018/12/dispatch-v2-architecture-1024x501.png)Dispatch-Knative アーキテクチャ
+![]({{site.baseurl}}/images/dispatch-v2-architecture-1024x501.png)Dispatch-Knative アーキテクチャ
 
 
 
@@ -73,7 +73,7 @@ Knative というのは Google Cloud Next 2018 で発表されたプロジェク
 
 
 
-![](http://blog.shin.do/wp-content/uploads/2018/12/dispatch-solo-architecture-1024x655.png)Dispatch-Solo アーキテクチャ
+![]({{site.baseurl}}/images/dispatch-solo-architecture-1024x655.png)Dispatch-Solo アーキテクチャ
 
 
 
@@ -176,7 +176,7 @@ Dispatch-Solo の最新版の OVA は以下の方法で入手することがで�
 
 
 
-![](http://blog.shin.do/wp-content/uploads/2018/12/Screen-Shot-2018-12-08-at-16.08.49.png)
+![]({{site.baseurl}}/images/Screen-Shot-2018-12-08-at-16.08.49.png)
 
 
 
@@ -220,7 +220,7 @@ Dispatch のバイナリをダウンロードしてインストールします�
 
 
 
-![](http://blog.shin.do/wp-content/uploads/2018/12/Screen-Shot-2018-12-08-at-16.13.02.png)
+![]({{site.baseurl}}/images/Screen-Shot-2018-12-08-at-16.13.02.png)
 
 
 

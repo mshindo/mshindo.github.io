@@ -33,9 +33,9 @@ NVGRE, VXLAN, STTヘッダはいずれも固定長で自由に拡張する事が
 
 そこでGeneveでは、encapsulationに拡張性を持たせられるように、固定フィールドに加え、自由に伝える情報を拡張する事が出来る可変長のOptionフィールドが定義されています。このフィールドはいわゆるTLV (Type/Length/Value）形式を取っており、自由に拡張をすることができます。また、Typeの前にはOption Classというフィールドがあり、Typeの名前空間を定義できます。ここに（IANAから割り当てられた）ベンダーIDを入れる事でベンダー固有のTypeを自由に定義・追加できるように設計されています。
 
-[![Geneve class=](http://blog.shin.do/wp-content/uploads/2014/05/GeneveHeadr.svg)](http://blog.shin.do/wp-content/uploads/2014/05/GeneveHeadr.svg) Geneve Header 
+[![Geneve class=]({{site.baseurl}}/images/GeneveHeadr.svg) Geneve Header 
 
-[![Geneve Options](http://blog.shin.do/wp-content/uploads/2014/05/GeneveOptions.svg)](http://blog.shin.do/wp-content/uploads/2014/05/GeneveOptions.svg) Geneve Options
+[![Geneve Options]({{site.baseurl}}/images/GeneveOptions.svg) Geneve Options
 
 Geneveヘッダには2種類のフラグ（O、C）が定義されいます。OフラグはOAMフレームを表し、CフラグはCriticalフレームを表しています。GeneveのOAMはEnd-to-EndのOAMを想定しており、途中の経由するノードがこのフラグを見てなにかしらの解釈してはしてはいけない事になっています。また、GeneveのEndノードはOフラグが立ったパケットを優先的に処理する事が期待されています。一方、Cフラグが立っているオプションを受け取ったEndノードはそれを解釈しなければなりません。逆に言うと、Cフラグが立っていなければ、それを受け取ったノードはそれを無視しても良い、ということになります。
 
@@ -66,7 +66,7 @@ STTはTSO機能を持った既存のNICでH/Wアクセラレーション効果�
 
 L2TPv3のデータパケットのencapsulationには実質上Session IDとCookieしかありません（Tフラグは常に0、Verは3である必要があります）。
 
-[![L2TPv3 Data Header](http://blog.shin.do/wp-content/uploads/2014/05/L2TPv3.svg)](http://blog.shin.do/wp-content/uploads/2014/05/L2TPv3.svg) L2TPv3 Data Header
+[![L2TPv3 Data Header]({{site.baseurl}}/images/L2TPv3.svg) L2TPv3 Data Header
 
 L2TPv3 encapsulationではSession IDがVXLAN/GeneveのVNIに相当する事になり、ここは32bit長となっています。
 
@@ -76,7 +76,7 @@ L2TPv3 encapsulationではSession IDがVXLAN/GeneveのVNIに相当する事に�
 
 上記のような観点からは、VXLANもL2TPv3 encapsulationとあまり大きな違いはありません。
 
-[![VXLAN Header](http://blog.shin.do/wp-content/uploads/2014/05/VXLAN.svg)](http://blog.shin.do/wp-content/uploads/2014/05/VXLAN.svg) VXLAN Header
+[![VXLAN Header]({{site.baseurl}}/images/VXLAN.svg) VXLAN Header
 
 標準で規定されている以外の情報（現状はVNIしか伝える事しか出来ない）を伝えようとすると、現状のReservedとなっているフラグやフィールドを使って拡張をするか、パケットのフォーマットを大幅に変更をする事になるでしょう。例えば、現状のVXLANヘッダにはencpasulationするフレームがどのようなフレームなのかを示すフィールドがなくencapsulationの対象となるフレームはEthernetのみですが、VXLANでEthernetフレーム以外をencapsulationするようにするための拡張が提案されています（draft-quinn-vxlan-gpe）。この拡張はまさにReservedなフラグとフィールドを使ってVXLANを拡張しています。Encapsulation対象のフレームの種類を表すだけならなんとかReservedのフィールドでおさまるので、VXLANのパケットフォーマットを変更せずに済みますが、これ以外の拡張をしたくなったらもはや使えるフィールドはないので、フレームフォーマットの変更を余儀なくされるでしょう。
 
