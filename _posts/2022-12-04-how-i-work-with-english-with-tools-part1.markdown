@@ -45,7 +45,7 @@ Grammarlyは、スペルのチェックはもちろんですが、文法的な�
 
 Grammarlyには有料プランと無料プランが用意されていて、無料プランだと基本的な単語のチェックぐらいしかしてくれませんが、有料プランに入ると各種高度な機能を利用することができるようになります。例えば英文としての正しさだけではなくて、それが明快であるか（Clarity）とか、どれぐらい相手に伝わりそう（Delivery）とか、そのようなことも定量的に教えてくれ、問題があればどう直したらいいかを提案をしてくれたりします。また、書いている文章の意図、例えば相手を説得するためのものなのか、説明をするものなのか、などを設定をしておくと、それに合わせて校正をしてくれます。
 
-百聞は一見にしかず、だと思うので、実際にGrammarlyを使ってみましょう。例えばGrammarlyのエディタに私が以前書いた英語の[ブログ](https://blog.shin.do/2019/10/overlay-technologies-and-me-en/)の冒頭のパラグラフをコピペしてみます。[![](https://blog.shin.do/wp-content/uploads/2022/12/Grammarly-Sample-1024x583.png)](https://blog.shin.do/wp-content/uploads/2022/12/Grammarly-Sample.png)
+百聞は一見にしかず、だと思うので、実際にGrammarlyを使ってみましょう。例えばGrammarlyのエディタに私が以前書いた英語の[ブログ](https://blog.shin.do/2019/10/overlay-technologies-and-me-en/)の冒頭のパラグラフをコピペしてみます。![](https://blog.shin.do/wp-content/uploads/2022/12/Grammarly-Sample-1024x583.png)] 
 
 すると、自動的にCorrectness、Clarity、Engagement、Deliveryなどの項目チェックをしてくれます。この例では、一応全部オッケーになってます が、実は最初にこのパラグラフを書いた時には、もちろんこんな状態ではありませんでした。 いろいろと問題を指摘されて、それらを直した結果、上のような状態になった次第です。
 

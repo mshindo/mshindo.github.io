@@ -14,7 +14,7 @@ tags:
 
 この度、Larry PetersonとBruce Davie が中心となって書いているネットワーク関する書籍シリーズ "Systems Approach" の SDN 編 "Software-Defined Networks: A Systems Approach" という本の邦訳版「[Software-Defined Networks ソフトウェア定義ネットワークの概念・設計・ユースケース](https://www.amazon.co.jp/dp/4798172049/)」を出すことになり、その翻訳をやらせていただきました。**6/22に発売開始予定**です。
 
-[![Software-Defined Networks: A Systems Approach](https://blog.shin.do/wp-content/uploads/2022/05/SDN-Book-Cover.jpg)](https://blog.shin.do/wp-content/uploads/2022/05/SDN-Book-Cover.jpg)
+[![Software-Defined Networks: A Systems Approach](https://blog.shin.do/wp-content/uploads/2022/05/SDN-Book-Cover.jpg)] 
 
 この翻訳本を出すことになったきっかけは本書の「訳者まえがき」のところでも書いたのですが、簡単に言うと、私の Nicira 時代の同僚で、VMware では私の直属の上司でもあった Bruce Davie から「"Software-Defined Networks: A Systems Approach" の日本語版を出したいので協力して欲しい」と相談されたのがキッカケです。原書を読んでみるととても興味深い内容だったので、ぜひ邦訳の手伝いをさせて欲しい、と返事をしました。ただ、私の知見だけでは不十分と思われたので、SDNやP4 に関して豊富な知識と経験を持たれている海老澤（通称 ebiken）さんにお声がけをし、ebiken さんがファブリックネットワークにも大変お詳しい小林さんに声をかけてくれました。お二人とも翻訳作業をご快諾いただき、3人で分担して翻訳作業にあたることになりました。
 

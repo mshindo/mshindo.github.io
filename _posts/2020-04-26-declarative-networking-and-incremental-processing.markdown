@@ -64,7 +64,7 @@ Niciraの創業者の一人であるMatin Casadoから聞いた話なのです�
 
 仮に2台のハイパーバイザ（Host1とHost2）と仮想マシンが3台（VM1、VM2、VM3）があり、VM1とVM2がHost1上で動いていて、VM3がHost2上で動いていたとしましょう。
 
-[![](http://blog.shin.do/wp-content/uploads/2020/04/Figure-1.png)](http://blog.shin.do/wp-content/uploads/2020/04/Figure-1.png)
+![](http://blog.shin.do/wp-content/uploads/2020/04/Figure-1.png)](http://blog.shin.do/wp-content/uploads/2020/04/Figure-1.png)
 
 SDNコントローラはそのような状況を表す以下のようなテーブルを持っているはずです。
 
@@ -202,7 +202,7 @@ Action
 
 ここで、仮にVM2がHost1からHost2に移動（vMotion/Live Migration）したとしましょう。
 
-[![](http://blog.shin.do/wp-content/uploads/2020/04/Figure-2.png)](http://blog.shin.do/wp-content/uploads/2020/04/Figure-2.png)
+![](http://blog.shin.do/wp-content/uploads/2020/04/Figure-2.png)](http://blog.shin.do/wp-content/uploads/2020/04/Figure-2.png)
 
 コントローラはこのようなVMの移動を把握することができますので、自分が持っているテーブルを以下のように更新します。
 

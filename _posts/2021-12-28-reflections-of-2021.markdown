@@ -143,9 +143,9 @@ language:
 
 コロナでオフィスを縮小もしくは完全に撤退する会社が多い中、VMwareは新しいオフィスを田町にオープンし、大幅な増床をしました。もったいないくらい素晴らしいオフィスです。このオフィスに負けないくらい素晴らしい仕事をしなければ、という気になりますね。
 
-[![ONIC-2021](https://blog.shin.do/wp-content/uploads/2021/12/ONIC-2021-300x300.png)](https://blog.shin.do/wp-content/uploads/2021/12/ONIC-2021.png) ONIC 2021 の打ち上げ
+[![ONIC-2021](https://blog.shin.do/wp-content/uploads/2021/12/ONIC-2021-300x300.png)]  ONIC 2021 の打ち上げ
 
-[![VMware Office at Tamachi](https://blog.shin.do/wp-content/uploads/2021/12/VM-Office-259x300.png)](https://blog.shin.do/wp-content/uploads/2021/12/VM-Office.png) VMware の新オフィス@田町
+[![VMware Office at Tamachi](https://blog.shin.do/wp-content/uploads/2021/12/VM-Office-259x300.png)]  VMware の新オフィス@田町
 
 
 ## 映画
@@ -175,11 +175,11 @@ language:
 
 コンフィデンスマンJP、面白いですね。なかなか良くできています。ANNA/アナ、はどんでん返しに次ぐどんでん返しで、これも面白かったです。コンフィデンスマンJPといい、私、どんでん返しモノが好きなのかも。シティーハンターは言わずと知れた日本漫画の名作ですが、これはそれをフランスで実写化したもの。漫画の実写化というとガッカリすることが多いのですが、これはかなりいい感じです。原作に対するリスペクトが満ち溢れててとても良かったです。
 
-[![Confidenceman JP](https://blog.shin.do/wp-content/uploads/2021/12/Confidenceman-JP-210x300.webp)](https://blog.shin.do/wp-content/uploads/2021/12/Confidenceman-JP.webp) コンフィデンスマンJP ＜ロマンス編> （画像ソース: Amazon）
+[![Confidenceman JP](https://blog.shin.do/wp-content/uploads/2021/12/Confidenceman-JP-210x300.webp)]  コンフィデンスマンJP ＜ロマンス編> （画像ソース: Amazon）
 
-[![ANNA](https://blog.shin.do/wp-content/uploads/2021/12/ANNA-219x300.jpg)](https://blog.shin.do/wp-content/uploads/2021/12/ANNA.jpg) ANNA / アナ（画像ソース: Amazon）
+[![ANNA](https://blog.shin.do/wp-content/uploads/2021/12/ANNA-219x300.jpg)]  ANNA / アナ（画像ソース: Amazon）
 
-[![City Hunter](https://blog.shin.do/wp-content/uploads/2021/12/CityHunter-246x300.webp)](https://blog.shin.do/wp-content/uploads/2021/12/CityHunter.webp) シティーハンター THE MOVIE史上最香のミッション（画像ソース: Amazon）
+[![City Hunter](https://blog.shin.do/wp-content/uploads/2021/12/CityHunter-246x300.webp)]  シティーハンター THE MOVIE史上最香のミッション（画像ソース: Amazon）
 
 
 ## 読書
@@ -187,9 +187,9 @@ language:
 
 今年は10冊ちょっと。まだまだ少ないですね。。うち、洋書が1冊。今年はディープラーニング（[G検定](https://www.jdla.org/certificate/general/)）の勉強をしたので、技術系ではディープラーニング関係の本が多かったです。non-技術では「三体IIおよびIII」が圧倒的に面白かったです。新入社員の方に教えてもらった「[動的平衡](https://www.amazon.co.jp/dp/4863240120/)」も興味深い話でした。
 
-[![Three Body Problem 2](https://blog.shin.do/wp-content/uploads/2021/12/ThreeBody-Problem-2-205x300.jpg)](https://blog.shin.do/wp-content/uploads/2021/12/ThreeBody-Problem-2.jpg) 三体II（画像ソース: Amazon）
+[![Three Body Problem 2](https://blog.shin.do/wp-content/uploads/2021/12/ThreeBody-Problem-2-205x300.jpg)]  三体II（画像ソース: Amazon）
 
-[![Three Body Problem 3](https://blog.shin.do/wp-content/uploads/2021/12/ThreeBody-Problem-3-210x300.jpg)](https://blog.shin.do/wp-content/uploads/2021/12/ThreeBody-Problem-3.jpg) 三体III（画像ソース: Amazon）
+[![Three Body Problem 3](https://blog.shin.do/wp-content/uploads/2021/12/ThreeBody-Problem-3-210x300.jpg)]  三体III（画像ソース: Amazon）
 
 
 ## Best YouTube Video
@@ -207,19 +207,19 @@ language:
 
 昨年は10 Kg以上の減量になりましたが、今年はそこからリバウンドしないことが目標でした。結果、1.6 Kg の体重増ということで、まあ、上出来だったのではないかと思います。体脂肪率もちょっと上がっちゃったのはご愛嬌。
 
-[![Weight and Fat in 2021](https://blog.shin.do/wp-content/uploads/2021/12/Weight-and-Fat-2021-139x300.png)](https://blog.shin.do/wp-content/uploads/2021/12/Weight-and-Fat-2021.png) 体重と体脂肪率の推移 in 2021
+[![Weight and Fat in 2021](https://blog.shin.do/wp-content/uploads/2021/12/Weight-and-Fat-2021-139x300.png)]  体重と体脂肪率の推移 in 2021
 
 今年の平均睡眠時間は5時間42分。去年より若干増えましたが、ほぼ同じペースです。
 
-[![Sleep Meister Stat in 2021](https://blog.shin.do/wp-content/uploads/2021/12/Sleep-2021-139x300.png)](https://blog.shin.do/wp-content/uploads/2021/12/Sleep-2021.png) Sleep Meisterでの統計 in 2021
+[![Sleep Meister Stat in 2021](https://blog.shin.do/wp-content/uploads/2021/12/Sleep-2021-139x300.png)]  Sleep Meisterでの統計 in 2021
 
 NRC (Nike Run Club) でのランニングは引き続きやっています。今年は 1,200 km 以上走りました。「ランニングする前に読む本」という本を読み、スロージョギングをするようになったので、スピードは去年より落ちましたが、そのぶん距離を走るようになりました。通常、1 kmを 8 分くらいのペースで 5〜7 km、長いときは 10 kmくらい走っています。NTC (Nike Traning Club) でのワークアウトも続けています。
 
-[![Nike Run Club in 2021](https://blog.shin.do/wp-content/uploads/2021/12/NikeRun-2021-139x300.png)](https://blog.shin.do/wp-content/uploads/2021/12/NikeRun-2021.png) Nike Run Club in 2021
+[![Nike Run Club in 2021](https://blog.shin.do/wp-content/uploads/2021/12/NikeRun-2021-139x300.png)]  Nike Run Club in 2021
 
 おかげさまで今年も大きな病気を患うことはありませんでした。4月に原因不明のムカムカと下痢を経験をしたくらいです。ただ、今年は何回か血尿を経験しました。いずれも走った直後の尿だけだったので、病気の可能性は低いと思いつつも、念の為に病院で調べてもらうことにしました。そしらた徹底的に調べてくれて（詳しくは「[膀胱鏡検査](https://blog.shin.do/2021/08/cystoscopy/)」を参照）、結論としては問題ないだろう、ということになりました（ふー）。膀胱鏡検査はもう二度とやりたくないですｗ
 
-ファイザーのワクチンを2度接種しました。副反応は全くと言っていいほど何も無く、なんだか肩透かしに合った感じでした。来年ブースターが打てるようになったらすぐに打とうと思います。[![Vaccination Certificate](https://blog.shin.do/wp-content/uploads/2021/12/Vaccination-Certificate-188x300.png)](https://blog.shin.do/wp-content/uploads/2021/12/Vaccination-Certificate.png)
+ファイザーのワクチンを2度接種しました。副反応は全くと言っていいほど何も無く、なんだか肩透かしに合った感じでした。来年ブースターが打てるようになったらすぐに打とうと思います。[![Vaccination Certificate](https://blog.shin.do/wp-content/uploads/2021/12/Vaccination-Certificate-188x300.png)] 
 
 
 ## 仕事
@@ -245,7 +245,7 @@ NRC (Nike Run Club) でのランニングは引き続きやっています。今
 
 また、澤円さんと行った対談もとても良い経験でした。テーマは「マルチプラットフォームやクラウドネイティブ時代を生き抜くエンジニアのキャリアとは」。さすがに澤さん、お話が大変面白い。1時間ほどの対談でしたが、もっとお話をしていたかったです。その時の話が[記事](https://www.jac-digital.jp/topics/1705.html)になっていますので、ご興味ある方は読んでみてください。
 
-[![Fireside Chat with Sawa-san](https://blog.shin.do/wp-content/uploads/2021/12/Talk-with-Sawa-san-300x157.jpg)](https://blog.shin.do/wp-content/uploads/2021/12/Talk-with-Sawa-san.jpg) 澤円さんとの対談
+[![Fireside Chat with Sawa-san](https://blog.shin.do/wp-content/uploads/2021/12/Talk-with-Sawa-san-300x157.jpg)]  澤円さんとの対談
 
 
 ## プライベート
@@ -257,9 +257,9 @@ NRC (Nike Run Club) でのランニングは引き続きやっています。今
 
 3月末に長女の結婚式を行いました。ちょうどコロナの合間のタイミングで、無事にできたのはラッキーでした。また、4月からは次女が大学生となり、北陸での生活が始まりました。そして、8月に長男夫妻のところに女の子が生まれ、初孫となりました（名実ともにおじいちゃんとなりましたｗ）
 
-[![Wedding](https://blog.shin.do/wp-content/uploads/2021/12/IMG_7711-225x300.jpg)](https://blog.shin.do/wp-content/uploads/2021/12/IMG_7711-scaled.jpg) 長女の結婚式
+[![Wedding](https://blog.shin.do/wp-content/uploads/2021/12/IMG_7711-225x300.jpg)]  長女の結婚式
 
-[![The First Grand Daughter](https://blog.shin.do/wp-content/uploads/2021/12/Aoba-225x300.jpg)](https://blog.shin.do/wp-content/uploads/2021/12/Aoba.jpg) 初孫誕生
+[![The First Grand Daughter](https://blog.shin.do/wp-content/uploads/2021/12/Aoba-225x300.jpg)]  初孫誕生
 
 そして同じ月に、長年大変親しくさせていただいていた歌仲間の「たくろーさん」がご逝去されました。あまりに突然のことで心の整理がつかず、涙が出なくなるくらい泣きました。今頃は天国で大好きだった "You Don't Have To Be A Star" を思い切り歌われていることでしょう。沢山の楽しいい思い出をありがとうございました。
 
@@ -269,7 +269,7 @@ NRC (Nike Run Club) でのランニングは引き続きやっています。今
 
 今年買ってよかったなと思ったものは、
 
-[![Sticker](https://blog.shin.do/wp-content/uploads/2021/12/Sticker-300x69.jpg)](https://blog.shin.do/wp-content/uploads/2021/12/Sticker.jpg) 画像ソース: Amazon
+[![Sticker](https://blog.shin.do/wp-content/uploads/2021/12/Sticker-300x69.jpg)]  画像ソース: Amazon
 
 です。実家への投げ込み広告防止の為に買ったのですが、それなりの効果はあったようです。350円投資の効果は十分にあります（笑）
 

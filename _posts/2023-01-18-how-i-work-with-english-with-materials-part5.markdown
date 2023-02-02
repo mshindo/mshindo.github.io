@@ -21,7 +21,7 @@ tags:
 
 「[私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 2〜](https://blog.shin.do/2022/12/how-i-work-with-english-with-materials-part2/)」で少し紹介しましたが、ニュース記事としては私は「**AP News**」を読んでいます。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/AP-News-139x300.png)](https://blog.shin.do/wp-content/uploads/2022/12/AP-News.png) iPhone版のAP Newsアプリの画面
+![](https://blog.shin.do/wp-content/uploads/2022/12/AP-News-139x300.png)]  iPhone版のAP Newsアプリの画面
 
 iPhoneやAndroid用のアプリがありますので、気軽に読むことができます。私はiPhone用のアプリで読んでいますが、惜しむらくは、最近のアップデートで、このアプリから他のアプリに一時的に切り替えた後（例えば辞書アプリで意味を調べた、など）、このアプリに戻ると、以前読んでいた場所に戻るのではなく、常に記事の先頭に戻ってしまうようになったことですね。アプリの作りの問題かと思いますが、以前はこのようなことはなかっただけにちょっと残念です。
 
@@ -37,7 +37,7 @@ iPhoneやAndroid用のアプリがありますので、気軽に読むことが�
 
 この雑誌は一般向け科学雑誌としては最古のものらしく、とても由緒正しい雑誌メディアです。Natureのように厳しい論文査読とかはないようですが、非常に質が高いと認識されているメディアで、昔アインシュタインも寄稿したことがあるらしいです。割と短い記事が多くて、1記事は10分ぐらいで読めます。英語のレベルは記事によってまちまちです。すごく難しい言葉で書かれた記事もあれば、非常に平易なプレーン・イングリッシュで書いてくれているものもあります。簡単な記事であれば辞書なしでさらっと読めるくらいのレベルです。また、私にとってありがたいのは、アプリの文字の大きさが調節可能なことです。大きなフォントで読むことができますので、私のようなジジイにも読みやすいです（笑）。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Scientific-American-139x300.png)](https://blog.shin.do/wp-content/uploads/2022/12/Scientific-American.png) Scientific American アプリの画面
+![](https://blog.shin.do/wp-content/uploads/2022/12/Scientific-American-139x300.png)]  Scientific American アプリの画面
 
 この雑誌は基本有料ですが、一部の記事はWeb上でフリーで読むことができるようです。私はサブスクして読んでいます（650円/月）。そこそこの値段ですが、私は十分にその価値はあると思っています。
 
@@ -49,7 +49,7 @@ iPhoneやAndroid用のアプリがありますので、気軽に読むことが�
 
 読みものとして最後に紹介するのは、「**Kafka on the Shore**」です。言わずと知れた村上春樹の「海辺のカフカ」の英語バージョンです。448ページの長編です（ちなみに日本語だと809ページあります。英語だとだいぶコンパクトになるんですね）。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Kafka-on-the-Shore-194x300.jpeg)](https://blog.shin.do/wp-content/uploads/2022/12/Kafka-on-the-Shore.jpeg) https://www.amazon.co.jp/Kafka-Shore-Vintage-International-English-ebook/dp/B000FC2ROU/ より引用
+![](https://blog.shin.do/wp-content/uploads/2022/12/Kafka-on-the-Shore-194x300.jpeg)]  https://www.amazon.co.jp/Kafka-Shore-Vintage-International-English-ebook/dp/B000FC2ROU/ より引用
 
 村上春樹の作品は好き嫌いが分かれるかもしれませんが、私は好きなので、これを読んでみることにしました。私にとって、技術書以外で長編の本を英語で読むのはこれが初めての経験でした。読み終わるまではそれなりに長い時間がかかりましたが、とても面白かったです。特に後半に入ってからは、もう読むのが止められない状態でした。内容的には結構哲学的ですし、口語表現が多いので、最初は辞書を引き引き（そもそも口語表現は辞書には載っていないことが多いです。ただ、そういう時はDeepLで訳すと、かなりの確率で正解を提示してくれました。DeepL凄い！）という感じでしたが、後半にはだいぶ慣れ読むスピードも上がりました。
 

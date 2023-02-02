@@ -21,11 +21,11 @@ tags:
 
 本題に入る前に少々説教じみた話からしたいと思います。以下のような簡単な算数問題を解いてみましょう。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Equasion-300x53.png)](https://blog.shin.do/wp-content/uploads/2022/12/Equasion.png)
+![](https://blog.shin.do/wp-content/uploads/2022/12/Equasion-300x53.png)] 
 
 簡単ですね。答えは、
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Answer-300x49.png)](https://blog.shin.do/wp-content/uploads/2022/12/Answer.png)
+![](https://blog.shin.do/wp-content/uploads/2022/12/Answer-300x49.png)] 
 
 です。
 
@@ -37,7 +37,7 @@ tags:
 
 世の中には色々な方がプレゼンテーションをしている、いわゆるTalks系コンテンツがたくさんあります。その中でも最も有名かつ有益なのは**TED Talks**だろうと思います。皆さん1度や2度は見られたことがあるのではないかと。TED Talksのほとんどは英語で行われていますので、英語の勉強になるのはもちろんのこと、内容も素晴らしいものばかりなので、話を聞くだけでもとても勉強になります。プレゼンテーションスタイルにも定評がありますので、学ぶところ満載です。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/TED-Talks-1024x992.png)](https://blog.shin.do/wp-content/uploads/2022/12/TED-Talks.png) https://www.ted.com/talks より引用
+![](https://blog.shin.do/wp-content/uploads/2022/12/TED-Talks-1024x992.png)]  https://www.ted.com/talks より引用
 
 TED Talksにはほぼ全て英語のスクリプトがついていますし、日本語スクリプトも用意されているのもが多いです。意味が分からないとことがあったら英語字幕と日本語字幕を切り替えながら見てみるといいでしょう。再生速度も調整できますので、ちょっと聞き取りにくいと思ったら0.75倍速にして再生してみるとか、少しチャレンジをしてみたければ1.25倍速で聞き取れるかやってみるなんてこともできます。Podcastで配信されていたりもするので、隙間時間ちょっと聞いたりもできますね。また、TED Talksにはいろいろなサブプログラムがあります。草の根的なTEDxとか教育に特化したTED-Edなど、皆さんのご興味ご関心のあるところをピックアップして聞かれるといいと思います。
 

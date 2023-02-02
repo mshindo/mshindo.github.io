@@ -63,7 +63,7 @@ Antrea はKubernetesに特化したネットワークプラグインです。例
 
 アーキテクチャーは以下通りです。
 
-[![](http://blog.shin.do/wp-content/uploads/2020/01/arch.svg-300x277.png)](http://blog.shin.do/wp-content/uploads/2020/01/arch.svg.png)
+![](http://blog.shin.do/wp-content/uploads/2020/01/arch.svg-300x277.png)](http://blog.shin.do/wp-content/uploads/2020/01/arch.svg.png)
 
 Antreaはいくつかのコンポーネントによって構成されます。Antrea Conrollerはいわゆるコントローラで、Deploymentとして作成さられます。Kubernetes APIを使って関連するオブジェクトの追加や削除を監視しています。一方、Antrea AgentはDaemonSetとして作られ、各ノードで動作します。Antrea agentはOpenFlowの設定をOVS に対して行います。antrea-cniはKubeletからのCNIコマンドをAntrea Agentに引き渡します。antctlコマンドはAntrea Controllerに対するCLIインターフェースを提供するもので、現在絶賛開発中です。
 
@@ -286,7 +286,7 @@ ConfigMapを確認してみましょう。
     
 
 
-[![](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-20.41.34-300x141.png)](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-20.41.34.png)
+![](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-20.41.34-300x141.png)](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-20.41.34.png)
 
 無事にnginxにアクセスするすることができました。
 
@@ -355,7 +355,7 @@ Podとしてデプロイします。
 
 上記のyamlファイルはNodePortを作るようになっていますので、そこに接続するとOctantのUIにアクセスすることができます。
 
-[![](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-18.45.50-300x191.png)](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-18.45.50.png)[![](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-18.59.47-300x191.png)](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-18.59.47.png)
+![](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-18.45.50-300x191.png)](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-18.45.50.png)![](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-18.59.47-300x191.png)](http://blog.shin.do/wp-content/uploads/2020/01/Screen-Shot-2020-01-06-at-18.59.47.png)
 
 
 ### 今後の予定

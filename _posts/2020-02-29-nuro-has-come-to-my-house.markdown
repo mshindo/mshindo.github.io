@@ -49,41 +49,41 @@ UCOMのサービスは非常に高速かつ安定していて、しかもグロ�
 #### IPv4-フレッツ光(OCN)
 
 
-[![](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v4-2020-02-29-at-5.25.16-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v4-2020-02-29-at-5.25.16.jpg) フレッツ光(OCN) IPv4 早朝
+![](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v4-2020-02-29-at-5.25.16-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v4-2020-02-29-at-5.25.16.jpg) フレッツ光(OCN) IPv4 早朝
 
-[![](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v4-2020-02-29-at-0.10.13-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v4-2020-02-29-at-0.10.13.jpg) フレッツ光(OCN) IPv4 深夜
+![](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v4-2020-02-29-at-0.10.13-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v4-2020-02-29-at-0.10.13.jpg) フレッツ光(OCN) IPv4 深夜
 
 
 #### IPv6-フレッツ光(OCN)
 
 
-[![](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v6-2020-02-29-at-5.32.27-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v6-2020-02-29-at-5.32.27.jpg) フレッツ光(OCN) IPv6 早朝
+![](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v6-2020-02-29-at-5.32.27-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v6-2020-02-29-at-5.32.27.jpg) フレッツ光(OCN) IPv6 早朝
 
-[![](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v6-2020-02-29-at-0.16.55-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v6-2020-02-29-at-0.16.55.jpg) フレッツ光(OCN) IPv6 深夜
+![](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v6-2020-02-29-at-0.16.55-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/FLETS-v6-2020-02-29-at-0.16.55.jpg) フレッツ光(OCN) IPv6 深夜
 
 
 #### IPv4-NURO光
 
 
-[![](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v4-2020-02-29-at-5.28.20-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v4-2020-02-29-at-5.28.20.jpg) NURO IPv4 早朝
+![](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v4-2020-02-29-at-5.28.20-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v4-2020-02-29-at-5.28.20.jpg) NURO IPv4 早朝
 
-[![](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v4-2020-02-29-at-0.12.31-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v4-2020-02-29-at-0.12.31.jpg) NURO IPv4 深夜
+![](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v4-2020-02-29-at-0.12.31-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v4-2020-02-29-at-0.12.31.jpg) NURO IPv4 深夜
 
 
 #### IPv6-NURO光
 
 
-[![](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v6-2020-02-29-at-5.34.09-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v6-2020-02-29-at-5.34.09.jpg) NURO IPv6 早朝
+![](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v6-2020-02-29-at-5.34.09-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v6-2020-02-29-at-5.34.09.jpg) NURO IPv6 早朝
 
-[![](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v6-2020-02-29-at-0.18.38-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v6-2020-02-29-at-0.18.38.jpg) NURO IPv6 深夜
+![](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v6-2020-02-29-at-0.18.38-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/NURO-v6-2020-02-29-at-0.18.38.jpg) NURO IPv6 深夜
 
 
 #### IPv4-UCOM
 
 
-[![](http://blog.shin.do/wp-content/uploads/2020/02/UCOM-v4-2020-02-29-at-5.29.34-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/UCOM-v4-2020-02-29-at-5.29.34.jpg) UCOM IPv4 早朝
+![](http://blog.shin.do/wp-content/uploads/2020/02/UCOM-v4-2020-02-29-at-5.29.34-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/UCOM-v4-2020-02-29-at-5.29.34.jpg) UCOM IPv4 早朝
 
-[![](http://blog.shin.do/wp-content/uploads/2020/02/UCOM-v4-2020-02-29-at-0.15.00-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/UCOM-v4-2020-02-29-at-0.15.00.jpg) UCOM IPv4 深夜
+![](http://blog.shin.do/wp-content/uploads/2020/02/UCOM-v4-2020-02-29-at-0.15.00-150x150.jpg)](http://blog.shin.do/wp-content/uploads/2020/02/UCOM-v4-2020-02-29-at-0.15.00.jpg) UCOM IPv4 深夜
 
 
 #### 考察

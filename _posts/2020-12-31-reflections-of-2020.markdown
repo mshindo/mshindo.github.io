@@ -129,11 +129,11 @@ tags:
 
 
 
-[![](https://blog.shin.do/wp-content/uploads/2020/12/Parasite-225x300.jpg)](https://blog.shin.do/wp-content/uploads/2020/12/Parasite.jpg) パラサイト 半地下の家族（画像ソース：Amazon）
+![](https://blog.shin.do/wp-content/uploads/2020/12/Parasite-225x300.jpg)]  パラサイト 半地下の家族（画像ソース：Amazon）
 
-[![](https://blog.shin.do/wp-content/uploads/2020/12/JoJoRabit-225x300.jpg)](https://blog.shin.do/wp-content/uploads/2020/12/JoJoRabit.jpg) ジョジョ・ラビット（画像ソース：Amazon）
+![](https://blog.shin.do/wp-content/uploads/2020/12/JoJoRabit-225x300.jpg)]  ジョジョ・ラビット（画像ソース：Amazon）
 
-[![](https://blog.shin.do/wp-content/uploads/2020/12/TENET-225x300.jpg)](https://blog.shin.do/wp-content/uploads/2020/12/TENET.jpg) TENET（画像ソース：Amazon）
+![](https://blog.shin.do/wp-content/uploads/2020/12/TENET-225x300.jpg)]  TENET（画像ソース：Amazon）
 
 番外編として「コンテイジョン」はかなり衝撃的でしたね。まるで予言のようでした。
 
@@ -143,15 +143,15 @@ tags:
 
 睡眠は平均5時間36分。去年より20分ほど短くなってました。Work From Homeの影響かもしれません。
 
-[![Sleep Meister 2020](https://blog.shin.do/wp-content/uploads/2020/12/IMG_7315-139x300.png)](https://blog.shin.do/wp-content/uploads/2020/12/IMG_7315.png) Sleep Meisterでの2020年統計
+[![Sleep Meister 2020](https://blog.shin.do/wp-content/uploads/2020/12/IMG_7315-139x300.png)]  Sleep Meisterでの2020年統計
 
 一方、体重は大きく変わりました。3月からほぼ完全リモートワークとなり、家から一歩も出ない日が続くようになりました。特に非常事態宣言の出ていた4月、5月はそれぞれ1日の平均歩数が638歩、368歩という酷いありさま。それもそのはず、この2ヶ月間は家から一歩も出ませんでした。これは流石にいかんだろう、ということで、4月から Nike Training Center (NTC) を使って1日1度15分程度の軽いワークアウトをすることにしました。これが案外楽しくて、ほぼ毎日欠かさずやることとなり、今日がちょうど300回目のワークアウトでした。
 
-[![](https://blog.shin.do/wp-content/uploads/2020/12/IMG_7314-139x300.png)](https://blog.shin.do/wp-content/uploads/2020/12/IMG_7314.png) Nike Training Center300回目
+![](https://blog.shin.do/wp-content/uploads/2020/12/IMG_7314-139x300.png)]  Nike Training Center300回目
 
 それに伴い体重も良い感じで減りましたが、ワークアウトだけでは限界を感じ、8月からは Nike Running Club (NRC) を使って家の周りを走ることにしました。8月からの5ヶ月間で440Km走りました。毎日3〜4Km程度を7分/kmくらいのペースで軽く走っているだけなので、ガチで走る人から見たら早歩き程度だと思いますが、それでもそれなりに効果はありさらに体重は減少。結局今年一年で体重は10.2Kg減、体脂肪率も7.5ポイント下がりました。この習慣は来年も続けていきたいと思います。
 
-[![Weight and Fat Scale](https://blog.shin.do/wp-content/uploads/2020/12/IMG_7317-139x300.png)](https://blog.shin.do/wp-content/uploads/2020/12/IMG_7317.png) 体重と体脂肪率の推移
+[![Weight and Fat Scale](https://blog.shin.do/wp-content/uploads/2020/12/IMG_7317-139x300.png)]  体重と体脂肪率の推移
 
 
 ### 読書
@@ -169,7 +169,7 @@ tags:
 
 また、仕事とは直接関係ありませんが、弊社のDiversity & Inclusionチームと協力して、障がいを持たれた方々が作られたクッキーやコーヒーを社員の皆さんにお届けする、というプロジェクトにも取り組みました。このような機会をくれた [Sweet Heart Project](https://sweet-hearts.org/) さんに感謝です。いろいろと乗り越えなければいけない壁がありかなり大変でしたが、なんとかクリスマスプレゼントとして社員の皆さんにお届けすることができました。来年以降も何かしらの形でやっていきたいと思います。
 
-[![](https://blog.shin.do/wp-content/uploads/2020/12/Sweet-Heart-Project-300x225.jpg)](https://blog.shin.do/wp-content/uploads/2020/12/Sweet-Heart-Project-scaled.jpg) Sweet Heart Projectからのクッキーとコーヒー詰め合わせ
+![](https://blog.shin.do/wp-content/uploads/2020/12/Sweet-Heart-Project-300x225.jpg)]  Sweet Heart Projectからのクッキーとコーヒー詰め合わせ
 
 
 ### プライベート
@@ -177,7 +177,7 @@ tags:
 
 プライベートでの大きな変化は、長男長女が相次いで結婚したことですね。長男は、沖縄でのコロナの状況が悪化する直前に滑り込みで結婚式をあげることができました。長女の結婚式は来年予定。旅立つのはあっという間ですね。
 
-[![](https://blog.shin.do/wp-content/uploads/2020/12/Wedding-2020-225x300.jpg)](https://blog.shin.do/wp-content/uploads/2020/12/Wedding-2020-scaled.jpg) 結婚式2020@沖縄
+![](https://blog.shin.do/wp-content/uploads/2020/12/Wedding-2020-225x300.jpg)]  結婚式2020@沖縄
 
 残念ながら今年はライブ活動はほとんどできませんでした。コロナ直前にバンド仲間でセッションをやったのと（セッションは初体験で楽しかったです！）、社内で各国から有志メンバーを募り[音楽ビデオクリップ](https://www.youtube.com/watch?v=zItYfuZrI64)を作るというのもやりました。昨今、音楽のテクノロジーも進んでいて、離れていても創作活動が出来ちゃうのにびっくりしました。
 

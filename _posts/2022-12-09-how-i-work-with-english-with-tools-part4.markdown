@@ -20,13 +20,13 @@ tags:
 
 [前回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part3/)は辞書サービスについて紹介をしました。今回は、翻訳ツールについてお話をします。翻訳ツールは皆さんも日々お世話になっていることと思います。一番よく知られているのは**Google翻訳**でしょう。5,000文字までならブラウザに翻訳したい文章を貼り付けるだけで翻訳をしてくれます。この冒頭のパラグラフをGoogle翻訳にかけると以下のようになります。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Google-Translate-1024x460.png)](https://blog.shin.do/wp-content/uploads/2022/12/Google-Translate.png)
+![](https://blog.shin.do/wp-content/uploads/2022/12/Google-Translate-1024x460.png)] 
 
 また、Webページをライブ（オンザフライ）で翻訳することもできます。この機能は結構便利です。英語圏の人に日本語のWebページを読んでもらいたいときに、Google翻訳したページのURLを送れば、英語で読んでもらうことができます。例えば、この記事を英訳したものを読みたければこの[URL](https://blog-shin-do.translate.goog/2022/12/how-i-work-with-english-with-tools-part4/?_x_tr_sl=auto&_x_tr_tl=ja&_x_tr_hl=ja&_x_tr_pto=wapp)をアクセスすると英語で読むことができます。
 
 Google翻訳は便利なんですが、翻訳クオリティ的にはちょっとイマイチかなという感触です。Goolgle翻訳に代わるものとしては、その精度の高さから最近特に広く使われるようになっているのが**DeepL **（「ディープル」ではなく「ディープ・エル」と発音するのが正しいようです）というサービスです。Google翻訳同様、Webのインターフェースでテキストを貼り付けると翻訳をしてくれます。私は使ったことはないですが、WordやPowerPointのファイルを与えると、その中に含まれるテキストを翻訳してくれる機能などもあるようです。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/DeepL-1024x540.png)](https://blog.shin.do/wp-content/uploads/2022/12/DeepL.png)
+![](https://blog.shin.do/wp-content/uploads/2022/12/DeepL-1024x540.png)] 
 
 DeepLにも無料のプランと有料のプランがあって、有料にすると文字数の制限がなくなったり、機密保持の観点から翻訳をかけたテキストを翻訳後に自動的に削除してくれる機能なども使えるようになります。パーソナルな使い方なら無料版でも十分な気がしますが、社内のメールやドキュメント書きに使う場合は、会社のポリシーを十分に確認したほうが良いと思います。
 

@@ -128,11 +128,11 @@ https://twitter.com/motonori_shindo/status/1527467774653517824
   3. ビリオンダラーコード
 
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/George-Michael-Freedom-Uncut-210x300.png)](https://blog.shin.do/wp-content/uploads/2022/12/George-Michael-Freedom-Uncut.png) https://movies.yahoo.co.jp/movie/383184/
+![](https://blog.shin.do/wp-content/uploads/2022/12/George-Michael-Freedom-Uncut-210x300.png)]  https://movies.yahoo.co.jp/movie/383184/
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Linda-Ronstadt-The-Sound-of-My-Voice-209x300.png)](https://blog.shin.do/wp-content/uploads/2022/12/Linda-Ronstadt-The-Sound-of-My-Voice.png) https://movies.yahoo.co.jp/movie/381274/
+![](https://blog.shin.do/wp-content/uploads/2022/12/Linda-Ronstadt-The-Sound-of-My-Voice-209x300.png)]  https://movies.yahoo.co.jp/movie/381274/
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Billion-Dollar-Code-169x300.jpeg)](https://blog.shin.do/wp-content/uploads/2022/12/Billion-Dollar-Code.jpeg) https://www.netflix.com/title/81074012
+![](https://blog.shin.do/wp-content/uploads/2022/12/Billion-Dollar-Code-169x300.jpeg)]  https://www.netflix.com/title/81074012
 
 なぜか音楽ものが多くなりました。今年は「これがイチオシ！」という作品はなかったように思います。
 
@@ -142,7 +142,7 @@ https://twitter.com/motonori_shindo/status/1527467774653517824
 
 今年は9冊（うち洋書が1冊）。全体としてはまだまだ少ないですが、今年はいわゆる「純粋な技術書」は読みませんでした。全く読まないつもりだったわけではないのですが、毎年技術書しか読まなことを深く反省していたので、この部分に関しては今年は大きな進歩があった、と言えそうです。政治、科学、生物学、物理学、組織論、などに関する本などを読みましたが、今年読んで良かったものはなんといっても「**Kafka on the Shore**」です。みなさんよくご存知の村上春樹の「海辺のカフカ」の英語版です。今まで技術書を原書（英語）で読むことは多かったのですが、non技術書の長編を英語で読んだのは今回が初めてでした。村上春樹は好き嫌いが分かれると思いますが、私は大好きなので、これも大いに楽しめました。後半はもう読むのが止められない、という感じ。とはいうものの、やはり英語で読むのには時間がかかります。これを読むだけで3ヶ月くらいかかったかな。このせいで今年の読書の冊数が少なめになってしまいました。ちょっと長いですが、Kafka on the Shore、春樹がお好きならお薦めですよ！
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Kafka-on-the-Shore-194x300.jpeg)](https://blog.shin.do/wp-content/uploads/2022/12/Kafka-on-the-Shore.jpeg) https://www.amazon.co.jp/Kafka-Shore-Vintage-International-English-ebook/dp/B000FC2ROU/ より引用
+![](https://blog.shin.do/wp-content/uploads/2022/12/Kafka-on-the-Shore-194x300.jpeg)]  https://www.amazon.co.jp/Kafka-Shore-Vintage-International-English-ebook/dp/B000FC2ROU/ より引用
 
 
 ## バイタル＆健康
@@ -150,19 +150,19 @@ https://twitter.com/motonori_shindo/status/1527467774653517824
 
 今年は2Kgほど体重が増えました。大きいリバウンドは回避できているものの、このままだと数年後には元に戻ってしまうかも。気をつけなければ。。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Weight-2022-139x300.png)](https://blog.shin.do/wp-content/uploads/2022/12/Weight-2022.png)
+![](https://blog.shin.do/wp-content/uploads/2022/12/Weight-2022-139x300.png)] 
 
 今年初めていわゆるマラソン大会に参加しました。マラソンといっても7kmですが＾＾；　みなとみらいの周りを走る大会があったので参加をしてみました。最近のランニング大会はいろいろテクノロジーが活用されているのですね。RFIDタグをつけてゲート間の時間を記録してくれたり、自分が写っている写真をゼッケン番号から画像認識で自動的にピックアップしてくれたり。アベマでの中継もありました。
 
 昨年から継続して、家の周りのランニングも続けています。今年は去年に比べると走る時間が取れず不甲斐ない結果となってしまいました（ちなみに去年は1,200kmほど走りました）。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/NRC-2022-139x300.png)](https://blog.shin.do/wp-content/uploads/2022/12/NRC-2022.png)
+![](https://blog.shin.do/wp-content/uploads/2022/12/NRC-2022-139x300.png)] 
 
 相変わらず走った後に稀に血尿が出ることがありますが、他に特に大きな病気をすることはありませんでした。また、幸いコロナに罹患することもありませんでした（濃厚接触者にはなったのですが、なんとか感染は免れました＾＾）。
 
 今年の平均睡眠時間は5時間54分。去年より若干増えました。これくらい眠れてれば十分ですね。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Sleep-2022-139x300.png)](https://blog.shin.do/wp-content/uploads/2022/12/Sleep-2022.png)
+![](https://blog.shin.do/wp-content/uploads/2022/12/Sleep-2022-139x300.png)] 
 
 
 ## 仕事
@@ -199,11 +199,11 @@ https://twitter.com/motonori_shindo/status/1527467774653517824
 
 乗るだけでデータが自動的にクラウド側にアップロードされるWithingsの Smart Body Analyzer（ヘルスメータ）は大変便利で、長年愛用してきたのですが、今年、同社のBody Cardioという製品にアップグレードしました。利便性はそのままで、今まで測れなかった筋肉量などが測れるようになって大変満足しています。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Withings-Body-Cardio-300x275.jpg)](https://blog.shin.do/wp-content/uploads/2022/12/Withings-Body-Cardio.jpg) https://www.amazon.co.jp/gp/product/B07B4RFH3Y/
+![](https://blog.shin.do/wp-content/uploads/2022/12/Withings-Body-Cardio-300x275.jpg)]  https://www.amazon.co.jp/gp/product/B07B4RFH3Y/
 
 また、髭剃りも今年買い替えました。今まではPanasonicのラムダッシュ派だったのですが、今回初めてPhilipsにしてみました。ラムダッシュに比べると深剃り感が薄いので、最初はなんとなく物足りなかったのですが、慣れてくるとこれはこれでいいのかも、と思うようになりました。あんまり役に立ちませんが、Bluetoothで接続してアプリからコントロールもできます。髭剃りもそういう時代になってきたのか、と妙に感心してしまいました。でも、まあ、あまり役に立たないアプリなんですが（しつこい）。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Philips-S9985-300x269.jpg)](https://blog.shin.do/wp-content/uploads/2022/12/Philips-S9985.jpg) https://www.amazon.co.jp/dp/B09QL4Q7W4/
+![](https://blog.shin.do/wp-content/uploads/2022/12/Philips-S9985-300x269.jpg)]  https://www.amazon.co.jp/dp/B09QL4Q7W4/
 
 
 

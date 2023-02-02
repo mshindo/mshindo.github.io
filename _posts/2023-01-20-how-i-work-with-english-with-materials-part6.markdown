@@ -2,6 +2,7 @@
 date: 2023-01-20 12:44:35+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 6〜
+image: '/images/jexo-Zl5lpzbK63Q-unsplash.jpg'
 categories:
 - 仕事
 language:
@@ -21,25 +22,27 @@ tags:
 
 リスニングに関しては**NPR News Now**、**BBC Global News**、**HAPA英会話**などのPodcastを聴くようにしています。ただ、これらを全部聴いていると結構長い時間が必要になってしまいます。そこで私は、これらのPodcastは、基本ランニング中に聞くようにしています。元々走るのは大嫌いだったのですが、2020年のコロナ禍で家からあまり出なくなってしまい（1日の歩数が月平均で300歩程度という月が数ヶ月続きました。流石に酷すぎますね^^;）、このままではさすがに不健康であろうということで、家の周りを少し走るようになりました。その時間を利用してPodcastを聴くようにしています。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/kate-trifo-jf_YIwWKg8Q-unsplash-300x205.jpg)](https://blog.shin.do/wp-content/uploads/2022/12/kate-trifo-jf_YIwWKg8Q-unsplash-scaled.jpg) Podcastは基本ランニング中に。
+{: align="center"}
+![](https://blog.shin.do/wp-content/uploads/2022/12/kate-trifo-jf_YIwWKg8Q-unsplash-300x205.jpg)
+*Podcastは基本ランニング中に*
 
 その際に活躍してくれるのが、**Apple Watch**と**AirPods Pro**です。iPhoneを持ち歩くことなく、Podcastを聴けるので大変便利。その上、AppleWatchは走った距離やバイタルを記録してくれるので、もう手放せないですね。AppleWatchにはGPS+CellularモデルとGPSモデルがありますが、このような使い方をするならGPS+Cellularが圧倒的にお勧めです。格安モバイルブランドの中でもahamoはワンナンバーサービスが利用できますので、AppleWatchのGPS+Cellularモデルを活用することができます。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/AppleWatch-300x289.png)](https://blog.shin.do/wp-content/uploads/2022/12/AppleWatch.png)
+{: align="center"}
+![](https://blog.shin.do/wp-content/uploads/2022/12/AppleWatch-300x289.png)
 
 AirPods Proの「アクティブノイズキャンセリング機能の優秀さは定評がありますが、AirPods Proは「外部オン取り込みモード」にすることもできます。このモードにしておくと、走っている最中に後ろから来る車の音などもちゃんと聞こえて安心です。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/AirPodsPro-300x262.png)](https://blog.shin.do/wp-content/uploads/2022/12/AirPodsPro.png)
-
-
+{: align="center"}
+![](https://blog.shin.do/wp-content/uploads/2022/12/AirPodsPro-300x262.png)
 
 * * *
 
-
-
 最後にお話をするのはObservabilityです。何事にも「見える化」は大切ですよね。上記のような学習の時間を記録するするために、私は「**Studyplus**」というアプリを使っています。このアプリ使うと、毎日の何にどれくらい時間を使ったかを簡単に記録をすることができます。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Studyplus-300x280.png)](https://blog.shin.do/wp-content/uploads/2022/12/Studyplus.png) Studyplusの画面
+{: align="center"}
+![](https://blog.shin.do/wp-content/uploads/2022/12/Studyplus-300x280.png)
+*Studyplusの画面*
 
 
 
@@ -51,7 +54,8 @@ AirPods Proの「アクティブノイズキャンセリング機能の優秀さ
 
 「[私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 1〜](https://blog.shin.do/2023/01/how-i-work-with-english-with-materials-part1/)」の冒頭で簡単な数式を紹介しました。最後にまた簡単な数式で締めたいと思います。
 
-[![](https://blog.shin.do/wp-content/uploads/2022/12/Equation-365days-300x108.png)](https://blog.shin.do/wp-content/uploads/2022/12/Equation-365days.png)
+{: align="center"}
+![](https://blog.shin.do/wp-content/uploads/2022/12/Equation-365days-300x108.png)
 
 この式の意味するところは、一目瞭然です。1日に1%の向上を目指して、それを365日（1年間）続ける、一年後には37倍の力がついている、と。 一方、毎日1%ずつサボっていくと1年後には 2.5%（1/40）の実力になってしまう、ということです。「**継続は力なり**」ですね。
 
@@ -63,7 +67,7 @@ AirPods Proの「アクティブノイズキャンセリング機能の優秀さ
 
 今回の一連の「私、英語とこんな付き合い方をしています（ツール編、マテリアル編）」の記事は、以前に私がVMware社内で行ったウェビナー（Zoomでやりました）の内容を書き起こして修正加筆をしたものであることは、シリーズ記事の冒頭でご説明しました。
 
-しかし、ただ単にZoomのレコーディングを聞き直して文字に書き起こすのでは能がないので、今回は少しだけテクノロジーを活用することにしました。具体的には、Zoomのレコーディング（*.mp4）ファイルから音声だけを取り出して（MacならQuickTime Playerで簡単に行えます）*.m4aファイルに変換し、そのファイルをWindows上のOffice 365のWordの**トランスクリプト機能**を使ってテキストファイルに書き起こしをしました。そのようにしてできたテキストに修正加筆を行いブログの記事にしました。以下の動画はその時の作業の様子です。
+しかし、ただ単にZoomのレコーディングを聞き直して文字に書き起こすのでは能がないので、今回は少しだけテクノロジーを活用することにしました。具体的には、Zoomのレコーディング（mp4）ファイルから音声だけを取り出して（MacならQuickTime Playerで簡単に行えます）m4aファイルに変換し、そのファイルをWindows上のOffice 365のWordの**トランスクリプト機能**を使ってテキストファイルに書き起こしをしました。そのようにしてできたテキストに修正加筆を行いブログの記事にしました。以下の動画はその時の作業の様子です。
 
 [video width="960" height="540" mp4="https://blog.shin.do/wp-content/uploads/2022/12/Microsoft-Word-Dictation-Transcript.mp4"][/video]
 
