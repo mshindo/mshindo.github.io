@@ -20,7 +20,7 @@ tags:
 
 [前回](https://blog.shin.do/2023/01/how-i-work-with-english-with-materials-part4)はPodcastについてご紹介をしました。今回ご紹介する素材は「読み物」です。英語の読み物も星の数ほどありますので、「これが定番イチオシ」というものはないのですが、私が読んでいる（あるいは読んだ）ものを紹介したいと思います。
 
-「[私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 2〜](https://blog.shin.do/2022/12/how-i-work-with-english-with-materials-part2)」で少し紹介しましたが、ニュース記事としては私は「**AP News**」を読んでいます。
+「[私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 2〜](https://blog.shin.do/2023/01/how-i-work-with-english-with-materials-part2)」で少し紹介しましたが、ニュース記事としては私は「**AP News**」を読んでいます。
 
 {: align="center"}
 ![]({{site.baseurl}}/images/AP-News-139x300.png)
