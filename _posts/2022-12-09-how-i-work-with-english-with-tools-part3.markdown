@@ -19,7 +19,7 @@ keywords:
 ## リーディング・ライティング：辞書
 
 
-[前回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part2)はプレイン・イングリッシュの話をしましたが、今回のテーマは辞書です。リーディング、ライティングのどちらのシーンでも必要になります。辞書サービスとしては、おそらく[Weblio](https://ejje.weblio.jp/)と[英辞郎](https://eow.alc.co.jp/)の二つが代表格だと思います。どちらも似たようなサービスで、無料プラン、無料だが登録が必要なプラン、有料プランがあり、登録すると単語帳が作れるようになったり、月300円払って有料会員になると広告フリーとなり、より多くの単語帳が作れるようになったりします。
+[前回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part2/)はプレイン・イングリッシュの話をしましたが、今回のテーマは辞書です。リーディング、ライティングのどちらのシーンでも必要になります。辞書サービスとしては、おそらく[Weblio](https://ejje.weblio.jp/)と[英辞郎](https://eow.alc.co.jp/)の二つが代表格だと思います。どちらも似たようなサービスで、無料プラン、無料だが登録が必要なプラン、有料プランがあり、登録すると単語帳が作れるようになったり、月300円払って有料会員になると広告フリーとなり、より多くの単語帳が作れるようになったりします。
 
 以下、両サービスの画面の例です。英辞郎の方は無料プランなので広告がいっぱいです（笑）
 
@@ -53,6 +53,6 @@ Quizletには単語カードやマッチゲームの他に「学習モード」�
 ## 次回
 
 
-辞書サービスについては以上です。[次回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part4)は翻訳サービスについてお話をしたいと思います。
+辞書サービスについては以上です。[次回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part4/)は翻訳サービスについてお話をしたいと思います。
 
 Photo by [Edho Pratama](https://unsplash.com/ja/@edhoradic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/dictionary?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

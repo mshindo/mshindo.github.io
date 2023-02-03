@@ -14,7 +14,7 @@ keywords:
 - Open vSwitch
 ---
 
-[先日のBlog](https://blog.shin.do/2014/05/geneve-encapsulation)でGeneveという新しいEncapsulation方式について紹介をしましたが、さっそくOpen vSwitch（OVS）に実装されmasterにマージされましたので試してみました。今回はGeneveを検証する事が目的ですので、KVMなどは使わずに、単純に異なるホストにある2つのOVS BridgeをGeneveトンネルで繋いでみることにします。VMware FusionでUbuntu 14.04を2つ（host-1、host-2）動かし、それぞれgithubから取ってきた最新のOVSをインストールしました。各仮想マシンにはNATによるEthernetインターフェースを1つ設定し、DHCPでアドレスをとる事にします。以下の例ではそれぞれのホストで192.168.203.151と192.168.203.149というIPアドレスがDHCPで取れた場合の例です。Bridgeを2つ（br0、br1）作成し、br0を物理ネットワークと接続するブリッジとし、br1の間にGeneveのトンネルを張る事にします。
+[先日のBlog](https://blog.shin.do/2014/05/geneve-encapsulation/)でGeneveという新しいEncapsulation方式について紹介をしましたが、さっそくOpen vSwitch（OVS）に実装されmasterにマージされましたので試してみました。今回はGeneveを検証する事が目的ですので、KVMなどは使わずに、単純に異なるホストにある2つのOVS BridgeをGeneveトンネルで繋いでみることにします。VMware FusionでUbuntu 14.04を2つ（host-1、host-2）動かし、それぞれgithubから取ってきた最新のOVSをインストールしました。各仮想マシンにはNATによるEthernetインターフェースを1つ設定し、DHCPでアドレスをとる事にします。以下の例ではそれぞれのホストで192.168.203.151と192.168.203.149というIPアドレスがDHCPで取れた場合の例です。Bridgeを2つ（br0、br1）作成し、br0を物理ネットワークと接続するブリッジとし、br1の間にGeneveのトンネルを張る事にします。
 
 [![Geneve Test with Open vSwitch]({{site.baseurl}}/images/geneve-test.svg) Geneve Test with Open vSwitch
 

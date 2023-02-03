@@ -18,7 +18,7 @@ keywords:
 ## ライティング：プレイン・イングリッシュ
 
 
-[前回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part1)は、文章（主に文法的な）校正に関するツールを紹介しました。今回は文体に関するお話をしたいと思います。
+[前回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part1/)は、文章（主に文法的な）校正に関するツールを紹介しました。今回は文体に関するお話をしたいと思います。
 
 そもそも、皆さん、英語を書く時に「カッコいい英語」を書きたいと思って書いていることが多いんではないでしょうか。例えば、関係代名詞がビシッと入ってて、受動態使って格式高く、さらにちょっと小難しい単語が入った英語が使えたらなんとなくカッコいいですよね？
 
@@ -38,7 +38,7 @@ Wikipediaによると「プレイン・イングリッシュ」は、
 
 プレイン・イングリッシュの考えに基づくと、この本の表紙にあるように、"There is no one who doesn't know Ichiro." と書くより "Everybody knows Ichiro." と書くべきである、ということになります。日本語だと「イチローを知らない人はいない」という文は自然ですが、それをそのまま英訳すると前者のようになってしまうわけです。「知らない人がいない」のなら「みんな知っている」ということなので、そのように表現する。それがプレイン・イングリッシュということなんですね。なんかすごく安っぽい英語に見えるかもしれませんが、実は簡潔で品格がある英語である、ということになるのです。
 
-自分がふだん書いている英語に自信がなくなってきましたか？　朗報があります。皆さんが書いた英語がどれぐらいプレイン・イングリッシュなのかを調べるツールがあるのです。[English Readability Analyzer](https://jpelc.org/readability/)というツールです。このWebサイトにアクセスしてテキストを入力するとプレイン・イングリッシュ度診断をしてくれます。例えば、私の英語[ブログ記事](https://blog.shin.do/2019/10/overlay-technologies-and-me-en)の最初のパラグラフを与えると、以下のような診断結果を出してくれます。
+自分がふだん書いている英語に自信がなくなってきましたか？　朗報があります。皆さんが書いた英語がどれぐらいプレイン・イングリッシュなのかを調べるツールがあるのです。[English Readability Analyzer](https://jpelc.org/readability/)というツールです。このWebサイトにアクセスしてテキストを入力するとプレイン・イングリッシュ度診断をしてくれます。例えば、私の英語[ブログ記事](https://blog.shin.do/2019/10/overlay-technologies-and-me-en/)の最初のパラグラフを与えると、以下のような診断結果を出してくれます。
 
 ![]({{site.baseurl}}/images/My-score-as-plain-English.png)
 
@@ -53,6 +53,6 @@ Wikipediaによると「プレイン・イングリッシュ」は、
 ## 次回
 
 
-今回はプレイン・イングリッシュについてお話ししました。このような視点もあるので、皆さん自信を持って英語を書いていきましょう！　[次回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part3)は辞書サービスのお話をしようと思います。
+今回はプレイン・イングリッシュについてお話ししました。このような視点もあるので、皆さん自信を持って英語を書いていきましょう！　[次回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part3/)は辞書サービスのお話をしようと思います。
 
 Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/simple?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

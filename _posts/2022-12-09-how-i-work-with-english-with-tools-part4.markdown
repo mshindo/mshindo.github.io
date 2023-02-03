@@ -19,7 +19,7 @@ keywords:
 ## 翻訳ツール
 
 
-[前回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part3)は辞書サービスについて紹介をしました。今回は、翻訳ツールについてお話をします。翻訳ツールは皆さんも日々お世話になっていることと思います。一番よく知られているのは**Google翻訳**でしょう。5,000文字までならブラウザに翻訳したい文章を貼り付けるだけで翻訳をしてくれます。この冒頭のパラグラフをGoogle翻訳にかけると以下のようになります。
+[前回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part3/)は辞書サービスについて紹介をしました。今回は、翻訳ツールについてお話をします。翻訳ツールは皆さんも日々お世話になっていることと思います。一番よく知られているのは**Google翻訳**でしょう。5,000文字までならブラウザに翻訳したい文章を貼り付けるだけで翻訳をしてくれます。この冒頭のパラグラフをGoogle翻訳にかけると以下のようになります。
 
 ![]({{site.baseurl}}/images/Google-Translate-1024x460.png)
 
@@ -73,6 +73,6 @@ DeepL翻訳： I learned about this article from someone who has been working wi
 ## 次回
 
 
-さて、翻訳サービスについては以上となります。[次回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part5)は、リスニング編をお届けする予定です。
+さて、翻訳サービスについては以上となります。[次回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part5/)は、リスニング編をお届けする予定です。
 
 Photo by [Tim Wildsmith](https://unsplash.com/fr/@timwildsmith?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/translation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

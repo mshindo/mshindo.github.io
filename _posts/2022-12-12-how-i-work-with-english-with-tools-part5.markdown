@@ -20,7 +20,7 @@ keywords:
 ## リスニング：字幕ツール
 
 
-[前回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part4)は各種翻訳サービスの比較を行いました。今回はリスニング系のお話をしていこうと思います。リスニングを鍛えるには、ともかく多くのコンテンツを聞くことが重要なのは、おそらく誰しもが理解していると思います。分かっちゃいるが、それはがなかなか難しいので、皆困っているわけです（笑）。多く聞くには、自分にとって面白いコンテンツ、自分が好きなコンテンツでないと難しいと思いますし、長続きしません。私は映画が好きなので、映画が最もとっつきやすいコンテンツです。NetflixやAmazon Prime Videoなどのストリーミングサービスに入っているので、これを使わない手はありません。
+[前回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part4/)は各種翻訳サービスの比較を行いました。今回はリスニング系のお話をしていこうと思います。リスニングを鍛えるには、ともかく多くのコンテンツを聞くことが重要なのは、おそらく誰しもが理解していると思います。分かっちゃいるが、それはがなかなか難しいので、皆困っているわけです（笑）。多く聞くには、自分にとって面白いコンテンツ、自分が好きなコンテンツでないと難しいと思いますし、長続きしません。私は映画が好きなので、映画が最もとっつきやすいコンテンツです。NetflixやAmazon Prime Videoなどのストリーミングサービスに入っているので、これを使わない手はありません。
 
 もし、皆さん、Netflixに加入しているなら、**Language Learning with Netflix**（現在は**Language Reactor**という名前に変わっており、Netflixだけでなく、YouTubeなどにも対応しています）というChrome用拡張は超オススメです。もうこれは神アプリだと思ってます。
 
@@ -66,6 +66,6 @@ Otter.aiにも無料と有料のプランがあります。無料だとひと月
 ## 次回
 
 
-今回はリスニングに役に立ちそうなツールを中心にお話をしました。ここまでが2020年7月にヴイエムウェア社内で話した「私、英語とこんな付き合い方をしています（ツール編）」の内容となります。しかし、それから日にちが経ち、色々と新しいサービスなども出てきたので、[次回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part6)は2020年7月以降のアップデートをお届けしたいと思います。
+今回はリスニングに役に立ちそうなツールを中心にお話をしました。ここまでが2020年7月にヴイエムウェア社内で話した「私、英語とこんな付き合い方をしています（ツール編）」の内容となります。しかし、それから日にちが経ち、色々と新しいサービスなども出てきたので、[次回](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part6/)は2020年7月以降のアップデートをお届けしたいと思います。
 
 Photo by [Alex Litvin](https://unsplash.com/@alexlitvin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/movie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

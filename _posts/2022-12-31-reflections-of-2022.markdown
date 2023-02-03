@@ -153,13 +153,13 @@ https://twitter.com/motonori_shindo/status/1527467774653517824
 ![]({{site.baseurl}}/images/Philips-S9985-300x269.jpg) https://www.amazon.co.jp/dp/B09QL4Q7W4/
 
 
-なお、MacBook Pro解体用ドライバについてはこちらの[記事](https://blog.shin.do/2022/12/general-cleaning-of-macbook-pro)を参照ください。
+なお、MacBook Pro解体用ドライバについてはこちらの[記事](https://blog.shin.do/2022/12/general-cleaning-of-macbook-pro/)を参照ください。
 
 
 ## Blog
 
 
-今年はこの記事を含めて11本、英語での投稿はなし。12月に投稿した「[私、英語とこんな付き合い方をしています（ツール編）](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part1)」が6本ありましたので、これでだいぶ稼いだ感じです。来年はこの続編で「私、英語とこんな付き合い方をしています（マテリアル編）」を6回に渡ってお届けする予定です。
+今年はこの記事を含めて11本、英語での投稿はなし。12月に投稿した「[私、英語とこんな付き合い方をしています（ツール編）](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part1/)」が6本ありましたので、これでだいぶ稼いだ感じです。来年はこの続編で「私、英語とこんな付き合い方をしています（マテリアル編）」を6回に渡ってお届けする予定です。
 
 なお、今までBlogのプラットフォームはWordpressを使ってきましたが、来年は別のプラットフォームに移行をしたいなと思っています。
 
