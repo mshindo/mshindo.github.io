@@ -19,7 +19,7 @@ tags:
 ## Podcast
 
 
-[前回](https://blog.shin.do/2023/01/how-i-work-with-english-with-materials-part3/)はドラマを中心に紹介をしました。今回紹介する素材はPodcastです。英語のPodcastはたくさんありますので、網羅的に紹介するのは不可能です。というわけで、私が日々お世話になっているPodcastをいくつか紹介することにしましょう。
+[前回](https://blog.shin.do/2023/01/how-i-work-with-english-with-materials-part3)はドラマを中心に紹介をしました。今回紹介する素材はPodcastです。英語のPodcastはたくさんありますので、網羅的に紹介するのは不可能です。というわけで、私が日々お世話になっているPodcastをいくつか紹介することにしましょう。
 
 まず一つ目は「**Hapa英会話Podcast**」です。割と有名だと思いますので、ご存じ・ご利用されている方も多いかと。アメリカと日本のハーフのJun SenesacさんがやっているPodcastです。1エピソードおおよそ30分、週一ぐらいで配信をしてくれています。
 
@@ -74,7 +74,7 @@ BBC Global Newsを聞くと日本のニュースがいかにドメスティッ�
 
 
 
-Podcastで最後にご紹介をするのが「**Joe Rogan Expericence**」というPodcastです。非常に有名なPodcastなのですが、日本での知名度はそれほどでもないかもしれません。実はこのPodcast、2019年には世界配信ランキングで世界一になったこともあるくらい人気なんです。Joe Roganという人がさまざま分野の人を招いて対談をするっていうトークショー形式のPodcastです。このPodcastについては「[ツール編 Part 6](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part6/)」でも少しだけ言及しました。
+Podcastで最後にご紹介をするのが「**Joe Rogan Expericence**」というPodcastです。非常に有名なPodcastなのですが、日本での知名度はそれほどでもないかもしれません。実はこのPodcast、2019年には世界配信ランキングで世界一になったこともあるくらい人気なんです。Joe Roganという人がさまざま分野の人を招いて対談をするっていうトークショー形式のPodcastです。このPodcastについては「[ツール編 Part 6](https://blog.shin.do/2022/12/how-i-work-with-english-with-tools-part6)」でも少しだけ言及しました。
 
 
 

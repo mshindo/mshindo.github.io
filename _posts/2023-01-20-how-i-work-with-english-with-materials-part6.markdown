@@ -12,7 +12,7 @@ tags:
 - 英語学習
 ---
 
-[前回](https://blog.shin.do/2023/01/how-i-work-with-english-with-materials-part5/)は最後の素材として「読み物」を取り上げました。今回は少し素材（マテリアル）からは外れますが、私が日々の習慣としてどのように英語に取り組んでいるのかについてお話をしようと思います。そして、最後にこの一連のブログをどのように作成をしたかについても簡単に触れようと思います。
+[前回](https://blog.shin.do/2023/01/how-i-work-with-english-with-materials-part5)は最後の素材として「読み物」を取り上げました。今回は少し素材（マテリアル）からは外れますが、私が日々の習慣としてどのように英語に取り組んでいるのかについてお話をしようと思います。そして、最後にこの一連のブログをどのように作成をしたかについても簡単に触れようと思います。
 
 
 ## 進藤の日課
@@ -52,7 +52,7 @@ AirPods Proの「アクティブノイズキャンセリング機能の優秀さ
 ## 最後に
 
 
-「[私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 1〜](https://blog.shin.do/2023/01/how-i-work-with-english-with-materials-part1/)」の冒頭で簡単な数式を紹介しました。最後にまた簡単な数式で締めたいと思います。
+「[私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 1〜](https://blog.shin.do/2023/01/how-i-work-with-english-with-materials-part1)」の冒頭で簡単な数式を紹介しました。最後にまた簡単な数式で締めたいと思います。
 
 {: align="center"}
 ![]({{site.baseurl}}/images/Equation-365days-300x108.png)

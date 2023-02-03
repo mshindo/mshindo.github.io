@@ -16,7 +16,7 @@ tags:
 - velocloud
 ---
 
-[こちら](http://blog.shin.do/2020/02/nuro-has-come-to-my-house/)の記事で書いた通り、現在我が家には3つのインターネット回線が引かれている状態です。VeloCloudのEdgeは回線のlatency、jitter、packet lossを測って可視化してくれる機能を持っていますので、今回はこの機能を使って各回線の品質を調べてみました。
+[こちら](http://blog.shin.do/2020/02/nuro-has-come-to-my-house)の記事で書いた通り、現在我が家には3つのインターネット回線が引かれている状態です。VeloCloudのEdgeは回線のlatency、jitter、packet lossを測って可視化してくれる機能を持っていますので、今回はこの機能を使って各回線の品質を調べてみました。
 
 結果は以下の通りです（グラフをクリックすると拡大されます）。
 
