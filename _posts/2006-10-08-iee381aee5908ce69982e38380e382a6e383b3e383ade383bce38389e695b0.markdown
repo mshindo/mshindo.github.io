@@ -2,8 +2,8 @@
 date: 2006-10-08 16:48:10+00:00
 layout: post
 title: IEの同時ダウンロード数
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

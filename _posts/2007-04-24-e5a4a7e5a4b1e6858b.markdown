@@ -2,7 +2,7 @@
 date: 2007-04-24 01:36:50+00:00
 layout: post
 title: 大失態
-categories:
+tags:
 - 日常
 language:
 - 日本語

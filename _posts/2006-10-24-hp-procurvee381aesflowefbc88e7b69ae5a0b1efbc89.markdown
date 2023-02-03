@@ -2,8 +2,8 @@
 date: 2006-10-24 14:03:09+00:00
 layout: post
 title: HP ProCurveのsFlow（続報）
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

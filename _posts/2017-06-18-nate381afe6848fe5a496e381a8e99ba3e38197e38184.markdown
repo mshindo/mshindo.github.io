@@ -2,13 +2,13 @@
 date: 2017-06-18 22:41:27+00:00
 layout: post
 title: NATは意外と難しい
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 post_translations:
 - pll_594789e5bcf97
-tags:
+keywords:
 - NAT
 ---
 

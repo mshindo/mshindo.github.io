@@ -2,7 +2,7 @@
 date: 2017-06-19 15:00:42+00:00
 layout: post
 title: NAT still can be tricky
-categories:
+tags:
 - Computer and Networking
 language:
 - English

@@ -2,7 +2,7 @@
 date: 2008-10-04 06:18:10+00:00
 layout: post
 title: 日本人の英語
-categories:
+tags:
 - 本
 language:
 - 日本語

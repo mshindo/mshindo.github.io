@@ -2,7 +2,7 @@
 date: 2008-08-02 07:32:05+00:00
 layout: post
 title: INTEROP2008講演アンケート結果
-categories:
+tags:
 - 仕事
 language:
 - 日本語

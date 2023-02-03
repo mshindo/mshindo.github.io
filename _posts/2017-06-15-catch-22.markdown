@@ -2,7 +2,7 @@
 date: 2017-06-15 14:09:11+00:00
 layout: post
 title: Catch-22
-categories:
+tags:
 - 仕事
 language:
 - 日本語

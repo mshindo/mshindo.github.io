@@ -2,7 +2,7 @@
 date: 2007-01-23 13:59:52+00:00
 layout: post
 title: IW2006アンケート結果
-categories:
+tags:
 - 仕事
 language:
 - 日本語

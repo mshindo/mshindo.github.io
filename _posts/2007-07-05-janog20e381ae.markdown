@@ -2,7 +2,7 @@
 date: 2007-07-05 21:07:32+00:00
 layout: post
 title: JANOG20の
-categories:
+tags:
 - 日常
 language:
 - 日本語

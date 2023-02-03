@@ -2,7 +2,7 @@
 date: 2006-08-30 00:03:32+00:00
 layout: post
 title: マイアミ・バイス
-categories:
+tags:
 - エンターテイメント
 language:
 - 日本語

@@ -2,7 +2,7 @@
 date: 2007-04-18 06:13:09+00:00
 layout: post
 title: 誘惑に勝てず・・
-categories:
+tags:
 - グルメ
 language:
 - 日本語

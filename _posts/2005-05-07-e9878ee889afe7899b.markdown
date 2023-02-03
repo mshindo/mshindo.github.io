@@ -2,7 +2,7 @@
 date: 2005-05-07 14:03:20+00:00
 layout: post
 title: 野良牛
-categories:
+tags:
 - 旅行
 language:
 - 日本語

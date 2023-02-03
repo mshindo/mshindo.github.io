@@ -2,7 +2,7 @@
 date: 2008-02-03 12:21:27+00:00
 layout: post
 title: IPFIX-related RFCs published
-categories:
+tags:
 - 仕事
 language:
 - 日本語

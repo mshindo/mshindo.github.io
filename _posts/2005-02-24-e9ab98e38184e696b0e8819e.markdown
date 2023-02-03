@@ -2,7 +2,7 @@
 date: 2005-02-24 13:54:07+00:00
 layout: post
 title: 高い新聞
-categories:
+tags:
 - 日常
 language:
 - 日本語

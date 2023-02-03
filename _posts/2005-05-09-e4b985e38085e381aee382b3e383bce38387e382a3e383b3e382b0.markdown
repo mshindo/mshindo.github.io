@@ -2,8 +2,8 @@
 date: 2005-05-09 08:42:07+00:00
 layout: post
 title: 久々のコーディング
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

@@ -3,11 +3,11 @@ date: 2022-12-12 22:33:05+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（ツール編）〜 Part 5 〜
 image: '/images/alex-litvin-MAYsdoYpGuk-unsplash.jpg'
-categories:
+tags:
 - 仕事
 language:
 - 日本語
-tags:
+keywords:
 - English
 - Language Reactor
 - Netflix

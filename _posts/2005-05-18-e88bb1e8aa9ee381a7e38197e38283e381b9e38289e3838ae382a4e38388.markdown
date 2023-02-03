@@ -2,7 +2,7 @@
 date: 2005-05-18 15:10:46+00:00
 layout: post
 title: 英語でしゃべらナイト
-categories:
+tags:
 - エンターテイメント
 language:
 - 日本語

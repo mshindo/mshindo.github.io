@@ -2,8 +2,8 @@
 date: 2005-06-07 05:39:58+00:00
 layout: post
 title: It's true!
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

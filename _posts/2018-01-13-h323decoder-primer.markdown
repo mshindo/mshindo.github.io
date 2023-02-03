@@ -2,11 +2,11 @@
 date: 2018-01-13 07:17:17+00:00
 layout: post
 title: h323decoder Primer
-categories:
+tags:
 - Computer and Networking
 language:
 - English
-tags:
+keywords:
 - Ascend
 - H.323
 ---

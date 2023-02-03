@@ -2,7 +2,7 @@
 date: 2008-03-25 09:08:46+00:00
 layout: post
 title: 靖国の桜
-categories:
+tags:
 - 日常
 language:
 - 日本語

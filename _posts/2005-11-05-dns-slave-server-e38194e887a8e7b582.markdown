@@ -2,8 +2,8 @@
 date: 2005-11-05 02:10:29+00:00
 layout: post
 title: DNS slave server ご臨終
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

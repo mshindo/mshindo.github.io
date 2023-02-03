@@ -2,8 +2,8 @@
 date: 2007-04-15 11:44:19+00:00
 layout: post
 title: さようならPipeline75
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

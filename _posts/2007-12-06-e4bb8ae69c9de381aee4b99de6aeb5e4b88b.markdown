@@ -2,7 +2,7 @@
 date: 2007-12-06 03:59:51+00:00
 layout: post
 title: 今朝の九段下
-categories:
+tags:
 - 日常
 language:
 - 日本語

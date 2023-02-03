@@ -2,7 +2,7 @@
 date: 2005-06-19 05:37:37+00:00
 layout: post
 title: 腰が・・・
-categories:
+tags:
 - 日常
 language:
 - 日本語

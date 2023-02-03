@@ -2,8 +2,8 @@
 date: 2008-09-26 13:02:22+00:00
 layout: post
 title: FreeBSDのalias addressがついたEthernetからの送信
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

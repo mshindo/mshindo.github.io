@@ -2,7 +2,7 @@
 date: 2005-10-29 01:07:43+00:00
 layout: post
 title: 黒ひゲイ危機一発
-categories:
+tags:
 - エンターテイメント
 language:
 - 日本語

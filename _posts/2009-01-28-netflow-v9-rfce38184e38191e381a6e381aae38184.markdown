@@ -2,8 +2,8 @@
 date: 2009-01-28 02:17:38+00:00
 layout: post
 title: NetFlow V9 RFCいけてない
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

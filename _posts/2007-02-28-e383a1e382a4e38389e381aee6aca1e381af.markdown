@@ -2,7 +2,7 @@
 date: 2007-02-28 01:21:45+00:00
 layout: post
 title: メイドの次は
-categories:
+tags:
 - エンターテイメント
 language:
 - 日本語

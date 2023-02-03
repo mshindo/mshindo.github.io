@@ -2,7 +2,7 @@
 date: 2007-09-07 17:17:21+00:00
 layout: post
 title: 請来軒
-categories:
+tags:
 - グルメ
 language:
 - 日本語

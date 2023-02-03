@@ -2,7 +2,7 @@
 date: 2005-08-22 15:08:37+00:00
 layout: post
 title: 釈由美子
-categories:
+tags:
 - 日常
 language:
 - 日本語

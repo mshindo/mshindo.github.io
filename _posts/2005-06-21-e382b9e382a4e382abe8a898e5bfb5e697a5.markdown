@@ -2,7 +2,7 @@
 date: 2005-06-21 08:05:15+00:00
 layout: post
 title: スイカ記念日
-categories:
+tags:
 - 日常
 language:
 - 日本語

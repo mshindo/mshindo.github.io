@@ -2,13 +2,13 @@
 date: 2014-11-19 13:41:23+00:00
 layout: post
 title: A book about NSX
-categories:
+tags:
 - Computer and Networking
 language:
 - English
 post_translations:
 - pll_546c9a3e12bca
-tags:
+keywords:
 - network virtualization
 - NSX
 ---

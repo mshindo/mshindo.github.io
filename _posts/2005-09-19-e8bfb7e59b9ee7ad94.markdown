@@ -2,7 +2,7 @@
 date: 2005-09-19 13:44:47+00:00
 layout: post
 title: 迷回答
-categories:
+tags:
 - 日常
 language:
 - 日本語

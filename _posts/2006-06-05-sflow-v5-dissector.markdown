@@ -2,7 +2,7 @@
 date: 2006-06-05 13:17:02+00:00
 layout: post
 title: sFlow V5 dissector
-categories:
+tags:
 - 趣味
 language:
 - 日本語

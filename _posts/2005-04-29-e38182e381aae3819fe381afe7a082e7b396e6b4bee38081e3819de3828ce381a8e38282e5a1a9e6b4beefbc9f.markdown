@@ -2,7 +2,7 @@
 date: 2005-04-29 10:42:27+00:00
 layout: post
 title: あなたは砂糖派、それとも塩派？
-categories:
+tags:
 - グルメ
 language:
 - 日本語

@@ -2,7 +2,7 @@
 date: 2005-12-14 15:40:46+00:00
 layout: post
 title: 祈りましょう
-categories:
+tags:
 - 旅行
 language:
 - 日本語

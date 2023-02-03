@@ -2,7 +2,7 @@
 date: 2007-10-02 09:16:31+00:00
 layout: post
 title: テスト
-categories:
+tags:
 - 日常
 language:
 - 日本語

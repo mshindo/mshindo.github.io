@@ -2,7 +2,7 @@
 date: 2005-05-08 12:14:57+00:00
 layout: post
 title: マジレンジャー
-categories:
+tags:
 - エンターテイメント
 language:
 - 日本語

@@ -2,7 +2,7 @@
 date: 2008-03-15 13:20:55+00:00
 layout: post
 title: サンタルチア＠肥後橋
-categories:
+tags:
 - グルメ
 language:
 - 日本語

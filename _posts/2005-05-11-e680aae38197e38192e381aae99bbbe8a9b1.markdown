@@ -2,7 +2,7 @@
 date: 2005-05-11 01:10:32+00:00
 layout: post
 title: 怪しげな電話
-categories:
+tags:
 - 日常
 language:
 - 日本語

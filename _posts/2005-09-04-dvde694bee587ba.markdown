@@ -2,7 +2,7 @@
 date: 2005-09-04 05:30:56+00:00
 layout: post
 title: DVD放出
-categories:
+tags:
 - エンターテイメント
 language:
 - 日本語

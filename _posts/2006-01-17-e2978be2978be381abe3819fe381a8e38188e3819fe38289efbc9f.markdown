@@ -2,7 +2,7 @@
 date: 2006-01-17 15:05:28+00:00
 layout: post
 title: ○○にたとえたら？
-categories:
+tags:
 - 日常
 language:
 - 日本語

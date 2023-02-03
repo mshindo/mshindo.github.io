@@ -2,12 +2,12 @@
 date: 2014-05-06 01:27:08+00:00
 layout: post
 title: Geneve Encapsulation
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 - 仕事
 language:
 - 日本語
-tags:
+keywords:
 - GENEVE
 - NVGRE
 - STT

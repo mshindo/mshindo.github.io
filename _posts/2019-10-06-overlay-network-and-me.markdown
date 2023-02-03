@@ -2,14 +2,14 @@
 date: 2019-10-06 10:46:01+00:00
 layout: post
 title: オーバーレイネットワークと私
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 - 仕事
 language:
 - 日本語
 post_translations:
 - pll_5da6400c1a610
-tags:
+keywords:
 - Ascend
 - cosine
 - ipsec

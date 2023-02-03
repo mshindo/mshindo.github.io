@@ -2,7 +2,7 @@
 date: 2005-08-19 13:51:29+00:00
 layout: post
 title: 蛇の夢
-categories:
+tags:
 - 日常
 language:
 - 日本語

@@ -2,7 +2,7 @@
 date: 2006-11-21 08:54:47+00:00
 layout: post
 title: やっちまいました
-categories:
+tags:
 - 日常
 language:
 - 日本語

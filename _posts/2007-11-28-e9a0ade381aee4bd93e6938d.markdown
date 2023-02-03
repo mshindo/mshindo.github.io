@@ -2,7 +2,7 @@
 date: 2007-11-28 05:26:43+00:00
 layout: post
 title: 頭の体操
-categories:
+tags:
 - 日常
 language:
 - 日本語

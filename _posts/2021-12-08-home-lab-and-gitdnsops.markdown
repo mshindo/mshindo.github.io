@@ -3,13 +3,13 @@ date: 2021-12-08 23:48:15+00:00
 layout: post
 title: おうち Lab と GitDNSOps
 image: '/images/roman-synkevych-wX2L8L-fGeA-unsplash.jpg'
-categories:
+tags:
 - 仕事
 - 日常
 - 趣味
 language:
 - 日本語
-tags:
+keywords:
 - coredns
 - dns
 - git

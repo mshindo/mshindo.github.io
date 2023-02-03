@@ -2,7 +2,7 @@
 date: 2006-02-12 10:46:56+00:00
 layout: post
 title: 変な人
-categories:
+tags:
 - 日常
 language:
 - 日本語

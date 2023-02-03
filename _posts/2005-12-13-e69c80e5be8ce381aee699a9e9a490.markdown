@@ -2,7 +2,7 @@
 date: 2005-12-13 17:29:16+00:00
 layout: post
 title: 最後の晩餐
-categories:
+tags:
 - グルメ
 language:
 - 日本語

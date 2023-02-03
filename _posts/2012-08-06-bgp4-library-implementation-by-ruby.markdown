@@ -2,8 +2,8 @@
 date: 2012-08-06 22:02:00+00:00
 layout: post
 title: BGP4 library implementation by Ruby
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 post_translations:

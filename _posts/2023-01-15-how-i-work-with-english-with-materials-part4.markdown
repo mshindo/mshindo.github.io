@@ -3,11 +3,11 @@ date: 2023-01-15 21:45:13+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 4〜
 image: '/images/convertkit-waxDxYM2XI4-unsplash.jpg'
-categories:
+tags:
 - 仕事
 language:
 - 日本語
-tags:
+keywords:
 - Accented
 - BBC Global News
 - HAPA英会話

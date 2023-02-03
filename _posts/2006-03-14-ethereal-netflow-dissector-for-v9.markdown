@@ -2,8 +2,8 @@
 date: 2006-03-14 17:12:15+00:00
 layout: post
 title: Ethereal NetFlow dissector for V9
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

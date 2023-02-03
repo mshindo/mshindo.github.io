@@ -2,7 +2,7 @@
 date: 2006-10-01 13:09:42+00:00
 layout: post
 title: COMPUTERWORLD記事
-categories:
+tags:
 - 仕事
 language:
 - 日本語

@@ -2,8 +2,8 @@
 date: 2005-09-04 01:33:35+00:00
 layout: post
 title: 子供の位置情報サービス
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

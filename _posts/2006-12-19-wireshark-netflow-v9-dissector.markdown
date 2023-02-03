@@ -2,8 +2,8 @@
 date: 2006-12-19 16:47:32+00:00
 layout: post
 title: Wireshark NetFlow V9 dissector
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

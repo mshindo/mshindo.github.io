@@ -2,7 +2,7 @@
 date: 2007-01-21 14:20:38+00:00
 layout: post
 title: トレーニング開始
-categories:
+tags:
 - 趣味
 language:
 - 日本語

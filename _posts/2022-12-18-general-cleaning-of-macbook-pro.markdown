@@ -3,12 +3,12 @@ date: 2022-12-18 23:40:57+00:00
 layout: post
 title: 塵も積もれば
 image: '/images/giorgio-trovato-v_bri4iVuiM-unsplash.jpg'
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 - 仕事
 language:
 - 日本語
-tags:
+keywords:
 - kernel_task
 - MacBook Pro
 - 分解

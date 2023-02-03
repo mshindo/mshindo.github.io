@@ -2,7 +2,7 @@
 date: 2007-05-09 06:54:17+00:00
 layout: post
 title: 山下公園でランチ
-categories:
+tags:
 - 日常
 language:
 - 日本語

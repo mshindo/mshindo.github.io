@@ -2,7 +2,7 @@
 date: 2006-03-10 01:55:17+00:00
 layout: post
 title: 言葉
-categories:
+tags:
 - 日常
 language:
 - 日本語

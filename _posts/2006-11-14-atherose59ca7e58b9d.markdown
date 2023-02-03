@@ -2,8 +2,8 @@
 date: 2006-11-14 07:54:51+00:00
 layout: post
 title: Atheros圧勝
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

@@ -2,7 +2,7 @@
 date: 2006-05-12 04:40:59+00:00
 layout: post
 title: やらかしたかも。
-categories:
+tags:
 - 仕事
 language:
 - 日本語

@@ -2,11 +2,11 @@
 date: 2015-12-20 05:22:45+00:00
 layout: post
 title: OVN (Open Virtual Network) Introduction
-categories:
+tags:
 - Computer and Networking
 language:
 - 日本語
-tags:
+keywords:
 - GENEVE
 - Open vSwitch
 - OVN

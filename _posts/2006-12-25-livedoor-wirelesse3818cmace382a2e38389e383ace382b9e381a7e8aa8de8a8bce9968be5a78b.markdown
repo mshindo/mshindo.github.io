@@ -2,8 +2,8 @@
 date: 2006-12-25 03:19:48+00:00
 layout: post
 title: Livedoor wirelessがMACアドレスで認証開始
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

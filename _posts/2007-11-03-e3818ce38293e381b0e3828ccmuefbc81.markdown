@@ -2,7 +2,7 @@
 date: 2007-11-03 16:48:20+00:00
 layout: post
 title: がんばれCMU！
-categories:
+tags:
 - 日常
 language:
 - 日本語

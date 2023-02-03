@@ -2,7 +2,7 @@
 date: 2005-04-10 07:19:26+00:00
 layout: post
 title: 暗殺者を探すも
-categories:
+tags:
 - 本
 language:
 - 日本語

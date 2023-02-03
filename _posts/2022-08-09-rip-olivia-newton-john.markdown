@@ -3,11 +3,11 @@ date: 2022-08-09 10:00:51+00:00
 layout: post
 title: R.I.P. Olivia Newton-John
 image: '/images/41AbK6fF9ML._AC_.jpg'
-categories:
+tags:
 - 音楽
 language:
 - 日本語
-tags:
+keywords:
 - Olivia Newton-John
 ---
 

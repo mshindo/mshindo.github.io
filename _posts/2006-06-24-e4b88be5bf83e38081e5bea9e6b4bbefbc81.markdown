@@ -2,7 +2,7 @@
 date: 2006-06-24 11:30:32+00:00
 layout: post
 title: 下心、復活！
-categories:
+tags:
 - 日常
 language:
 - 日本語

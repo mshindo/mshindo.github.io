@@ -2,7 +2,7 @@
 date: 2007-01-11 04:13:33+00:00
 layout: post
 title: 米大使館に行ってきました
-categories:
+tags:
 - 日常
 language:
 - 日本語

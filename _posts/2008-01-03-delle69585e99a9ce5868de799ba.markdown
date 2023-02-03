@@ -2,8 +2,8 @@
 date: 2008-01-03 14:27:09+00:00
 layout: post
 title: DELL故障再発
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

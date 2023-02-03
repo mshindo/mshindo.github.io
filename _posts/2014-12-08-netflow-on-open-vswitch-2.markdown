@@ -2,13 +2,13 @@
 date: 2014-12-08 15:04:28+00:00
 layout: post
 title: NetFlow on Open vSwitch
-categories:
+tags:
 - Computer and Networking
 language:
 - English
 post_translations:
 - pll_54864e1186265
-tags:
+keywords:
 - NetFlow
 - Open vSwitch
 - OVS

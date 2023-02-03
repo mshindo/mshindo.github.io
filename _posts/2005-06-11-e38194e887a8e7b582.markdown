@@ -2,8 +2,8 @@
 date: 2005-06-11 10:44:05+00:00
 layout: post
 title: ご臨終
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

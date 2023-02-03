@@ -3,11 +3,11 @@ date: 2021-08-16 12:40:56+00:00
 layout: post
 title: 膀胱鏡検査
 image: '/images/diana-polekhina-dw6tvK_PuxM-unsplash.jpg'
-categories:
+tags:
 - 健康
 language:
 - 日本語
-tags:
+keywords:
 - cystoscopy
 - hematuria
 - 膀胱鏡検査

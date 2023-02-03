@@ -2,8 +2,8 @@
 date: 2006-10-22 00:58:29+00:00
 layout: post
 title: よ、読めない！
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

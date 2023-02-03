@@ -2,8 +2,8 @@
 date: 2014-03-16 07:05:00+00:00
 layout: post
 title: 私がNiciraに入ったわけ
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 - 仕事
 language:
 - 日本語

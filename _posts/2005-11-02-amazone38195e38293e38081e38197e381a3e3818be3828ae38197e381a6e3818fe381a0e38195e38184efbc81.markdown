@@ -2,7 +2,7 @@
 date: 2005-11-02 04:36:45+00:00
 layout: post
 title: Amazonさん、しっかりしてください！
-categories:
+tags:
 - 本
 language:
 - 日本語

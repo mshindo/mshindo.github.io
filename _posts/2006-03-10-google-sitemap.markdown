@@ -2,8 +2,8 @@
 date: 2006-03-10 07:10:18+00:00
 layout: post
 title: Google Sitemap
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

@@ -2,7 +2,7 @@
 date: 2006-10-11 01:20:41+00:00
 layout: post
 title: 私のBlogのこれから
-categories:
+tags:
 - 仕事
 language:
 - 日本語

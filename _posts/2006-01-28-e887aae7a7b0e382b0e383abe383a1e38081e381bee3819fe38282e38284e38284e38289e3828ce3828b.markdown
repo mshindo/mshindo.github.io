@@ -2,7 +2,7 @@
 date: 2006-01-28 06:36:44+00:00
 layout: post
 title: 自称グルメ、またもややられる
-categories:
+tags:
 - グルメ
 language:
 - 日本語

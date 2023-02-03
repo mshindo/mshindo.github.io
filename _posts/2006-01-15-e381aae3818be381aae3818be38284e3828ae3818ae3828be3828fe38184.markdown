@@ -2,7 +2,7 @@
 date: 2006-01-15 11:48:35+00:00
 layout: post
 title: なかなかやりおるわい
-categories:
+tags:
 - 日常
 language:
 - 日本語

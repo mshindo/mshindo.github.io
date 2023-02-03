@@ -3,11 +3,11 @@ date: 2023-01-09 23:37:08+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 1 〜
 image: '/images/chuttersnap-cX2vElQ5aHk-unsplash.jpg'
-categories:
+tags:
 - 仕事
 language:
 - 日本語
-tags:
+keywords:
 - English
 - Study
 - TED talks

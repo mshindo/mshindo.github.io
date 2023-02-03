@@ -2,7 +2,7 @@
 date: 2005-07-03 07:37:34+00:00
 layout: post
 title: 不思議発見
-categories:
+tags:
 - 日常
 language:
 - 日本語

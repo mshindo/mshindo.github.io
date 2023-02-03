@@ -2,7 +2,7 @@
 date: 2005-12-11 05:08:12+00:00
 layout: post
 title: 今日から
-categories:
+tags:
 - 仕事
 language:
 - 日本語

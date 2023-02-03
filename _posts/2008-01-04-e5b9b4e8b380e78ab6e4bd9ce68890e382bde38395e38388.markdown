@@ -2,8 +2,8 @@
 date: 2008-01-04 13:29:17+00:00
 layout: post
 title: 年賀状作成ソフト
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

@@ -2,7 +2,7 @@
 date: 2005-12-04 03:26:34+00:00
 layout: post
 title: 国際感覚
-categories:
+tags:
 - 日常
 language:
 - 日本語

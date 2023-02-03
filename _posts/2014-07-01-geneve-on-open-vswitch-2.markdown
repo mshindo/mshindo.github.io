@@ -2,13 +2,13 @@
 date: 2014-07-01 07:48:50+00:00
 layout: post
 title: Geneve on Open vSwitch
-categories:
+tags:
 - Computer and Networking
 language:
 - English
 post_translations:
 - pll_53b216f740c8f
-tags:
+keywords:
 - GENEVE
 - Open vSwitch
 ---

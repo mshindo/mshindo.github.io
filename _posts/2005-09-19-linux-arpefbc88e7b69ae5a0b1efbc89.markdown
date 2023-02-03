@@ -2,8 +2,8 @@
 date: 2005-09-19 02:58:02+00:00
 layout: post
 title: Linux ARP（続報）
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

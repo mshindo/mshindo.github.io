@@ -2,8 +2,8 @@
 date: 2005-10-27 01:52:51+00:00
 layout: post
 title: tinyurl.com
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

@@ -2,7 +2,7 @@
 date: 2005-11-17 11:50:23+00:00
 layout: post
 title: IW2005の資料
-categories:
+tags:
 - 仕事
 language:
 - 日本語

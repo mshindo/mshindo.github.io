@@ -3,11 +3,11 @@ date: 2022-12-06 13:41:33+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（ツール編）〜 Part 2 〜
 image: '/images/kelly-sikkema-mdADGzyXCVE-unsplash.jpg'
-categories:
+tags:
 - 仕事
 language:
 - 日本語
-tags:
+keywords:
 - English
 - Plain English
 - Study

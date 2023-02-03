@@ -2,7 +2,7 @@
 date: 2012-08-10 08:19:56+00:00
 layout: post
 title: OpenStack APAC Conference
-categories:
+tags:
 - 仕事
 language:
 - 日本語

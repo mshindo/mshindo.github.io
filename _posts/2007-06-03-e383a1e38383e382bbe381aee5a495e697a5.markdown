@@ -2,7 +2,7 @@
 date: 2007-06-03 10:04:34+00:00
 layout: post
 title: メッセの夕日
-categories:
+tags:
 - 日常
 language:
 - 日本語

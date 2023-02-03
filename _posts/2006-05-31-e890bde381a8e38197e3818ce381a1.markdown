@@ -2,7 +2,7 @@
 date: 2006-05-31 03:56:19+00:00
 layout: post
 title: 落としがち
-categories:
+tags:
 - 日常
 language:
 - 日本語

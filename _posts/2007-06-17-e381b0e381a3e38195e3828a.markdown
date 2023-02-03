@@ -2,7 +2,7 @@
 date: 2007-06-17 12:50:30+00:00
 layout: post
 title: ばっさり
-categories:
+tags:
 - 日常
 language:
 - 日本語

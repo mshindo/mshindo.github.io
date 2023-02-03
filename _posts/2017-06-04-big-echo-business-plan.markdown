@@ -2,7 +2,7 @@
 date: 2017-06-04 06:52:45+00:00
 layout: post
 title: ビッグエコー・ビジネスプランを試してみた
-categories:
+tags:
 - 仕事
 language:
 - 日本語

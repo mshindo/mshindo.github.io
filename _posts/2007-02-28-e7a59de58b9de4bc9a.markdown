@@ -2,7 +2,7 @@
 date: 2007-02-28 16:50:11+00:00
 layout: post
 title: 祝勝会
-categories:
+tags:
 - グルメ
 language:
 - 日本語

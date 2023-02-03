@@ -2,7 +2,7 @@
 date: 2012-08-15 14:57:06+00:00
 layout: post
 title: 万里の長城に行ってみた
-categories:
+tags:
 - 旅行
 language:
 - 日本語

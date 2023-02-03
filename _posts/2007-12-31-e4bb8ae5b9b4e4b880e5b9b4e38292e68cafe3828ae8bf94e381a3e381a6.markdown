@@ -2,7 +2,7 @@
 date: 2007-12-31 05:05:52+00:00
 layout: post
 title: 今年一年を振り返って
-categories:
+tags:
 - 日常
 language:
 - 日本語

@@ -2,7 +2,7 @@
 date: 2005-12-09 07:42:58+00:00
 layout: post
 title: 自称グルメ
-categories:
+tags:
 - グルメ
 language:
 - 日本語

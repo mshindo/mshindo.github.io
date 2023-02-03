@@ -2,7 +2,7 @@
 date: 2007-03-05 15:11:37+00:00
 layout: post
 title: 2007年F1開幕まぢか
-categories:
+tags:
 - 趣味
 language:
 - 日本語

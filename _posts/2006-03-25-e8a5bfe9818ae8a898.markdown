@@ -2,7 +2,7 @@
 date: 2006-03-25 04:00:14+00:00
 layout: post
 title: 西遊記
-categories:
+tags:
 - エンターテイメント
 language:
 - 日本語

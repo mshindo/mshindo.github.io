@@ -2,7 +2,7 @@
 date: 2005-11-22 14:41:59+00:00
 layout: post
 title: 築地と言えば
-categories:
+tags:
 - グルメ
 language:
 - 日本語

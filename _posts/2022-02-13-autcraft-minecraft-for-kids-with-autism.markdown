@@ -3,12 +3,12 @@ date: 2022-02-13 23:19:08+00:00
 layout: post
 title: 'Autcraft: 自閉症を持つ子供のためのマインクラフト - Minecraft for kids with autism'
 image: '/images/nina-photolab-6eL_lMJDwjM-unsplash.jpg'
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 - 日常
 language:
 - 日本語
-tags:
+keywords:
 - autcraft
 - autism
 - minecraft

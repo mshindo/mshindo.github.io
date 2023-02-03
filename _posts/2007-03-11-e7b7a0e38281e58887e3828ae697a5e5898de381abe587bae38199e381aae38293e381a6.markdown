@@ -2,7 +2,7 @@
 date: 2007-03-11 13:37:57+00:00
 layout: post
 title: 締め切り日前に出すなんて
-categories:
+tags:
 - 日常
 language:
 - 日本語

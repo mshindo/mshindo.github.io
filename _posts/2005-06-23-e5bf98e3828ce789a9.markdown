@@ -2,7 +2,7 @@
 date: 2005-06-23 23:54:50+00:00
 layout: post
 title: 忘れ物
-categories:
+tags:
 - 日常
 language:
 - 日本語

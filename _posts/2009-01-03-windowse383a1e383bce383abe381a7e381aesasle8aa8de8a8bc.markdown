@@ -2,8 +2,8 @@
 date: 2009-01-03 02:26:23+00:00
 layout: post
 title: WindowsメールでのSASL認証
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

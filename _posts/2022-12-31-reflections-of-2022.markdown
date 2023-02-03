@@ -3,14 +3,8 @@ date: 2022-12-31 03:00:04+00:00
 layout: post
 title: 2022年総括
 image: '/images/choong-deng-xiang-Z_9iLLLJgUs-unsplash.jpg'
-categories:
-- エンターテイメント
-- グルメ
-- 仕事
-- 健康
-- 日常
-- 本
-- 音楽
+tags:
+- 総括
 language:
 - 日本語
 ---

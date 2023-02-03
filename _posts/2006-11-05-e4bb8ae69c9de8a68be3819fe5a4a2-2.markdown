@@ -2,7 +2,7 @@
 date: 2006-11-05 22:12:58+00:00
 layout: post
 title: 今朝見た夢
-categories:
+tags:
 - 日常
 language:
 - 日本語

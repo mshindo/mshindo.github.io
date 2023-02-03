@@ -2,7 +2,7 @@
 date: 2008-03-20 09:51:57+00:00
 layout: post
 title: 塵も積もれば
-categories:
+tags:
 - 趣味
 language:
 - 日本語

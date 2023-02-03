@@ -2,8 +2,8 @@
 date: 2014-12-09 23:49:01+00:00
 layout: post
 title: NetFlow on Open vSwitch
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 - 仕事
 language:
 - 日本語

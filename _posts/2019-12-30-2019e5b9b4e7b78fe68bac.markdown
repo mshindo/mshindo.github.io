@@ -2,18 +2,13 @@
 date: 2019-12-30 22:59:03+00:00
 layout: post
 title: 2019年総括
-categories:
-- 仕事
-- 健康
-- 日常
-- 本
-- 趣味
+tags:
+- 総括
 language:
 - 日本語
-tags:
+keywords:
 - '2019'
 - review
-- 総括
 ---
 
 今年も一年を簡単に振り返ってみようと思います。

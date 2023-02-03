@@ -2,7 +2,7 @@
 date: 2007-03-31 13:41:22+00:00
 layout: post
 title: 小さい貝
-categories:
+tags:
 - 日常
 language:
 - 日本語

@@ -2,7 +2,7 @@
 date: 2007-08-01 04:04:59+00:00
 layout: post
 title: MANO MAGIO
-categories:
+tags:
 - グルメ
 language:
 - 日本語

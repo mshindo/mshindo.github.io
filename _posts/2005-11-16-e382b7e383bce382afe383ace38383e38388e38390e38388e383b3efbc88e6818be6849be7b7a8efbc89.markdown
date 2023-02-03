@@ -2,7 +2,7 @@
 date: 2005-11-16 15:20:33+00:00
 layout: post
 title: シークレットバトン（恋愛編）
-categories:
+tags:
 - 日常
 language:
 - 日本語

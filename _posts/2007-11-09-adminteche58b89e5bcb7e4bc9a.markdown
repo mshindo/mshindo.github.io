@@ -2,8 +2,8 @@
 date: 2007-11-09 07:16:59+00:00
 layout: post
 title: Admintech勉強会
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

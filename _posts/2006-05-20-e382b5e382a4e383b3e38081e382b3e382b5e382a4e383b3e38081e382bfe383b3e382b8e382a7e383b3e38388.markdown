@@ -2,7 +2,7 @@
 date: 2006-05-20 04:51:13+00:00
 layout: post
 title: サイン、コサイン、タンジェント
-categories:
+tags:
 - 仕事
 language:
 - 日本語

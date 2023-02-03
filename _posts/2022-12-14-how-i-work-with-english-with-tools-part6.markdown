@@ -3,11 +3,11 @@ date: 2022-12-14 22:22:50+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（ツール編）〜 Part 6 〜
 image: '/images/markus-winkler-cxoR55-bels-unsplash.jpg'
-categories:
+tags:
 - 仕事
 language:
 - 日本語
-tags:
+keywords:
 - Chrome Live Caption
 - DeepL Chrome Extension
 - English

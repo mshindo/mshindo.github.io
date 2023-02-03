@@ -2,8 +2,8 @@
 date: 2008-01-29 14:59:00+00:00
 layout: post
 title: スパム増えたなー
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

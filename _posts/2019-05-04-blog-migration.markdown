@@ -2,11 +2,11 @@
 date: 2019-05-04 06:30:57+00:00
 layout: post
 title: Blogお引っ越し
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
-tags:
+keywords:
 - wordpress all-in-one-wp-migration
 ---
 

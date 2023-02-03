@@ -2,7 +2,7 @@
 date: 2005-07-18 09:00:36+00:00
 layout: post
 title: 3分間ハッキング
-categories:
+tags:
 - 仕事
 language:
 - 日本語

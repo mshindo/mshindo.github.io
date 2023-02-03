@@ -2,7 +2,7 @@
 date: 2007-11-30 15:29:14+00:00
 layout: post
 title: 23品目食べる
-categories:
+tags:
 - 日常
 language:
 - 日本語

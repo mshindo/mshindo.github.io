@@ -2,8 +2,8 @@
 date: 2006-01-15 09:31:32+00:00
 layout: post
 title: DS君ガンバレ！
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

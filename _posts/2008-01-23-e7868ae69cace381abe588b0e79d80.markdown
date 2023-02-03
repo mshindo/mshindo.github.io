@@ -2,7 +2,7 @@
 date: 2008-01-23 11:29:13+00:00
 layout: post
 title: 熊本に到着
-categories:
+tags:
 - グルメ
 language:
 - 日本語

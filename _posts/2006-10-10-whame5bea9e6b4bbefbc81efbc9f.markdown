@@ -2,7 +2,7 @@
 date: 2006-10-10 14:43:07+00:00
 layout: post
 title: WHAM!復活！？
-categories:
+tags:
 - 音楽
 language:
 - 日本語

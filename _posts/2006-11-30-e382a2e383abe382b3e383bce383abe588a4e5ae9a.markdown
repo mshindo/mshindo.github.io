@@ -2,7 +2,7 @@
 date: 2006-11-30 23:28:55+00:00
 layout: post
 title: アルコール判定
-categories:
+tags:
 - 日常
 language:
 - 日本語

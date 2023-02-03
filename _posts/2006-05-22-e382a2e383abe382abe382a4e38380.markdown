@@ -2,7 +2,7 @@
 date: 2006-05-22 02:53:24+00:00
 layout: post
 title: アルカイダ
-categories:
+tags:
 - 健康
 language:
 - 日本語

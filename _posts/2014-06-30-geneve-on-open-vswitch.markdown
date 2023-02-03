@@ -2,14 +2,14 @@
 date: 2014-06-30 21:12:33+00:00
 layout: post
 title: Geneve on Open vSwitch
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 - 仕事
 language:
 - 日本語
 post_translations:
 - pll_53b216f740c8f
-tags:
+keywords:
 - GENEVE
 - Open vSwitch
 ---

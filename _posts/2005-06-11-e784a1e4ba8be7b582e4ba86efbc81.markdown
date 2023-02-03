@@ -2,7 +2,7 @@
 date: 2005-06-11 06:09:32+00:00
 layout: post
 title: 無事終了！
-categories:
+tags:
 - 仕事
 language:
 - 日本語

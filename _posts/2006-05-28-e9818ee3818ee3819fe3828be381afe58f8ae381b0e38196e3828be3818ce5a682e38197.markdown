@@ -2,7 +2,7 @@
 date: 2006-05-28 17:25:10+00:00
 layout: post
 title: 過ぎたるは及ばざるが如し
-categories:
+tags:
 - 日常
 language:
 - 日本語

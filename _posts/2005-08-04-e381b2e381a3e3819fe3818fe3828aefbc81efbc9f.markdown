@@ -2,7 +2,7 @@
 date: 2005-08-04 14:01:59+00:00
 layout: post
 title: ひったくり！？
-categories:
+tags:
 - 日常
 language:
 - 日本語

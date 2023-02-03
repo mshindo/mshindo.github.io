@@ -2,7 +2,7 @@
 date: 2005-08-08 04:13:18+00:00
 layout: post
 title: 気分がブルー
-categories:
+tags:
 - 日常
 language:
 - 日本語

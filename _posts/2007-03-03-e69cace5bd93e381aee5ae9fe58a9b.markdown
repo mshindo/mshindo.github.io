@@ -2,7 +2,7 @@
 date: 2007-03-03 11:20:56+00:00
 layout: post
 title: 本当の実力
-categories:
+tags:
 - 趣味
 language:
 - 日本語

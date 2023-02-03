@@ -3,11 +3,11 @@ date: 2023-01-18 08:43:31+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 5〜
 image: '/images/blaz-photo-zMRLZh40kms-unsplash.jpg'
-categories:
+tags:
 - 仕事
 language:
 - 日本語
-tags:
+keywords:
 - AP News
 - Kafka on the Shore
 - Scientific American

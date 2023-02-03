@@ -2,7 +2,7 @@
 date: 2006-06-26 14:53:41+00:00
 layout: post
 title: エッチ美容室
-categories:
+tags:
 - 日常
 language:
 - 日本語

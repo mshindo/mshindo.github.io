@@ -2,8 +2,8 @@
 date: 2007-05-03 06:51:06+00:00
 layout: post
 title: Windows Live Space 仕様変更に対応
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

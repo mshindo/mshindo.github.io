@@ -2,7 +2,7 @@
 date: 2007-05-03 14:12:57+00:00
 layout: post
 title: みなさんも一度聴いてみてください！
-categories:
+tags:
 - 音楽
 language:
 - 日本語

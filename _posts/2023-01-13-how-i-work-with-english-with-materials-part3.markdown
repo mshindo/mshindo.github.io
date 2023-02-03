@@ -3,11 +3,11 @@ date: 2023-01-13 22:24:08+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 3〜
 image: '/images/denise-jans-Lq6rcifGjOU-unsplash.jpg'
-categories:
+tags:
 - 仕事
 language:
 - 日本語
-tags:
+keywords:
 - Billion Dollar Code
 - Friends
 - ビリオンダラー・コード

@@ -2,7 +2,7 @@
 date: 2005-12-04 03:54:08+00:00
 layout: post
 title: 「おっぱい「卒業」の時期って」、とかけて
-categories:
+tags:
 - 日常
 language:
 - 日本語

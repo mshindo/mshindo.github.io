@@ -2,7 +2,7 @@
 date: 2006-09-09 01:09:12+00:00
 layout: post
 title: 米米のチケット
-categories:
+tags:
 - 音楽
 language:
 - 日本語

@@ -2,7 +2,7 @@
 date: 2005-12-31 07:03:58+00:00
 layout: post
 title: いたずら
-categories:
+tags:
 - 日常
 language:
 - 日本語

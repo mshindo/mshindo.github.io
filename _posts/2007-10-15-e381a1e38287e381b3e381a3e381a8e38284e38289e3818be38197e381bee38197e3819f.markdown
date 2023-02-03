@@ -2,7 +2,7 @@
 date: 2007-10-15 14:52:29+00:00
 layout: post
 title: ちょびっとやらかしました
-categories:
+tags:
 - 日常
 language:
 - 日本語

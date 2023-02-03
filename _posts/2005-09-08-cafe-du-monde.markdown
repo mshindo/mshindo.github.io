@@ -2,7 +2,7 @@
 date: 2005-09-08 03:30:41+00:00
 layout: post
 title: Cafe du Monde
-categories:
+tags:
 - グルメ
 language:
 - 日本語

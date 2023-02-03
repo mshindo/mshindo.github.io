@@ -2,8 +2,8 @@
 date: 2007-03-27 08:48:36+00:00
 layout: post
 title: Windows Live Spaces (blog) と mixi 日記の同期
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

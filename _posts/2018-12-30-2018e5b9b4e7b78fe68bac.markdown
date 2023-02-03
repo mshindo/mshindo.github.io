@@ -2,11 +2,11 @@
 date: 2018-12-30 06:30:03+00:00
 layout: post
 title: 2018年総括
-categories:
-- 日常
+tags:
+- 総括
 language:
 - 日本語
-tags:
+keywords:
 - '2018'
 - review
 - 総括

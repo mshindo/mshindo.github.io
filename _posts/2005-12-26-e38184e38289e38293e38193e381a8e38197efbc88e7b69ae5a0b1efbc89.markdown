@@ -2,7 +2,7 @@
 date: 2005-12-26 07:08:10+00:00
 layout: post
 title: いらんことし（続報）
-categories:
+tags:
 - 日常
 language:
 - 日本語

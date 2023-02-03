@@ -2,7 +2,7 @@
 date: 2006-04-10 23:52:32+00:00
 layout: post
 title: かみ締めたい
-categories:
+tags:
 - 日常
 language:
 - 日本語

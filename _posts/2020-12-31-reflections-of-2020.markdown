@@ -3,17 +3,11 @@ date: 2020-12-31 08:54:43+00:00
 layout: post
 title: 2020年総括
 image: '/images/kelly-sikkema-1KfV102FCcQ-unsplash.jpg'
-categories:
-- エンターテイメント
-- グルメ
-- 仕事
-- 健康
-- 日常
-- 本
-- 音楽
+tags:
+- 総括
 language:
 - 日本語
-tags:
+keywords:
 - '2020'
 - review
 - 総括

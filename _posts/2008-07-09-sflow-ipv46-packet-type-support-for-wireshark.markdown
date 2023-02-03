@@ -2,8 +2,8 @@
 date: 2008-07-09 13:34:28+00:00
 layout: post
 title: sFlow IPv4/6 packet type support for Wireshark
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

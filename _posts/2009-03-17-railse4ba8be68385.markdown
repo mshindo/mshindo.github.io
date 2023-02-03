@@ -2,8 +2,8 @@
 date: 2009-03-17 15:48:36+00:00
 layout: post
 title: Rails事情
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

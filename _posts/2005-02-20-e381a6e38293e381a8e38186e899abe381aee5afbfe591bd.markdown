@@ -2,7 +2,7 @@
 date: 2005-02-20 13:31:21+00:00
 layout: post
 title: てんとう虫の寿命
-categories:
+tags:
 - 日常
 language:
 - 日本語

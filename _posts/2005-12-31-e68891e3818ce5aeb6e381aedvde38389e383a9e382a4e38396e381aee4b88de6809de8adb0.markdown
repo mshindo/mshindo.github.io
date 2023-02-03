@@ -2,8 +2,8 @@
 date: 2005-12-31 05:10:04+00:00
 layout: post
 title: 我が家のDVDドライブの不思議
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

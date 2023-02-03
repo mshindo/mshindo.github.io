@@ -2,8 +2,8 @@
 date: 2006-06-11 07:50:27+00:00
 layout: post
 title: Ethereal から Wireshark へ
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

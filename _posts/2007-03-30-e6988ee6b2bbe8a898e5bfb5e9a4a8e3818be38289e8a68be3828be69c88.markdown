@@ -2,7 +2,7 @@
 date: 2007-03-30 04:17:52+00:00
 layout: post
 title: 明治記念館から見る月
-categories:
+tags:
 - 日常
 language:
 - 日本語

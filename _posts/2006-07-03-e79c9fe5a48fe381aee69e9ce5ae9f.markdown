@@ -2,7 +2,7 @@
 date: 2006-07-03 22:21:19+00:00
 layout: post
 title: 真夏の果実
-categories:
+tags:
 - 日常
 language:
 - 日本語

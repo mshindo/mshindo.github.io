@@ -2,8 +2,8 @@
 date: 2006-01-04 13:24:26+00:00
 layout: post
 title: こりゃ便利！
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

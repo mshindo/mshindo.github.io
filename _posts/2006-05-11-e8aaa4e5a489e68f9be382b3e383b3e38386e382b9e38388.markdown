@@ -2,7 +2,7 @@
 date: 2006-05-11 14:58:06+00:00
 layout: post
 title: 誤変換コンテスト
-categories:
+tags:
 - 日常
 language:
 - 日本語

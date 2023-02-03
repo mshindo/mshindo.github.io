@@ -2,7 +2,7 @@
 date: 2008-10-09 05:20:40+00:00
 layout: post
 title: 英語はいきもの
-categories:
+tags:
 - 日常
 language:
 - 日本語

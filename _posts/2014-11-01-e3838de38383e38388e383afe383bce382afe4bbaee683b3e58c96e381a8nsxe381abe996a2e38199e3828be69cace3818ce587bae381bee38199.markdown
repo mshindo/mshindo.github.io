@@ -2,15 +2,15 @@
 date: 2014-11-01 04:32:45+00:00
 layout: post
 title: ネットワーク仮想化とNSXに関する本が出ます
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 - 仕事
 - 本
 language:
 - 日本語
 post_translations:
 - pll_546c9a3e12bca
-tags:
+keywords:
 - NSX
 - ネットワーク
 - 仮想化

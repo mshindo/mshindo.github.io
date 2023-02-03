@@ -3,11 +3,11 @@ date: 2020-03-08 07:44:32+00:00
 layout: post
 title: 自宅のインターネット回線品質をVeloCloudで測ってみた
 image: '/images/joe-neric-HHunRG19kF8-unsplash.jpg'
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
-tags:
+keywords:
 - flets
 - internet
 - nuro

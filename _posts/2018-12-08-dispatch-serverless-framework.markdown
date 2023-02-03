@@ -2,11 +2,11 @@
 date: 2018-12-08 13:48:36+00:00
 layout: post
 title: Dispatch Serverless Framework
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
-tags:
+keywords:
 - cloudevent
 - Dispatch
 - FaaS

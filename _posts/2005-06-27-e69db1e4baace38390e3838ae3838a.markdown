@@ -2,7 +2,7 @@
 date: 2005-06-27 04:19:58+00:00
 layout: post
 title: 東京バナナ
-categories:
+tags:
 - 日常
 language:
 - 日本語

@@ -3,11 +3,11 @@ date: 2023-01-20 12:44:35+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 6〜
 image: '/images/jexo-Zl5lpzbK63Q-unsplash.jpg'
-categories:
+tags:
 - 仕事
 language:
 - 日本語
-tags:
+keywords:
 - 日課
 - 英語学習
 ---

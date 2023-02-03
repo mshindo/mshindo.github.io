@@ -2,7 +2,7 @@
 date: 2007-04-02 12:17:51+00:00
 layout: post
 title: 究極の卵かけご飯
-categories:
+tags:
 - グルメ
 language:
 - 日本語

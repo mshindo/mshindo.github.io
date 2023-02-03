@@ -2,7 +2,7 @@
 date: 2006-03-16 15:17:08+00:00
 layout: post
 title: 夢
-categories:
+tags:
 - 日常
 language:
 - 日本語

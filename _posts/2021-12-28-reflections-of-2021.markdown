@@ -3,14 +3,8 @@ date: 2021-12-28 23:42:02+00:00
 layout: post
 title: 2021年総括
 image: '/images/engin-akyurt-K5IS7QLSm7U-unsplash.jpg'
-categories:
-- エンターテイメント
-- グルメ
-- コンピュータとインターネット
-- 仕事
-- 健康
-- 日常
-- 本
+tags:
+- 総括
 language:
 - 日本語
 ---

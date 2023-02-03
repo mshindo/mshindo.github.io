@@ -2,8 +2,8 @@
 date: 2006-03-30 02:45:59+00:00
 layout: post
 title: WindowsのDNS resolver
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

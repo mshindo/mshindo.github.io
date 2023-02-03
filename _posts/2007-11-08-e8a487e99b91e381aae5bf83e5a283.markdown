@@ -2,7 +2,7 @@
 date: 2007-11-08 14:23:00+00:00
 layout: post
 title: 複雑な心境
-categories:
+tags:
 - 仕事
 language:
 - 日本語

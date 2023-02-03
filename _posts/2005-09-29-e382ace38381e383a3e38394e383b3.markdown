@@ -2,8 +2,8 @@
 date: 2005-09-29 05:20:14+00:00
 layout: post
 title: ガチャピン
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

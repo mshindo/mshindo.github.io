@@ -2,8 +2,8 @@
 date: 2005-08-17 06:41:44+00:00
 layout: post
 title: ノート君、ご臨終
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

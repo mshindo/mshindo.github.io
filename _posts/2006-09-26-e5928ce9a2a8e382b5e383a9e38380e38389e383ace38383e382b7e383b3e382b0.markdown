@@ -2,7 +2,7 @@
 date: 2006-09-26 15:49:16+00:00
 layout: post
 title: 和風サラダドレッシング
-categories:
+tags:
 - 旅行
 language:
 - 日本語

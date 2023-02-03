@@ -2,7 +2,7 @@
 date: 2005-06-06 03:10:09+00:00
 layout: post
 title: あと何回？
-categories:
+tags:
 - 日常
 language:
 - 日本語

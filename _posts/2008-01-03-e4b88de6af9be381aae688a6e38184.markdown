@@ -2,8 +2,8 @@
 date: 2008-01-03 06:52:30+00:00
 layout: post
 title: 不毛な戦い
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

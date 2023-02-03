@@ -2,7 +2,7 @@
 date: 2006-05-10 01:38:31+00:00
 layout: post
 title: ほっと一息
-categories:
+tags:
 - 仕事
 language:
 - 日本語

@@ -2,7 +2,7 @@
 date: 2006-11-28 17:36:44+00:00
 layout: post
 title: 仕事以外の趣味
-categories:
+tags:
 - 趣味
 language:
 - 日本語

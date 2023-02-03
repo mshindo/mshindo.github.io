@@ -2,8 +2,8 @@
 date: 2008-01-06 02:23:01+00:00
 layout: post
 title: IPFIX in FRNOG
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

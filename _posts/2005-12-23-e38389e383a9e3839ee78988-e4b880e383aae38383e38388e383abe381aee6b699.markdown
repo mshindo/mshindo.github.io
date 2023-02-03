@@ -2,7 +2,7 @@
 date: 2005-12-23 08:59:49+00:00
 layout: post
 title: ドラマ版 一リットルの涙
-categories:
+tags:
 - 日常
 language:
 - 日本語

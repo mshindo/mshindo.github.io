@@ -2,7 +2,7 @@
 date: 2006-04-07 16:33:01+00:00
 layout: post
 title: ショック！
-categories:
+tags:
 - 日常
 language:
 - 日本語

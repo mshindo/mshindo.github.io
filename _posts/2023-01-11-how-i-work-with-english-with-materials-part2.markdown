@@ -3,11 +3,11 @@ date: 2023-01-11 22:22:59+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 2〜
 image: '/images/filip-mishevski-c5QdMcuFlgY-unsplash.jpg'
-categories:
+tags:
 - 仕事
 language:
 - 日本語
-tags:
+keywords:
 - 英語ニュース
 - 英語学習
 ---

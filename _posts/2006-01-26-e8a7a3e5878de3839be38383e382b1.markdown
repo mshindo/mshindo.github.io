@@ -2,7 +2,7 @@
 date: 2006-01-26 23:32:15+00:00
 layout: post
 title: 解凍ホッケ
-categories:
+tags:
 - 旅行
 language:
 - 日本語

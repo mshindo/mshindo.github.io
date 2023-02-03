@@ -2,7 +2,7 @@
 date: 2005-09-04 05:10:17+00:00
 layout: post
 title: 買って来ました！
-categories:
+tags:
 - 日常
 language:
 - 日本語

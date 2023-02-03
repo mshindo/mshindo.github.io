@@ -2,7 +2,7 @@
 date: 2006-05-22 13:26:04+00:00
 layout: post
 title: もっとスキルを
-categories:
+tags:
 - 仕事
 language:
 - 日本語

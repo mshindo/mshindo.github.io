@@ -2,7 +2,7 @@
 date: 2007-01-31 05:24:42+00:00
 layout: post
 title: 並々ならぬ努力
-categories:
+tags:
 - 健康
 language:
 - 日本語

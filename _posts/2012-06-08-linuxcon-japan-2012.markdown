@@ -2,8 +2,8 @@
 date: 2012-06-08 10:01:18+00:00
 layout: post
 title: LinuxCon Japan 2012
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

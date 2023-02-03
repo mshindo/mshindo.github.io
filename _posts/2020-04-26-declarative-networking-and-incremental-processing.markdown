@@ -3,11 +3,11 @@ date: 2020-04-26 22:49:23+00:00
 layout: post
 title: 宣言的ネットワーキングとインクリメンタル処理
 image: '/images/irvan-smith-5eBW5GomfhY-unsplash.jpg'
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
-tags:
+keywords:
 - datalog
 - ddlog
 - declarative

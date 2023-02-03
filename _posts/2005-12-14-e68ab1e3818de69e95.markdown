@@ -2,7 +2,7 @@
 date: 2005-12-14 14:30:11+00:00
 layout: post
 title: 抱き枕
-categories:
+tags:
 - 健康
 language:
 - 日本語

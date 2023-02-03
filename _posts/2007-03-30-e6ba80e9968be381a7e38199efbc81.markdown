@@ -2,7 +2,7 @@
 date: 2007-03-30 08:55:16+00:00
 layout: post
 title: 満開です！
-categories:
+tags:
 - 日常
 language:
 - 日本語

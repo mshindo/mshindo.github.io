@@ -2,8 +2,8 @@
 date: 2007-04-04 02:27:24+00:00
 layout: post
 title: 104bit WEPが1分で破れる！？
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

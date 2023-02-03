@@ -2,7 +2,7 @@
 date: 2007-06-21 15:35:04+00:00
 layout: post
 title: 嬉しい便り
-categories:
+tags:
 - 仕事
 language:
 - 日本語

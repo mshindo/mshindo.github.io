@@ -2,7 +2,7 @@
 date: 2006-12-21 23:25:55+00:00
 layout: post
 title: 雑誌「Z（ジー）」創刊
-categories:
+tags:
 - 本
 language:
 - 日本語

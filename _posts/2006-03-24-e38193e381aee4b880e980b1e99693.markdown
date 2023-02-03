@@ -2,7 +2,7 @@
 date: 2006-03-24 13:54:25+00:00
 layout: post
 title: この一週間
-categories:
+tags:
 - 仕事
 language:
 - 日本語

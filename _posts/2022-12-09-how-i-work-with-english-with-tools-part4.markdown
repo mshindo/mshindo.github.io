@@ -3,11 +3,11 @@ date: 2022-12-09 00:05:47+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（ツール編）〜 Part 4 〜
 image: '/images/tim-wildsmith-9hssKCV2HKY-unsplash.jpg'
-categories:
+tags:
 - 仕事
 language:
 - 日本語
-tags:
+keywords:
 - DeepL
 - English
 - Google Translate

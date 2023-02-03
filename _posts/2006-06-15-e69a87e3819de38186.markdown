@@ -2,7 +2,7 @@
 date: 2006-06-15 23:30:51+00:00
 layout: post
 title: 暇そう
-categories:
+tags:
 - 日常
 language:
 - 日本語

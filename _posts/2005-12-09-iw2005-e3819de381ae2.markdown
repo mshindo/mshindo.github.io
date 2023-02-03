@@ -2,7 +2,7 @@
 date: 2005-12-09 05:44:46+00:00
 layout: post
 title: IW2005 その2
-categories:
+tags:
 - 仕事
 language:
 - 日本語

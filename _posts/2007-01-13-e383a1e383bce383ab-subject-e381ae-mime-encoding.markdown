@@ -2,8 +2,8 @@
 date: 2007-01-13 06:03:10+00:00
 layout: post
 title: メール Subject の MIME encoding
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

@@ -2,11 +2,11 @@
 date: 2018-10-13 11:32:08+00:00
 layout: post
 title: VMware is the Dialtone for Kubernetes / 20代の人には分からないだろうけどw
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
-tags:
+keywords:
 - Dialtone
 - Kubernetes
 ---

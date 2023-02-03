@@ -2,8 +2,8 @@
 date: 2006-02-20 15:39:24+00:00
 layout: post
 title: Googlebotの謎
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

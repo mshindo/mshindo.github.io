@@ -2,7 +2,7 @@
 date: 2007-09-12 02:07:39+00:00
 layout: post
 title: NETWORKWORLD CONFERENCE 2007 Fall
-categories:
+tags:
 - 仕事
 language:
 - 日本語

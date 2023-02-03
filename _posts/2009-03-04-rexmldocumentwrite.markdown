@@ -2,8 +2,8 @@
 date: 2009-03-04 17:29:15+00:00
 layout: post
 title: REXML::Document#write
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

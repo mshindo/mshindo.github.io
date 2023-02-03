@@ -2,7 +2,7 @@
 date: 2005-07-04 15:24:39+00:00
 layout: post
 title: とうとうご臨終
-categories:
+tags:
 - 日常
 language:
 - 日本語

@@ -2,11 +2,11 @@
 date: 2017-12-31 11:03:37+00:00
 layout: post
 title: 2017年総括
-categories:
-- 日常
+tags:
+- 総括
 language:
 - 日本語
-tags:
+keywords:
 - 年総括
 ---
 

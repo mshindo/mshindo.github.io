@@ -2,7 +2,7 @@
 date: 2008-02-25 04:34:43+00:00
 layout: post
 title: DEAN & DELUCA
-categories:
+tags:
 - グルメ
 language:
 - 日本語

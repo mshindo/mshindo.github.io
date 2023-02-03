@@ -2,8 +2,8 @@
 date: 2005-04-23 04:18:48+00:00
 layout: post
 title: 寿命か？
-categories:
-- コンピュータとインターネット
+tags:
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---
