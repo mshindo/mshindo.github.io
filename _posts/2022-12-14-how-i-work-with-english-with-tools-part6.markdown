@@ -26,7 +26,8 @@ keywords:
 
 以下は、Joe Rogan Experienceというポッドキャストの[エピソード#1908](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk)の一部をChromeのライブキャプション機能を使って字幕表示をしている例です。
 
-[video width="960" height="540" mp4="/images/Chrome-Live-Caption-Demo.mp4"][/video]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QxVba20128U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*Google Chromeのライブキャプション機能*
 
 この機能の便利なところはChromeから再生できるものであればどんなものでも字幕を付けてくれる点です。動画でも音声でも構いません。また、インターネットからストリーミングされるものじゃなくても大丈夫です。ローカルにある動画や音声ファイルの再生であっても、Chromeの中で再生しさえすれば字幕を付けてくれます。この際にネットワークの接続性は必要なく、完全にオフラインな状態でも動きます。オフラインで動作するということは、文字起こしの際にクラウド側にデータが行ったりすることがない、ということなので、プライバシー的な観点からも比較的安心して使えるのではないかと思います。
 
@@ -40,13 +41,15 @@ keywords:
 
 以下は、VMwareの[ブログ記事](https://cio.vmware.com/2022/02/5-key-elements-of-a-successful-multi-cloud-environment.html)ページ（英語）をDeepLのChrome拡張で日本語に翻訳をかけた例です。
 
-[video width="960" height="540" mp4="/images/Grammarly-Chrome-Extension-Demo.mp4"][/video]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9XX4yV9QGxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*Grammarly Chrome拡張のデモ*
 
 DeepLの翻訳精度の高さは前回見た通りですので、これを気軽に使うことができるのは大変便利です。
 
 そして、このDeepL翻訳のChrome拡張と、Grammarlyを合わせて使うとこんなことができます。まず、メールを日本語で書きます。それをDeepLのChrome拡張で英訳をして、それをGrammarlyで校正にかけてみます。"can you" が冗長だ、という指摘をされたので、その部分を削除して、これで良ければメール送信、という感じです。
 
-[video width="960" height="540" mp4="/images/DeepL-Chrome-Extension-with-Grammarly.mp4"][/video]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ys62GlGBHkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*DeepLのChrome拡張とGrammarlyを組み合わせたデモ*
 
 ううむ、楽をしすぎですかね、これは。でも、めちゃ便利です！！
 

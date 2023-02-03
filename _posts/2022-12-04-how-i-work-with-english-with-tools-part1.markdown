@@ -54,7 +54,8 @@ Grammarlyには有料プランと無料プランが用意されていて、無�
 
 もう一つ例を見てみましょう。こちらは私が以前Grammarlyを通さずに書いた[ブログ](https://blog.shin.do/2018/01/h323decoder-primer/)記事の例です。
 
-[video width="960" height="540" mp4="/images/Grammarly-Demo.mp4"][/video]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WocTuRlkaCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*Grammarlyでの校正のデモ*
 
 こちらはいくつか問題を発見されていて、例えば "personal" という単語は削除した方がいいとか、"and" や　"who" の前には ",（カンマ)” を入れるべきとか、"that I wanted" は冗長、時制の誤りなども指摘してくれてます。また、長い文を2つに分ける、不明瞭な文を簡潔にする、などの提案もしてくれています。
 
@@ -64,7 +65,8 @@ Grammarlyには有料プランと無料プランが用意されていて、無�
 
 先ほどと同様、私のブログの記事の冒頭部分をWordに貼り付けてみましょう。そして、メニューから "Editor" を選ぶといろいろチェックしてくれます。
 
-[video width="960" height="540" mp4="/images/Microsoft-Editor-Demo.mp4"][/video]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sq3_kAmkjgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*Microsoft Wordに搭載されているEditor機能のデモ*
 
 全体的なスコアや問題がありそうな箇所を指摘してくれます。この例では、Grammarlyでは指摘してくれなかった "haven't" は "have not" にした方がいいんじゃないとか、"various services" や "very close" は他の言い方をしても良いのでは、など、ボキャブラリーの提案をしてくれたりしています。
 

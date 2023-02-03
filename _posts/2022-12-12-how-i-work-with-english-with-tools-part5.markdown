@@ -46,7 +46,9 @@ Otter.aiは単独のアプリとしてiPhone/iPadやAndroidなどのデバイス
 
 以下は、バラクオバマ前大統領の大統領就任演説の様子をOtter.aiでライブで書き起こしをしている様子です（かっこいい演説なので、ちょっと長めにキャプチャしました）。
 
-[video width="888" height="1920" mp4="/images/Obama-Inauguration-Speech-with-Otter-AI.mp4"][/video]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DC4K9d0Qx4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*オバマ前大統領の就任演説をOtter.aiでライブ書き起こししたデモ*
 
 Otter.aiにも無料と有料のプランがあります。無料だとひと月に600分まで録音＆書き起こすことができ、一回の録音は40分までです。 有料プランにするとこれらの制限がぐっと緩やかになり、ひと月に6,000分まで、一回の録音は4時間までできるようになります。 正直、無料プランでも十分ではないかと思います。私も無料プランしか使っていません。また、あの2020年後半に日本語に対応するみたいな話もあるので期待しましょう（後記：2022年12月時点ではまだ英語以外の言語はサポートされていません。また、各種上限なども変更になっていますのでご注意ください。）
 

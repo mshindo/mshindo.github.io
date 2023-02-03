@@ -37,13 +37,15 @@ Quizletの面白い点は、ソーシャルネットワーク的な要素を取�
 
 Quizletの単語カードの画面は以下のような感じです。ここで示したのはiPhoneアプリの例ですが、ほぼ同様のことがPC上のWebインターフェースでもできます。
 
-[video width="250" height="540" mp4="/images/Quizlet-Demo.mp4"][/video]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TuupXk1mqHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*Quizlet単語カードのデモ*
 
 ここで使っている単語帳は巷の受験生がよく使う「東大英単語熟語」（俗に「鉄壁」と呼ばれている）という本が元になっています。この単語帳は私自身が作ったわけではなく、誰か別の人が作った単語帳を使わせていただいているわけです。元ネタが書籍なので、著作権的には少々グレーな気もしますが、ともかくQuizletが持つソーシャル的な側面はご理解いただけるのではないかと思います。
 
 また、Quizletのゲーミフィケーションによる学習の様子を以下に示します。
 
-[video width="250" height="540" mp4="/images/Quizlet-Game-Demo.mp4"][/video]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LZKw4pze92k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*Quizletのゲーミフィケーションによる学習のデモ*
 
 以前はもう少しゲームの種類もあったように思いますが、現在は単純なマッチング・ゲームしかないようです。
 

@@ -69,7 +69,8 @@ AirPods Proの「アクティブノイズキャンセリング機能の優秀さ
 
 しかし、ただ単にZoomのレコーディングを聞き直して文字に書き起こすのでは能がないので、今回は少しだけテクノロジーを活用することにしました。具体的には、Zoomのレコーディング（mp4）ファイルから音声だけを取り出して（MacならQuickTime Playerで簡単に行えます）m4aファイルに変換し、そのファイルをWindows上のOffice 365のWordの**トランスクリプト機能**を使ってテキストファイルに書き起こしをしました。そのようにしてできたテキストに修正加筆を行いブログの記事にしました。以下の動画はその時の作業の様子です。
 
-[video width="960" height="540" mp4="/images/Microsoft-Word-Dictation-Transcript.mp4"][/video]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y6QR0GqOABA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*Microsoft Word Dictation機能による書き起こし*
 
 Microsoft Wordのトランスクリプト機能のおかげで、書き起こし作業に関して大幅に省力化ができましたが、同時に大きな気づきが1つありました。それは、いかに自分が喋っているときに、いわゆる "**Filller**" （「ええ」や「まあ」など）が多いか、ということです。このトランスクリプト機能を使うと、本当に実直なまでに「ええ」や「まあ」を拾ってテキストにしてくれます。私が、「私、英語とこんな付き合い方をしています（ツール編」）で喋った小一時間の間に、なんと「ええ」が818回、「まあ」が212回もありました！　自分の喋りはこんなだったのか。酷い、酷すぎる！　と、深く深く反省をした次第です。
 
