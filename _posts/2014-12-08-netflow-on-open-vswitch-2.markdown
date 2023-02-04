@@ -6,8 +6,6 @@ tags:
 - Computer and Networking
 language:
 - English
-post_translations:
-- pll_54864e1186265
 keywords:
 - NetFlow
 - Open vSwitch

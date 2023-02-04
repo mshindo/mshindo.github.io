@@ -6,8 +6,6 @@ tags:
 - Computer and Networking
 language:
 - English
-post_translations:
-- pll_546d6526d2b6b
 ---
 
 A while back, I posted a simple BGP4 library implemented by Ruby to GitHub. I wrote this code when I was working at Fivefront, which was selling GenieATM, a NetFlow/sFlow/IPFIX collector.

@@ -8,8 +8,6 @@ tags:
 - 本
 language:
 - 日本語
-post_translations:
-- pll_546c9a3e12bca
 keywords:
 - NSX
 - ネットワーク

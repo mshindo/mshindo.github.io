@@ -6,8 +6,6 @@ tags:
 - Computer and Networking
 language:
 - English
-post_translations:
-- pll_546c9a3e12bca
 keywords:
 - network virtualization
 - NSX

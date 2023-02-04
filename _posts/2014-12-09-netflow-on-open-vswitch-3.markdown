@@ -7,8 +7,6 @@ tags:
 - 仕事
 language:
 - 日本語
-post_translations:
-- pll_54864e1186265
 ---
 
 Open vSwitch (OVS)はかなり以前（2009年頃から）NetFlowをサポートしています。OVSでNetFlowをenableするには以下のようなコマンドを使います:

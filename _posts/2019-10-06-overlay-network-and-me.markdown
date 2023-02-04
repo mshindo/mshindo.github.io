@@ -7,8 +7,6 @@ tags:
 - 仕事
 language:
 - 日本語
-post_translations:
-- pll_5da6400c1a610
 keywords:
 - Ascend
 - cosine

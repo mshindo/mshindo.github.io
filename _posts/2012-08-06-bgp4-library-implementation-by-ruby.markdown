@@ -6,8 +6,6 @@ tags:
 - コンピュータ＆ネットワーク
 language:
 - 日本語
-post_translations:
-- pll_546d6526d2b6b
 ---
 
 前職にいた時に書いた拙作のBGPのライブラリコードをGitHubに公開する事にしました。

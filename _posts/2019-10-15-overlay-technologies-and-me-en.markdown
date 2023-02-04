@@ -6,8 +6,6 @@ tags:
 - Computer and Networking
 language:
 - English
-post_translations:
-- pll_5da6400c1a610
 keywords:
 - Ascend
 - cosine

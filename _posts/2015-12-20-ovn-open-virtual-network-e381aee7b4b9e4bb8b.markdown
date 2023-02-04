@@ -6,8 +6,6 @@ tags:
 - コンピュータ＆ネットワーク
 language:
 - 日本語
-post_translations:
-- pll_567610d39f7d7
 keywords:
 - GENEVE
 - Open vSwitch

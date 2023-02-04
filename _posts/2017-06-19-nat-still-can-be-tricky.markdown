@@ -6,8 +6,6 @@ tags:
 - Computer and Networking
 language:
 - English
-post_translations:
-- pll_594789e5bcf97
 ---
 
 The following discussion applies to both NAPT and NAT. Hence I refer to it simply as NAT hereafter.
