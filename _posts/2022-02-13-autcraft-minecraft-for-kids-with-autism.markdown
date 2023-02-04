@@ -24,6 +24,7 @@ keywords:
 
 ここで私は思わずウルっときてしまいました。技術の力をこんな風に使えたら素晴らしいですよね。興味がある方は是非この[エピソード](https://www.npr.org/programs/ted-radio-hour/1079859923/work-play-rest-part-2)を聞いてみていただければと思います。Duncanさんのと話は 30:38 あたりから始まります。また、Duncanさんが以前に TED のステージで話された時の映像もあります。日本語字幕もありますすのでこちらも是非。
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iclWth_VvBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*TED: How I use Minecraft to help kids with autism by Stuart Duncan*
 
 Photo by [Nina PhotoLab](https://unsplash.com/@nina_eyes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/minecraft?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
