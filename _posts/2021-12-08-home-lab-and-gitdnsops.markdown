@@ -5,8 +5,7 @@ title: おうち Lab と GitDNSOps
 image: '/images/roman-synkevych-wX2L8L-fGeA-unsplash.jpg'
 tags:
 - 仕事
-- 日常
-- 趣味
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 keywords:

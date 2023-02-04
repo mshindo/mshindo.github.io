@@ -4,7 +4,6 @@ layout: post
 title: Geneve on Open vSwitch
 tags:
 - コンピュータ＆ネットワーク
-- 仕事
 language:
 - 日本語
 post_translations:

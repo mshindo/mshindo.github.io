@@ -3,7 +3,6 @@ date: 2019-05-13 17:23:37+00:00
 layout: post
 title: RADIO 2019
 tags:
-- コンピュータ＆ネットワーク
 - 仕事
 language:
 - 日本語

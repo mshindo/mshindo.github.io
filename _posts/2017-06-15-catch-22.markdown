@@ -4,6 +4,7 @@ layout: post
 title: Catch-22
 tags:
 - 仕事
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---
