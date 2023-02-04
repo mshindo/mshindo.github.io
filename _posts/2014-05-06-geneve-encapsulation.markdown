@@ -4,7 +4,6 @@ layout: post
 title: Geneve Encapsulation
 tags:
 - コンピュータ＆ネットワーク
-- 仕事
 language:
 - 日本語
 keywords:
@@ -20,22 +19,16 @@ L2 over L3のencapsulationとしては、GRE, NVGRE, VXLAN, STTなどが良く�
 
 その上で、Geneveが目指すのは、主に以下のの2点となります。
 
-
-
-	
   * 拡張性を備える事
-
-	
   * オフロード機能を有効に活用できる事
-
 
 NVGRE, VXLAN, STTヘッダはいずれも固定長で自由に拡張する事ができないため、今後新たに必要となるさまざまな要件に対応するのが困難です。そのような新たな要件として1つ想定されるのが “metadata” のサポートです。ここでいうmetadataとは、パケット自体ではなくそれに付随するさまざまなcontext情報の事を意味します。例えばパケットがどのようなサービスを経由すべきか（いわゆるservice chaining）や、そのパケットが誰が出したどのようなアプリケーションのパケットであるのか、などと言った情報がmetadataにあたります。NVGRE, VXLANはいずれも原則仮想ネットワーク識別子しか扱えず、このようなメタな情報を伝えるのが困難です。STTには64bit長の “Context ID” というフィールドがあるので、ここを利用する事でNVGREやVXLANよりは多くの情報を伝える事ができますが、64bitという固定長フィールドですので伝えられる情報量には限りがあります。
 
 そこでGeneveでは、encapsulationに拡張性を持たせられるように、固定フィールドに加え、自由に伝える情報を拡張する事が出来る可変長のOptionフィールドが定義されています。このフィールドはいわゆるTLV (Type/Length/Value）形式を取っており、自由に拡張をすることができます。また、Typeの前にはOption Classというフィールドがあり、Typeの名前空間を定義できます。ここに（IANAから割り当てられた）ベンダーIDを入れる事でベンダー固有のTypeを自由に定義・追加できるように設計されています。
 
-[![Geneve class=]({{site.baseurl}}/images/GeneveHeadr.svg) Geneve Header 
+![Geneve class=]({{site.baseurl}}/images/GeneveHeadr.svg) *Geneve Header*
 
-[![Geneve Options]({{site.baseurl}}/images/GeneveOptions.svg) Geneve Options
+![Geneve Options]({{site.baseurl}}/images/GeneveOptions.svg) *Geneve Options*
 
 Geneveヘッダには2種類のフラグ（O、C）が定義されいます。OフラグはOAMフレームを表し、CフラグはCriticalフレームを表しています。GeneveのOAMはEnd-to-EndのOAMを想定しており、途中の経由するノードがこのフラグを見てなにかしらの解釈してはしてはいけない事になっています。また、GeneveのEndノードはOフラグが立ったパケットを優先的に処理する事が期待されています。一方、Cフラグが立っているオプションを受け取ったEndノードはそれを解釈しなければなりません。逆に言うと、Cフラグが立っていなければ、それを受け取ったノードはそれを無視しても良い、ということになります。
 
@@ -49,24 +42,15 @@ STTはTSO機能を持った既存のNICでH/Wアクセラレーション効果�
 
 一方、Geneveに反対をしている人たちもいます。そのような人たちの主張はおおかた以下のよなものです。
 
-
-
-	
   * Geneveで実現しようとしている事は、既存のencapsulation（L2TPv3のstatic tunnelingやVXLAN）の拡張で実現可能なので、新たなencapsulationは要らない。
-
-	
   * metadataをencapsulationにbindするべきではない。
-
-	
   * VNIが24bitでは不十分。最低でも32bitは欲しい。
-
-
 
 一般的にはL2TPはシグナリングを含みますが、L2TPのシグナリングを使わずに両端で静的に必要な設定をする事でL2TPを使う事も可能です。これをL2TP static tunnelingといい、この場合は純粋なencapsulation (Pseudo Wire）方式ということになります。L2TPv3自体は2005年にRFCになっていますので、十分に枯れた仕様であり実装も十分にあります。例えばCisco IOSでも実装されていますし、Linuxでもip l2tpコマンドで利用できます。
 
 L2TPv3のデータパケットのencapsulationには実質上Session IDとCookieしかありません（Tフラグは常に0、Verは3である必要があります）。
 
-[![L2TPv3 Data Header]({{site.baseurl}}/images/L2TPv3.svg) L2TPv3 Data Header
+![L2TPv3 Data Header]({{site.baseurl}}/images/L2TPv3.svg) *L2TPv3 Data Header*
 
 L2TPv3 encapsulationではSession IDがVXLAN/GeneveのVNIに相当する事になり、ここは32bit長となっています。
 
@@ -76,7 +60,8 @@ L2TPv3 encapsulationではSession IDがVXLAN/GeneveのVNIに相当する事に�
 
 上記のような観点からは、VXLANもL2TPv3 encapsulationとあまり大きな違いはありません。
 
-[![VXLAN Header]({{site.baseurl}}/images/VXLAN.svg) VXLAN Header
+![VXLAN Header]({{site.baseurl}}/images/VXLAN.svg)
+*VXLAN Header*
 
 標準で規定されている以外の情報（現状はVNIしか伝える事しか出来ない）を伝えようとすると、現状のReservedとなっているフラグやフィールドを使って拡張をするか、パケットのフォーマットを大幅に変更をする事になるでしょう。例えば、現状のVXLANヘッダにはencpasulationするフレームがどのようなフレームなのかを示すフィールドがなくencapsulationの対象となるフレームはEthernetのみですが、VXLANでEthernetフレーム以外をencapsulationするようにするための拡張が提案されています（draft-quinn-vxlan-gpe）。この拡張はまさにReservedなフラグとフィールドを使ってVXLANを拡張しています。Encapsulation対象のフレームの種類を表すだけならなんとかReservedのフィールドでおさまるので、VXLANのパケットフォーマットを変更せずに済みますが、これ以外の拡張をしたくなったらもはや使えるフィールドはないので、フレームフォーマットの変更を余儀なくされるでしょう。
 

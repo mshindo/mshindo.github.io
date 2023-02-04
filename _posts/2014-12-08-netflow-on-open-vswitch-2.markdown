@@ -30,9 +30,11 @@ NetFlow has several versions. V5 and V9 are the most commonly used versions toda
 
 NetFlow V5 packet consists of a header and flow records (up to 30) following the header (see below).
 
-[![NetFlow V5 header format]({{site.baseurl}}/images/NetFlow-V5-Header.svg)NetFlow V5 header format
+![NetFlow V5 header format]({{site.baseurl}}/images/NetFlow-V5-Header.svg)
+*NetFlow V5 header format*
 
-[![NetFlow V5 flow record format]({{site.baseurl}}/images/NetFlow-V5-Flow-Record.svg)NetFlow V5 flow record format
+![NetFlow V5 flow record format]({{site.baseurl}}/images/NetFlow-V5-Flow-Record.svg)
+*NetFlow V5 flow record format*
 
 NetFlow V5 cannot handle IPv6 flow records. If you need to monitor IPv6 traffic, you must use sFlow or IPFIX.
 
