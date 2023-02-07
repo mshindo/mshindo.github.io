@@ -12,7 +12,7 @@ default_image: "/images/lukas-blazek-GnvurwJsKaY-unsplash.jpg"
 # Author Settings
 author:
   author__name: 進藤資訓 / Motonori Shindo
-  author__bio: 1988年、東京電力に入社。1992-95にカーネギーメロン大学コンピュータ科学学科に留学。その後、アセンド、コサイン、プロキシム等のネットワークベンダーを経て、ファイブ・フロントを設立しCTOに就任。2011年 Nicira (現VMware)に入社、ネットワーク仮想化に従事。2016年にViptela (現Cisco)に入社、SD-WAN市場の開拓にあたる。その後再びVMwareに戻り最高技術責任者（北アジア担当）に。講演・執筆多数。
+  author__bio: 1988年、東京電力(株)に入社。1992-95年にカーネギーメロン大学コンピュータ科学学科に留学。その後、アセンド、コサイン、プロキシム等のネットワークベンダーを経て、ファイブ・フロントを設立しCTOに就任。2011年 Nicira (現VMware)に入社、ネットワーク仮想化に従事。2016年にViptela (現Cisco)に入社、SD-WAN市場の開拓にあたる。その後再びVMwareに戻り最高技術責任者（北アジア担当）に。講演・執筆多数。
   author__avatar: '/images/0001_xlarge_up.jpg'
 
 social:
