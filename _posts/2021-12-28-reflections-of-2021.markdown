@@ -106,7 +106,8 @@ language:
 
 今年見た YouTube ビデオでベストだったのは、
 
-===YouTube===
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yzTqAU_kiKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*ゆる言語学ラジオ：「象は鼻が長い」の謎*
 
 でした。これは会社の同僚が教えてくれたもので、長年日本語言語学界隈で物議を醸してきた「象は鼻が長い」という文をどう解釈するか、ということについて話しているものです。この文、一見単純な日本語の文章に見えますが、さて、この文の主語は何だかわかりますか？　「象」なの？　それとも「鼻」なの？　あれれ、分からなくなってきましたよね（笑）　この YouTube 動画はそれを解き明かしてくれます。
 
