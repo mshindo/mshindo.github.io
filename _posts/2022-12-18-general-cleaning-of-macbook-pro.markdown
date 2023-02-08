@@ -34,7 +34,8 @@ keywords:
 
 これで道具は揃いました。ただ、MacBook Proの蓋を開けるは若干コツが要ります。以下のサイトを参照しながら慎重に作業を進めました。
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yAlXpkRVsEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*MacBook Pro 16のFAN掃除の紹介動画*
 
 無事にMacBook Proをご開帳をしたら、こんな塩梅でした！
 
