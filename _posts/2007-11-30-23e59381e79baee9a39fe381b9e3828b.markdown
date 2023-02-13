@@ -4,6 +4,7 @@ layout: post
 title: 23品目食べる
 tags:
 - 日常
+- グルメ
 language:
 - 日本語
 ---
