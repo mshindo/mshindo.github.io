@@ -96,4 +96,3 @@ Jekyllには無料のテーマが沢山ありますが、このテーマは有�
 今回は、仮住まいへの引っ越しを契機として、長年の課題だった個人ブログで使っていたWordPressからの脱却を図り、Jekyll (GitHub Pages) に移行をしました。移行には結構手間がかかりましたが、晴れてWordPressの呪縛から逃れた喜びと、`git push` するだけでブログの更新ができるエクスペリエンスは思いのほか快適で、十分に労力に見合うものだったな、と思っています。
 
 Photo by [Robinson Greig](https://unsplash.com/@robinson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/HrnAxAUwle8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  
