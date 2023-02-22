@@ -37,7 +37,8 @@ keywords:
 
 JANOG45のセッション後に幾つかのフィードバックをもらいました。その中の一つは以下のようなものでした。
 
-https://twitter.com/rafiror/status/1219984617513472000?s=20
+<blockquote class="twitter-tweet" data-conversation="none"><a href="https://twitter.com/rafiror/status/1219984617513472000?s=20"></a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 非常に妥当なご意見だと思いますし、他にも同じように感じられた方も多かったようです。なぜ今日のネットワークはKubernetes的な宣言性を持ち得ていないのか、どのようにしたらそれを実現できるのか、という点に興味を抱いている人は多いんですね。これは大変興味深い話であり、私自身も大きな関心を持っています。
 
