@@ -84,7 +84,7 @@ Jekyllには無料のテーマが沢山ありますが、このテーマは有�
 
 現時点ではまだ幾つか対応できていない点があります。
 
-- TwitterのTweetの埋め込み
+- ~~TwitterのTweetの埋め込み~~(2023/02/22対応)
 - TableのMarkdown化
 - Search機能が日本語では動かない
 - SEO施策
