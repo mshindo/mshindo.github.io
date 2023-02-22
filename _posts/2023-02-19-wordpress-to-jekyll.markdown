@@ -14,6 +14,8 @@ keywords:
 ---
 個人ブログのプラットフォームを長年使ってきたWordPressからJekyll (GitHub Pages)に引っ越しました。
 
+<blockquote class="twitter-tweet" data-conversation="none"><a href="https://twitter.com/motonori_shindo/status/1622379485382451200?s=20"></a></blockquote>
+
 ## 背景
 
 今まで個人ブログは自宅のESXiサーバ上の仮想マシンでWordPressを動かしていたのですが、今回家のリフォームに伴い仮住まいに引っ越しをすることになり、WordPress環境もどこかに移設しなければいけなくなった、というのが今回のブログプラットフォーム変更の直接の契機です。
