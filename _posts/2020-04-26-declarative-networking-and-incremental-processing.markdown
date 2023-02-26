@@ -71,128 +71,32 @@ Niciraの創業者の一人であるMatin Casadoから聞いた話なのです�
 SDNコントローラはそのような状況を表す以下のようなテーブルを持っているはずです。
 
 Controller:
-<table >
-<tbody >
-<tr >
-VM
-IP
-Host
-Port
-</tr>
-<tr >
 
-<td >VM1
-</td>
+| VM  | IP           | Host   | Port |
+| --- | ------------ | ------ | ---- |
+| VM1 | 10.10.10.101 | Host 1 | 2    |
+| VM2 | 10.10.10.102 | Host 1 | 3    |
+| VM3 | 10.10.10.103 | Host 2 | 2    |
 
-<td >10.10.10.101
-</td>
-
-<td >Host 1
-</td>
-
-<td >2
-</td>
-</tr>
-<tr >
-
-<td >VM2
-</td>
-
-<td >10.10.10.102
-</td>
-
-<td >Host 1
-</td>
-
-<td >3
-</td>
-</tr>
-<tr >
-
-<td >VM3
-</td>
-
-<td >10.10.10.103
-</td>
-
-<td >Host 2
-</td>
-
-<td >2
-</td>
-</tr>
-</tbody>
-</table>
 SDNコントローラはこのテーブルから各ハイパーバイザ（Host1、Host2）のフローテーブルを以下のように設定することになります。
 
 Host1:
-<table >
-<tbody >
-<tr >
-Match
-Action
-</tr>
-<tr >
 
-<td >dst=10.10.10.101
-</td>
+| Match            | Action                 | 
+| ---------------- | ---------------------- |
+| dst=10.10.10.101 | output:2 (local port)  |
+| dst=10.10.10.102 | output:3 (local port)  |
+| dst=10.10.10.103 | output:1 (tunnel port) |
 
-<td >output:2 (local port)
-</td>
-</tr>
-<tr >
-
-<td >dst=10.10.10.102
-</td>
-
-<td >output:3 (local port)
-</td>
-</tr>
-<tr >
-
-<td >dst=10.10.10.103
-</td>
-
-<td >output:1 (tunnel port)
-</td>
-</tr>
-</tbody>
-</table>
 Host2:
-<table >
-<tbody >
-<tr >
-Match
-Action
-</tr>
-<tr >
 
-<td >dst=10.10.10.101
-</td>
+| Match            | Action                 | 
+| ---------------- | ---------------------- |
+| dst=10.10.10.101 | output:1 (tunnel port) |
+| dst=10.10.10.102 | output:1 (tunnel port) |
+| dst=10.10.10.103 | output:2 (local port)  |
 
-<td >output:1 (tunnel port)
-</td>
-</tr>
-<tr >
-
-<td >dst=10.10.10.102
-</td>
-
-<td >output:1 (tunnel port)
-</td>
-</tr>
-<tr >
-
-<td >dst=10.10.10.103
-</td>
-
-<td >output:2 (local port)
-</td>
-</tr>
-</tbody>
-</table>
 このようなフローテーブルの設定を行うには、概ね以下のようなコードをコントローラに実装すれば良いでしょう。
-
     
     for h in Hosts:
       for vm in VM:
@@ -209,126 +113,31 @@ Action
 コントローラはこのようなVMの移動を把握することができますので、自分が持っているテーブルを以下のように更新します。
 
 Controller:
-<table >
-<tbody >
-<tr >
-VM
-IP
-Host
-Port
-</tr>
-<tr >
 
-<td >VM1
-</td>
+| VM  | IP           | Host   | Port |
+| --- | ------------ | ------ | ---- |
+| VM1 | 10.10.10.101 | Host 1 | 2    |
+| VM2 | 10.10.10.102 | Host 2 | 3    |
+| VM3 | 10.10.10.103 | Host 2 | 2    |
 
-<td >10.10.10.101
-</td>
-
-<td >Host 1
-</td>
-
-<td >2
-</td>
-</tr>
-<tr >
-
-<td >VM2
-</td>
-
-<td >10.10.10.102
-</td>
-
-<td >Host 2
-</td>
-
-<td >3
-</td>
-</tr>
-<tr >
-
-<td >VM3
-</td>
-
-<td >10.10.10.103
-</td>
-
-<td >Host 2
-</td>
-
-<td >2
-</td>
-</tr>
-</tbody>
-</table>
 当然この変更に合わせてハイパーバイザ上のフローテーブルも更新しなければなりません。一番簡単な方法は、上にあげたロジックを再度実行することです。こうすれば適切なフローテーブルが新たに各ハイパーバイザに設定されるはずです。
 
 Host1:
-<table >
-<tbody >
-<tr >
-Match
-Action
-</tr>
-<tr >
 
-<td >dst=10.10.10.101
-</td>
+| Match            | Action                 | 
+| ---------------- | ---------------------- |
+| dst=10.10.10.101 | output:2 (local port)  |
+| dst=10.10.10.102 | output:1 (tunnel port) |
+| dst=10.10.10.103 | output:1 (tunnel port) |
 
-<td >output:2 (local port)
-</td>
-</tr>
-<tr >
-
-<td >dst=10.10.10.102
-</td>
-
-<td >output:1 (tunnel port)
-</td>
-</tr>
-<tr >
-
-<td >dst=10.10.10.103
-</td>
-
-<td >output:1 (tunnel port)
-</td>
-</tr>
-</tbody>
-</table>
 Host2:
-<table >
-<tbody >
-<tr >
-Match
-Action
-</tr>
-<tr >
 
-<td >dst=10.10.10.101
-</td>
+| Match            | Action                 | 
+| ---------------- | ---------------------- |
+| dst=10.10.10.101 | output:1 (tunnel port) |
+| dst=10.10.10.102 | output:3 (local port)  |
+| dst=10.10.10.103 | output:2 (local port)  |
 
-<td >output:1 (tunnel port)
-</td>
-</tr>
-<tr >
-
-<td >dst=10.10.10.102
-</td>
-
-<td >output:3 (local port)
-</td>
-</tr>
-<tr >
-
-<td >dst=10.10.10.103
-</td>
-
-<td >output:2 (local port)
-</td>
-</tr>
-</tbody>
-</table>
 しかしこれはあまりに非効率です。テーブルが小さいうちはこのような実直な方法でも良いかもしれませんが、テーブルサイズが大きくなってきた場合、この方法は明らかにCPUやネットワーク帯域の無駄になります。大規模環境では設定にかかる時間も無視できないほど大きくなってしまうでしょう。もう少し良い方法はないでしょうか？
 
 誰もがすぐに思いつくのはおそらく「変更があったところだけ更新をする」という方法でしょう。いわゆるインクリメンタルなアップデート処理をすれば良いわけです。アルゴリズム的にはこんな感じになるでしょう。
