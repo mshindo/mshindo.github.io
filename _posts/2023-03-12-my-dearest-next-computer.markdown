@@ -9,7 +9,10 @@ language:
 - 日本語
 keywords:
 - NeXT Computer
+- NeXT Station
 - Interface Builder
+- 夢のマイコン博物館
+- カーネギーメロン
 ---
 
 ## NeXT Computerとの出会い
