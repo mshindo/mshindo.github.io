@@ -22,7 +22,7 @@ keywords:
 ![NeXT Cube]({{site.baseurl}}/images/1620px-NEXT_Cube-IMG_7154.jpg)
 **NeXTcube. (2022, December 10). In Wikipedia. https://ja.wikipedia.org/wiki/NeXTcube**
 
-それまで私は、耳学問としてはUNIXに関する知識はありましたが、直にUNIXに触ったことがほとんどありませんでした。実質最初に触ったUNIXマシンがNeXTだったわけです。これは本当に衝撃的な出会いでした。カーネルはMach、Window Systemには当時UNIXで主流だったX-WindowではなくDisplay PostScriptを全面的に採用、ハードウェアも当時としては珍しかったDSPやMO(光磁気ディスク)などが搭載されており、美しくデザインされた筐体でした。しかし、私にとって最も驚きだったのはなんといっても**Interface Builder**です。Interface Builderは現在MacOSのXcodeに引き継がれており、Interface Builderに触ったことがある方も多いと思うので、何がそんなに凄いんだ？、と思われるかもしれません。ただ、当時の私にとっては、Objective-Cのようなコンパイル型言語で、なぜコンパイルやリンクをせずにU/Iのテストができるのか直感的に理解ができず、本当に魔法を見せられているようだったのです。Steve JobsがNeXT上でInterface Builderのデモをやっている動画が残っていたので、ぜひ見てみて下さい！
+それまで私は、耳学問としてはUNIXに関する知識はありましたが、直にUNIXに触ったことがほとんどありませんでした。実質最初に触ったUNIXマシンがNeXTだったわけです。これは本当に衝撃的な出会いでした。カーネルはMach、Window Systemには当時UNIXで主流だったX-WindowではなくDisplay PostScriptを全面的に採用、ハードウェアも当時としては珍しかったDSPやMO(光磁気ディスク)などが搭載されており、美しくデザインされた筐体でした。しかし、私にとって最も驚きだったのはなんといっても**Interface Builder**です。Interface Builderは現在MacOSのXcodeに引き継がれており、Interface Builderに触ったことがある方も多いと思うので、何がそんなに凄いんだ？、と思われるかもしれません。ただ、当時の私にとっては、Objective-Cのようなコンパイル型言語で、なぜコンパイルやリンクをせずにU/Iのテストができるのか直感的に理解ができず、本当に**魔法を見せられている**ようだったのです。Steve JobsがNeXT上でInterface Builderのデモをやっている動画が残っていたので、ぜひ見てみて下さい！
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dl0CbKYUFTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 **Steve JobsによるInterface Builderのデモ**
