@@ -1,5 +1,5 @@
 ---
-date: 2023-02-23 10:13:31+09:00
+date: 2023-03-12 10:01:00+09:00
 layout: post
 title: 我が愛しのNeXT
 image: '/images/serhii-butenko-zx2Vc1zPDIs-unsplash.jpg'
