@@ -2,6 +2,7 @@
 date: 2023-03-16 15:10:00+09:00
 layout: post
 title: My Dearest NeXT Computer
+description: The story around my NeXT Station
 image: '/images/serhii-butenko-zx2Vc1zPDIs-unsplash.jpg'
 tags:
 - Computer&Internet

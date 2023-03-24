@@ -2,6 +2,7 @@
 date: 2023-03-12 10:01:00+09:00
 layout: post
 title: 我が愛しのNeXT
+description: 愛機のNeXT Stationにまつわる物語
 image: '/images/serhii-butenko-zx2Vc1zPDIs-unsplash.jpg'
 tags:
 - コンピュータ＆インターネット
