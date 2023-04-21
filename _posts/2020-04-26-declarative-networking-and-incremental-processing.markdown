@@ -2,6 +2,7 @@
 date: 2020-04-26 22:49:23+00:00
 layout: post
 title: 宣言的ネットワーキングとインクリメンタル処理
+description: Datalogによる宣言的なSDNコントロールプレーンの実現
 image: '/images/irvan-smith-5eBW5GomfhY-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク
@@ -358,7 +359,7 @@ Differential Datalogを使ってテーブル処理を書く主なメリットは
 
 の２点です。まず、メンテナンス性の高いコードになる、とう点をみてみましょう。以下は、OVNのmeterおよびmeter_bandテーブルを管理する部分のコードです（OVNはC言語で書かれています）。
 
-    
+{% highlight c %}
     struct band_entry {
         int64_t rate;
         int64_t burst_size;
@@ -492,7 +493,7 @@ Differential Datalogを使ってテーブル処理を書く主なメリットは
         }
         shash_destroy(&sb_meters);
     }
-    
+{% endhighlight %}
 
 
 かなりの量のコードで、それなりに複雑です。

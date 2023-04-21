@@ -2,6 +2,7 @@
 date: 2020-02-29 01:44:26+00:00
 layout: post
 title: 我が家にNUROがやってきた！
+description: 高速なブロードバンド回線としてNUROを導入したお話
 image: '/images/sincerely-media-oC32cy4x-ZA-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク

@@ -2,6 +2,7 @@
 date: 2021-12-28 23:42:02+00:00
 layout: post
 title: 2021年総括
+description: 2021年の振り返りと、2022年の抱負について
 image: '/images/engin-akyurt-K5IS7QLSm7U-unsplash.jpg'
 tags:
 - 総括

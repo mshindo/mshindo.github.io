@@ -2,6 +2,7 @@
 date: 2020-12-31 08:54:43+00:00
 layout: post
 title: 2020年総括
+description: 2020年の振り返りと、2021年の抱負について
 image: '/images/kelly-sikkema-1KfV102FCcQ-unsplash.jpg'
 tags:
 - 総括

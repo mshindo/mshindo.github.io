@@ -2,6 +2,7 @@
 date: 2023-03-10 07:09:00+09:00
 layout: post
 title: Migration from WordPress to Jekyll
+description: Why and how I migrated my blog site
 image: '/images/robinson-greig-HrnAxAUwle8-unsplash.jpg'
 tags:
 - Computer and Networking

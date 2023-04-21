@@ -2,6 +2,7 @@
 date: 2023-01-18 08:43:31+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 5〜
+description: 英語の読み物の紹介
 image: '/images/blaz-photo-zMRLZh40kms-unsplash.jpg'
 tags:
 - 仕事

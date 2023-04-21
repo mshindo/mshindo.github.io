@@ -2,6 +2,7 @@
 date: 2023-01-13 22:24:08+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 3〜
+description: 英語のドラマ、映画の紹介
 image: '/images/denise-jans-Lq6rcifGjOU-unsplash.jpg'
 tags:
 - 仕事

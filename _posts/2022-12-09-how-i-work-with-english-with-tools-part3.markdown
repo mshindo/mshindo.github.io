@@ -2,6 +2,7 @@
 date: 2022-12-09 00:04:20+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（ツール編）〜 Part 3 〜
+description: 辞書サービスと単語帳
 image: '/images/edho-pratama-T6fDN60bMWY-unsplash.jpg'
 tags:
 - 仕事

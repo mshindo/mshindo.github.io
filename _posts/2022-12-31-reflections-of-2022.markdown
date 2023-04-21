@@ -2,6 +2,7 @@
 date: 2022-12-31 03:00:04+00:00
 layout: post
 title: 2022年総括
+description: 2022年の振り返りと、2023年の抱負について
 image: '/images/choong-deng-xiang-Z_9iLLLJgUs-unsplash.jpg'
 tags:
 - 総括

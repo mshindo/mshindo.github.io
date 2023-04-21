@@ -2,6 +2,7 @@
 date: 2022-12-14 22:22:50+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（ツール編）〜 Part 6 〜
+description: Part1〜5までに紹介したものに関する最近のアップデート
 image: '/images/markus-winkler-cxoR55-bels-unsplash.jpg'
 tags:
 - 仕事

@@ -2,6 +2,7 @@
 date: 2022-05-20 01:22:33+00:00
 layout: post
 title: 'Software-Defined Networks: A Systems Approach 日本語版＋書き下ろし発売'
+description: SDNに関する書籍出版に関するお知らせ
 image: '/images/SDN-Book-Cover.jpg'
 tags:
 - コンピュータ＆ネットワーク

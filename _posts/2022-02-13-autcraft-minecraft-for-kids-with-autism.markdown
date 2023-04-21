@@ -2,6 +2,7 @@
 date: 2022-02-13 23:19:08+00:00
 layout: post
 title: 'Autcraft: 自閉症を持つ子供のためのマインクラフト - Minecraft for kids with autism'
+description: 自閉症を持つ子供たちに安心して遊べるマインクラフト環境を立ち上げた、とても感動的なお話
 image: '/images/nina-photolab-6eL_lMJDwjM-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク

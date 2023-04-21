@@ -2,6 +2,7 @@
 date: 2020-03-08 07:44:32+00:00
 layout: post
 title: 自宅のインターネット回線品質をVeloCloudで測ってみた
+description: 自宅のインターネット3回線の品質を比較してみました
 image: '/images/joe-neric-HHunRG19kF8-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク

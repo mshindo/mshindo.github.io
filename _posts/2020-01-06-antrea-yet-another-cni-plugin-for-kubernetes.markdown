@@ -2,6 +2,7 @@
 date: 2020-01-06 14:13:12+00:00
 layout: post
 title: Antrea - Yet Another CNI Plug-in for Kubernetes
+description: Antrea という OVS ベースの CNI プラグインについて
 image: '/images/manuel-sardo-EzUfDwJTOzw-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク

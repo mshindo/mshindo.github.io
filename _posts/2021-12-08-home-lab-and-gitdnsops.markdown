@@ -2,6 +2,7 @@
 date: 2021-12-08 23:48:15+00:00
 layout: post
 title: おうち Lab と GitDNSOps
+description: 自宅の DNS サーバを GitOps で管理してみよう！
 image: '/images/roman-synkevych-wX2L8L-fGeA-unsplash.jpg'
 tags:
 - 仕事

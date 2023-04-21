@@ -2,6 +2,7 @@
 date: 2023-01-20 12:44:35+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 6〜
+description: 日々の習慣についての紹介。そして一連の記事の作成方法についても解説しています。
 image: '/images/jexo-Zl5lpzbK63Q-unsplash.jpg'
 tags:
 - 仕事

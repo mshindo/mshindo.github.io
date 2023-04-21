@@ -2,6 +2,7 @@
 date: 2022-12-18 23:40:57+00:00
 layout: post
 title: 塵も積もれば
+description: Macの動作がしばしば遅くなったら、ひょっとしたら原因はこれかもしれませんよ。
 image: '/images/giorgio-trovato-v_bri4iVuiM-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク

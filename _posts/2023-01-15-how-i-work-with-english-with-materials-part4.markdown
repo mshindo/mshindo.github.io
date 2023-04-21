@@ -2,6 +2,7 @@
 date: 2023-01-15 21:45:13+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（マテリアル編）〜 Part 4〜
+description: 英語の勉強に役立つPodcastの紹介
 image: '/images/convertkit-waxDxYM2XI4-unsplash.jpg'
 tags:
 - 仕事

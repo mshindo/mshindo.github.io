@@ -2,6 +2,7 @@
 date: 2023-02-19 11:36:35+00:00
 layout: post
 title: WordPressからJekyllへのお引越し
+description: なぜ、そしてどうやって、個人Blogサイトの移行を行なったのか？
 image: '/images/robinson-greig-HrnAxAUwle8-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク

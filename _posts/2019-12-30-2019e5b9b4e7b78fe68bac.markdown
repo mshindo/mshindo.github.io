@@ -2,6 +2,7 @@
 date: 2019-12-30 22:59:03+00:00
 layout: post
 title: 2019年総括
+description: 2019年にの振り返りと、2020年の抱負について
 tags:
 - 総括
 language:

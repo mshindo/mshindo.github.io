@@ -2,6 +2,7 @@
 date: 2022-08-09 10:00:51+00:00
 layout: post
 title: R.I.P. Olivia Newton-John
+description: いとしのオリビア、安らかにおやすみください。
 image: '/images/41AbK6fF9ML._AC_.jpg'
 tags:
 - 音楽

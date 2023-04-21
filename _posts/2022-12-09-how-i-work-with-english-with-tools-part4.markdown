@@ -2,6 +2,7 @@
 date: 2022-12-09 00:05:47+00:00
 layout: post
 title: 私、英語とこんな付き合い方をしています（ツール編）〜 Part 4 〜
+description: 各種機械翻訳の紹介と比較
 image: '/images/tim-wildsmith-9hssKCV2HKY-unsplash.jpg'
 tags:
 - 仕事
