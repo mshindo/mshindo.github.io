@@ -11,7 +11,7 @@ keywords:
 - Kubernetes
 ---
 
-最近たびたび “Dialtone” という言葉を耳にすることがあります。例えば今年（2018年）のVMworld U.S. Day 1 の General Session で、CEO の Pat Gelsinger が “VMware is the Daltone for Kubernetes” というフレーズを使っていました。最近の若者には馴染みがないかもしれませんが、この “Dialtone”、いわゆる電話の受話器をあげた時にするあの「ツーー」という音のことです。Pat も壇上で「20代の人には分からないかもしれないけど・・」とジョークを飛ばしてしましたね。
+最近たびたび “Dialtone” という言葉を耳にすることがあります。例えば今年（2018年）のVMworld U.S. Day 1 の General Session で、CEO の Pat Gelsinger が “VMware is the Dialtone for Kubernetes” というフレーズを使っていました。最近の若者には馴染みがないかもしれませんが、この “Dialtone”、いわゆる電話の受話器をあげた時にするあの「ツーー」という音のことです。Pat も壇上で「20代の人には分からないかもしれないけど・・」とジョークを飛ばしてしましたね。
 
 
 
