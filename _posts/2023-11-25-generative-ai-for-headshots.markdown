@@ -2,7 +2,7 @@
 date: 2023-11-25 14:40:00+09:00
 layout: post
 title: 生成AIによる顔写真生成サービス
-description: HeadshotsProサービスを試してみた
+description: HeadshotPro というサービスを試してみた
 image: '/images/markus-winkler-tGBXiHcPKrM-unsplash.jpg'
 tags:
 - コンピュータ＆インターネット
