@@ -12,12 +12,11 @@ image: '/images/IMG_9715.JPG'
 下記参照
 
 ### 最近の講演
-
+- VMware Explore 2023 Tokyo: [General Session 2 / クラウドスマートを実現する VMware の最新ソリューション](https://www.vmware.com/explore/jp/content/sess/GS31002.html)
+- INTEROP Tokyo カンファレンス 2023: [ネットワークの進化は止まらない！複雑なテクノロジーの使い所を見極める 〜今、ネットワークエンジニアは、何をするべきか〜](https://f2ff.jp/introduction/7726?event_id=conf-2023-06)
 - VMware Explore 2022 Japan: [Solution Keynote: VMwareの次なるイノベーション](https://www.vmware.com/explore/jp/content/sess/VI22290.html)
 - VMware Explore 2022 Japan: [VMware の Office of the CTO が生み出す新たなイノベーションの潮流](https://www.vmware.com/explore/jp/content/sess/VI21262.html)
 - The Networking Channel: [SDN Experience from the Asia-Pacific Region](https://www.youtube.com/watch?v=G5NKhaMj4LA)
-- INTEROP Tokyo カンファレンス 2022: [DX時代に求められるネットワークの進化　～いま、エンジニアは何をすべきか～](https://f2ff.jp/introduction/6154?event_id=conf-2022-06)
-- JAC Digital オンラインセミナー: [マルチプラットフォームやクラウドネイティブ時代を生き抜くエンジニアのキャリアとは](https://www.jac-digital.jp/topics/1705.html)
 
 ### 書籍
 
@@ -28,14 +27,15 @@ image: '/images/IMG_9715.JPG'
 
 ### 趣味
 
-- 音楽
+- 音楽（雑食）
 
 ### 好物
 
-- 肉
+- 肉（偏食）
 
 ### ソーシャル
 
-- Twitter: [@motonori_shindo](https://twitter.com/motonori_shindo)
+- X(Twitter): [@motonori_shindo](https://twitter.com/motonori_shindo)
+- Bluesky: [https://bsky.app/profile/shindo.bsky.social](https://bsky.app/profile/shindo.bsky.social)
 - Facebook: [https://www.facebook.com/motonori.shindo](https://www.facebook.com/motonori.shindo)
 - LinkedIn: [https://www.linkedin.com/in/motonorishindo/](https://www.linkedin.com/in/motonorishindo/)
