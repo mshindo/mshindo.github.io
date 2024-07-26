@@ -2,6 +2,8 @@
 date: 2019-05-04 06:30:57+00:00
 layout: post
 title: Blogお引っ越し
+abstract: 個人BlogのWordpressをVPSから自宅のESXi環境に引っ越しました。
+image: '/images/ravigopal-kesari-9uH9K0V6Arw-unsplash.jpg '
 tags:
 - コンピュータ＆ネットワーク
 language:
@@ -22,4 +24,4 @@ ESXi環境になりスナップショットを気軽に取れるようになっ�
 
 追伸：Simple Tweetが動かなくなってしまったようです。原因調査中。
 
-(Photo by [Harshil Gudka](https://unsplash.com/photos/aKcVSSDotgo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash)](https://unsplash.com/search/photos/migration?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Photo by <a href="https://unsplash.com/@rvgpl?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ravigopal Kesari</a> on <a href="https://unsplash.com/photos/buses-parked-at-a-bus-stop-9uH9K0V6Arw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
