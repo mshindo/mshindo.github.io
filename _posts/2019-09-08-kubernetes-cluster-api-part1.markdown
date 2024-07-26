@@ -2,6 +2,7 @@
 date: 2019-09-08 21:44:30+00:00
 layout: post
 title: Kubernetes Cluster API - Part 1 -
+image: '/images/tino-bell-_Xwvaqk34o4-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク
 language:
@@ -21,49 +22,23 @@ Kubernetes環境の構築ツールにはkubeadm、kops、Kubesprayなど多数�
 
 「汎用的」と言っても、当然プラットフォームごとに必要な処理は異なりますので、Cluster APIではプラットフォームごとに個別の "Provider" を用意してプラットフォームの差異を吸収し、どのようなプラットフォームに対しても統一的なのAPIでコントロールできるように作られています。現在さまざまなProviderが用意されており、これらのProviderがサポートしているプラットフォーム上であればCluster APIを使ってKubernetes環境を簡単に構築・管理することができます。2019年9月時点でサポートされているProviderは以下の通りです。
 
-
-
- 	
   * AWS
-
- 	
   * Azure
-
- 	
   * Baidu
-
- 	
   * Baremetal
-
- 	
   * DigitalOcean
-
- 	
   * Exoscale
-
- 	
   * GCP
-
- 	
   * IBM Cloud
-
- 	
   * OpenStack
-
- 	
   * Packet
-
- 	
   * Talos
-
- 	
   * Tencent Cloud
-
- 	
   * vSphere
 
+一般的にはKubernetesはコンテナ管理のプラットフォーム（オーケストレータ）として知られていますが、実はKubernetesはコンテナ以外のものも管理することできる枠組みが備わっています。Kubernetes のアーキテクチャの根本をなす部分として、システムをあるべき状態（Desired State）に保つ、という機能があります。Kubernetesでは、さまざまなリソースのあるべき状態を宣言的に定義しリソースの作成を行うと、それらのリソースの状態は常に監視され、あるべき状態と現在の状態（Current State）に差が生じている事を検出すると、あるべき状態に戻そうという動きをします。これはKubernetesのReconciliation Loopと呼ばれるメカニズムによって実現されています。
 
-一般的にはKubernetesはコンテナ管理のプラットフォーム（オーケストレータ）として知られていますが、実はKubernetesはコンテナ以外のものも管理することできる枠組みが備わっています。Kubernetes のアーキテクチャの根本をなす部分として、システムをあるべき状態（Desired State）に保つ、という機能があります。Kubernetesでは、さまざまなリソースのあるべき状態を宣言的に定義しリソースの作成を行うと、それらのリソースの状態は常に監視され、あるべき状態と現在の状態（Current State）に差が生じている事を検出すると、あるべき状態に戻そうという動きをします。これはKubernetesのReconciliation Loopと呼ばれるメカニズムによって実現されています。[![Reconciliation Loop]({{site.baseurl}}/images/ReconciliationLoop.png)
+![Reconciliation Loop]({{site.baseurl}}/images/ReconciliationLoop.png)
 
 例えば、Podが3つ動いているはずなのに実際にはPodが2つしか動いていなければ、Kubernetesは自動的にPodを1つ新たに立ち上げて、常に3つのPodが動いているように調整（修復）をしてくれます。このようないわゆる自己修復（Self Healing）機能が働くのはReconciliation Loopのおかげです。
 
@@ -73,32 +48,16 @@ Cluster APIはこのようなKubernetesの特性を活かし、クラスタな�
 
 ClusterAPIでは以下の5つのCRDを用意しています。
 
-
-
- 	
   * Cluster
-
- 	
   * Machine
-
- 	
   * MachineSet
-
- 	
   * MachineDeployment
-
- 	
   * MachinClass
-
-
-
 
 ### Cluster
 
-
 Clusterリソースはクラスター全体の設定を規定します。例えば、ServiceやPodで使用するCIDRブロックの指定やドメイン名を指定します。またproviderSpecアトリビュートでクラスタ全体に関わるProvider固有の設定も行えます。
 
-    
     apiVersion: "cluster.k8s.io/v1alpha1"
     kind: Cluster
     metadata:
@@ -113,17 +72,10 @@ Clusterリソースはクラスター全体の設定を規定します。例え�
       providerSpec:
         ...
     
-    
-
-
-
-
 ### Machine
-
 
 Machineリソースは、Kubernetesを動作させるノードの設定を規定します。例えばkubeletやKubernetesのコントロールプレーンのバージョンなどを指定します。また、providerSpecアトリビュートではノードが使用するメモリ量やCPU数、インスタンスのタイプなどを指定します。
 
-    
     apiVersion: cluster.k8s.io/v1alpha1
     kind: Machine
     metadata:
@@ -137,14 +89,9 @@ Machineリソースは、Kubernetesを動作させるノードの設定を規定
         kubelet: "1.13.6"
         controlPlane: "1.13.6"
 
-
-
-
 ### MachineSet
 
-
 MachineSetリソースではMachineリソースがいくつ動いているべきかをreplicasアトリビュートで指定します。
-
     
     apiVersion: cluster.k8s.io/v1alpha1
     kind: MachineSet
@@ -165,15 +112,10 @@ MachineSetリソースではMachineリソースがいくつ動いているべき
         spec:
           ...
 
-
-
-
 ### MachineDeployment
-
 
 MachineDeploymentリソースはMachine、MachineSetのアップデートポリシーを規定します。現在サポートされているアップデートポリシーはRollingUpdateのみです。
 
-    
     apiVersion: "cluster.k8s.io/v1alpha1"
     kind: MachineDeployment
     metadata:
@@ -192,11 +134,7 @@ MachineDeploymentリソースはMachine、MachineSetのアップデートポリ�
         spec:
           ...
 
-
-
-
 ### MachineClass
-
 
 MachineClassリソースは、どのProviderSpecを使用するのかを規定します。Machine、MachineSet、MachineDeploymentリソースは、どれもproviderSpecアトリビュートでプロバイダに固有な情報を設定することができますが、プロバイダ情報は共通であることが多いので、何箇所も同じ設定をするのは面倒です。そこでMachineClassを使ってプロバイダ固有の情報を記述し、他のリソースからそれを参照するようにすることで、よりシンプルにMachine関係のリソースを記述することができるようになります。
 
@@ -210,16 +148,16 @@ MachineClassリソースは、どのProviderSpecを使用するのかを規定�
         apiVersion: ...
         kind: ...
 
-
 お気付きの方も多いかと思いますが、Cluster APIのCRDは、標準でサポートされているリソースと類似性があります。
 
-Machine -- Pod
-MachineSet -- ReplicaSet
-MachineDeployment -- Deployment
-MachineClass -- StorageClas
+* Machine -- Pod
+* MachineSet -- ReplicaSet
+* MachineDeployment -- Deployment
+* MachineClass -- StorageClas
 
 このような類似性を踏まえると、Kubernetesをすでに使っている人にとってはClusterAPIは理解しやすいのになるのではないかと思います。
 
 次回はCluster APIとvSphere用のProviderを使ってvSphere上にKubernetesのクラスタを立てる解説し、、、ようと思ったのですが、ちょうど@masanaraさんがQiitaにこのトピックについて記事をあげて下さいましたので、皆さん[こちら](https://qiita.com/masanara/items/47aec0e1d2ab1fc4f664)をご参照ください。
 
-Photo by [apoorv mittal](https://unsplash.com/@aprvm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Photo by <a href="https://unsplash.com/@tinobell?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tino Bell</a> on <a href="https://unsplash.com/photos/a-group-of-turtles-sitting-on-top-of-a-log-in-the-water-_Xwvaqk34o4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
