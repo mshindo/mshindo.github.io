@@ -2,6 +2,8 @@
 date: 2019-05-13 17:23:37+00:00
 layout: post
 title: RADIO 2019
+abstract: RADIO 2019に参加してきました。
+image: '/images/dave-weatherall-51H2LuKFHsI-unsplash.jpg'
 tags:
 - 仕事
 language:
@@ -18,4 +20,4 @@ VMwareが行なっているRADIOというイベントに参加するためにサ
 
 原則エンジニアリング向けのイベントなのでフィールドから参加することはできないのですが、若干名フィールドからの参加が認められており、今回日本からも数名参加をしています。実は私もRADIOに参加するのは今回が初めてです。今まで何度か参加の機会はあったのですが、色々な理由で実際に参加することはできていませんでした。同僚からはRADIOの素晴らしさはよく聞くのでとてもワクワクしています。RADIOでされる話は製品化前の話がほとんどですので、どんな話があったかは基本的に非公開でお話しすることはできないのですが、一部はメディアに公開される予定ですのでご期待ください。
 
-（Photo by [Kristopher Roller](https://unsplash.com/photos/PC_lbSSxCZE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/innovation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)）
+Photo by <a href="https://unsplash.com/@thattravelblog?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dave Weatherall</a> on <a href="https://unsplash.com/photos/brown-and-black-cassette-radio-51H2LuKFHsI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
