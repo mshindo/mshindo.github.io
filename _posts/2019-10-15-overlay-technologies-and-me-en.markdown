@@ -46,3 +46,6 @@ I have to confess, however, that I have not been choosing the technologies and c
 Up until recently, the network has been built and managed by "touching" the networking gears as they have been always physically accessible. Today, we are in a Cloud Era, however. Not to mention, there are switches and routers in the Cloud, but they are no longer accessible from us. Then, how can we build and manage the network end-to-end in an environment where not all network gears are accessible? It seems very natural to me that we should build the network by software as an overlay and manage it end-to-end in the Cloud Era.
 
 With that all being said, I want to continue to be actively involved in overlay technologies.
+
+Photo by <a href="https://unsplash.com/@diesektion?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Robert Anasch</a> on <a href="https://unsplash.com/photos/pile-of-gray-and-brown-stones-WbNhARVd3tg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
