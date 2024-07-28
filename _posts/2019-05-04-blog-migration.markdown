@@ -3,7 +3,7 @@ date: 2019-05-04 06:30:57+00:00
 layout: post
 title: Blogお引っ越し
 abstract: 個人BlogのWordpressをVPSから自宅のESXi環境に引っ越しました。
-image: '/images/ravigopal-kesari-9uH9K0V6Arw-unsplash.jpg '
+image: '/images/ravigopal-kesari-9uH9K0V6Arw-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク
 language:
