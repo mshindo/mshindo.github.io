@@ -2,6 +2,8 @@
 date: 2017-12-31 11:03:37+00:00
 layout: post
 title: 2017年総括
+abstract: 2017年の振り返りと、2018年の抱負について
+image: '/images/freestocks-vL56-WXyBEk-unsplash.jpg'
 tags:
 - 総括
 language:
@@ -14,143 +16,67 @@ keywords:
 
 2017年も残すところあと数時間となりました。今年も簡単に一年を振り返ってみたいと思います。
 
-
 ### 主な出来事
 
-
-1月 スタバで相武紗季に遭遇。
-2月 特筆すべきことなし。
-3月 ギターを新調。Ascend時代の友人と20年ぶりの再会。
-4月 車を小型化。
-5月 CiscoによるViptela買収発表。
-6月 INTEROP、本棚大幅増設。
-7月 我が家に蟻侵入、たくろーさんライブ、素晴らしかった。
-8月 買収完了。Cisco GSXに参加、デカイ。
-9月 今年も沢山のHBDメッセージ、ありがとうございました！
-10月 ONIC Japan、大盛況でした。姪っ子の結婚式。シンガポール出張。
-11月 EBC & Sales Kickoff。
-12月 パラオへ。
-
+* 1月 スタバで相武紗季に遭遇。
+* 2月 特筆すべきことなし。
+* 3月 ギターを新調。Ascend時代の友人と20年ぶりの再会。
+* 4月 車を小型化。
+* 5月 CiscoによるViptela買収発表。
+* 6月 INTEROP、本棚大幅増設。
+* 7月 我が家に蟻侵入、たくろーさんライブ、素晴らしかった。
+* 8月 買収完了。Cisco GSXに参加、デカイ。
+* 9月 今年も沢山のHBDメッセージ、ありがとうございました！
+* 10月 ONIC Japan、大盛況でした。姪っ子の結婚式。シンガポール出張。
+* 11月 EBC & Sales Kickoff。
+* 12月 パラオへ。
 
 ### 2017年の新たな取り組み
 
-
-
-
-
- 	
   * 六本木で働く＾＾
-
- 	
   * Enriched Air 取得
-
-
-
 
 ### 2017年 Most “Like!” On Facebook
 
-
-
-
-
- 	
   * Ciscoロゴの前でとった写真(237件）。そんなに違和感があるかしら？ww
-
-
-
 
 ### 2017年に読んだ本
 
-
-
-
-
- 	
   * 3〜4冊？　ひどい状態。
-
-
-
 
 ### フライト
 
-
-
-
-
- 	
   * JAL 8回、23,779 FLOY ONポイント（去年　23回、50,245 FLY ONポイント）
-
- 	
   * ANA 8回、 11,816 ポイント（去年 6回、10,674 ポイント）
-
 
 今年は出張が少なかったため、去年と比べるとかなり減った。
 
-
 ### 2017年に開拓した肉屋
 
-
-
-
-
- 	
   * USHIHACHI　武蔵小杉店
-
- 	
   * 鉄板焼き　貴真
-
- 	
   * うしごろ　銀座店
-
- 	
   * トラジ葉菜　上大岡店
-
- 	
   * Dish Dash Grill Milpitas店
-
- 	
   * Strip Steak　Honolulu店
-
- 	
   * Jan Su Jan Milpitas店
-
 
 こちらも去年と比べると激減。忙しかったからなー。
 
-
 ### 2017年に見た映画
 
-
-
-
-
- 	
   * 約30本。
-
- 	
   * 洋画ベスト「きっと、星のせいじゃない（原題：The Fault in Our Starts）」。
-
- 	
   * 邦画ベストは該当なし。
-
 
 出張が減ったぶん見た本数も減ったが、Amazon Videoで少し補った。
 
-
 ### 2018年目標
 
-
-
-
-
- 	
   * 2017年にやり残したこと
-
- 	
   * 新たしいことへの挑戦（いろいろ）
-
- 	
   * 英語頑張ろう！
 
-
 こんなところです。また来年もよろしくお願いいたします。
+
+Photo by <a href="https://unsplash.com/@freestocks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">freestocks</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-christmas-tree-with-lights-vL56-WXyBEk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
