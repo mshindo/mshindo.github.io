@@ -2,6 +2,8 @@
 date: 2017-06-19 15:00:42+00:00
 layout: post
 title: NAT still can be tricky
+abstract: Apple's AirMax Express NAT behavior looked weird first but turned out to be legit.
+image: '/images/edurne-tx-5Z8mR4vqJD4-unsplash.jpg'
 tags:
 - Computer and Networking
 language:
@@ -105,3 +107,6 @@ that device.</blockquote>
 Now I fully agree with this RFC; to guarantee the uniqueness of the value of the ID field, whenever a device like NAT rewrites an IP address, it should generate a unique ID as if the packet was sent from that device and should not simply copy the ID field from the original packet. Although the majority of NAT implementations today would behave like VyOS based on my past experience, I think Apple AirMac Extreme/Express is more compliant with the specification and well-behaving.
 
 Sorry Apple, I've been treating you bad...
+
+Photo by <a href="https://unsplash.com/@edurnetx?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Edurne Tx</a> on <a href="https://unsplash.com/photos/text-5Z8mR4vqJD4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
