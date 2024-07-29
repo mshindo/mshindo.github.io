@@ -2,6 +2,7 @@
 date: 2019-10-06 10:46:01+00:00
 layout: post
 title: オーバーレイネットワークと私
+description: なぜ今まで私がさまざまなオーバーレイ技術に関わってきたのか
 image: '/images/robert-anasch-WbNhARVd3tg-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク

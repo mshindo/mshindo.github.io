@@ -2,6 +2,7 @@
 date: 2019-09-08 21:44:30+00:00
 layout: post
 title: Kubernetes Cluster API - Part 1 -
+description: Kubernetesクラスタのライフサイクル管理API
 image: '/images/tino-bell-_Xwvaqk34o4-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク
