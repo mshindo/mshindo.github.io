@@ -1,7 +1,9 @@
 ---
 date: 2014-06-30 21:12:33+00:00
 layout: post
-title: Geneve on Open vSwitch
+title: Open vSwitchでのGeneve実装
+description: OVSに実装されたGeneveに関する解説
+image: '/images/jesper-brouwers-I3ZNo40rsfo-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク
 language:
@@ -77,3 +79,6 @@ GeneveはEthernetフレームだけではなく、他のタイプのフレーム
 現時点の実装では、Geneveの特徴であるGeneve Optionsを指定する事はまだできません。追ってサポートが加えられると思います。
 
 Geneveの真価が発揮されるのは、Geneveのフレームフォーマットを理解してTSOをすることができるNICが出現した場合です。そのようなNICは現時点ではまだ世の中には出てないですが、少なくともソフトウェア的（OVS的）にはGeneve Readyになりました。現在はまだmasterブランチにしかGeneveのコードが入っていなかったのでgithubの最新masterブランチから取ったコードをビルドして試しましたが、OVSのバージョン2.2がリリースされれば、今回試したコードも含まれてくることになるので、簡単に試す事ができるようになるはずです。
+
+Photo by <a href="https://unsplash.com/@jesperados?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jesper Brouwers</a> on <a href="https://unsplash.com/photos/white-and-red-boat-on-water-near-houses-under-blue-and-white-cloudy-sky-during-daytime-I3ZNo40rsfo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
