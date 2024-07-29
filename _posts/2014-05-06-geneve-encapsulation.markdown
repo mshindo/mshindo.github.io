@@ -1,7 +1,9 @@
 ---
 date: 2014-05-06 01:27:08+00:00
 layout: post
-title: Geneve Encapsulation
+title: Geneve Encapsulationについて
+description: 新しいL2 over L3のトンネル方式
+image: '/images/meizhi-lang-dhRPNu1lnQw-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク
 language:
@@ -74,3 +76,6 @@ VNIが24bitでは足りない、という意見ですが、24bitでも1600万個
 結局のところ、Geneveの存在意義があるかないか（既存のencapsulationで十分ではないか）という議論は、encapsulation方法としてmetadata以外に想定される拡張機能が必要か否か、という点に行き着くのではないかと思います。もし、metadata以外に想定される拡張機能が必要ないのであれば、sfc Working Groupの標準化を待ち、既存のencapsulation（あるいはその若干の修正形）を使えば良いでしょう。Geneveが提供してくれる他の機能（OAMの識別や、Ethernet以外のフレームを扱える枠組み）は他のencpsulation方式もフレームフォーマットを大きく変更することなく対応できるでしょうし、そのような拡張もすでに提案されています。逆に、今後metadata以外での拡張の必要性が見込まれるのであれば、新たに必要となるOptionが増えてもNICのSegmenation Offload機能を利用できるGeneveは非常に理にかなったencpasulationであると言えます。
 
 Geneveは拡張性を備えつつもVXLAN/NVGREのようにハードウェアで処理しやすいように（特にNICでのSegmentation Offloadが機能するように）設計された、STTとVXLAN/NVGREの両方のエッセンスを汲んだ新たなencpasulationです。この新しいencpasulation方式が市民権を得られるかどうかは、Geneveをサポートしたハードウェアやソフトウェアがどれくらい早く市場に現れてそれが受け入れられるか、という点にかかっていると思います。
+
+Photo by <a href="https://unsplash.com/@meizhilang?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Meizhi Lang</a> on <a href="https://unsplash.com/photos/a-large-fountain-in-the-middle-of-a-body-of-water-with-jet-deau-in-the-background-dhRPNu1lnQw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
