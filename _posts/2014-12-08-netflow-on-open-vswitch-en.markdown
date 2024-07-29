@@ -2,6 +2,8 @@
 date: 2014-12-08 15:04:28+00:00
 layout: post
 title: NetFlow on Open vSwitch
+description: Let's dissect how NetFlow works on OVS
+image: '/images/sajad-nori-21mJd5NUGZU-unsplash.jpg'
 tags:
 - Computer and Networking
 language:
@@ -121,3 +123,6 @@ As with most router/switch-based NetFlow exporters, OVS exports flow records for
 NextHop, source and destination of AS number, source and destination of Netmask are always set to 0. This is an expected behavior as OVS is inherently a “switch”.
 
 While there are some caveats as I described above, NetFlow on OVS is a very useful tool if you want to monitor traffic handled by OVS. One advantage of NetFlow over sFlow or IPFIX is that there are so many open source or commercial collectors available today. Whatever flow collector you choose most likely supports NetFlow V5. Please give it a try. It will give you a great visibility about the traffic of your network.
+
+Photo by <a href="https://unsplash.com/@sajadnori?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sajad Nori</a> on <a href="https://unsplash.com/photos/person-holding-black-and-white-round-ornament-21mJd5NUGZU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  

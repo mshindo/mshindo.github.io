@@ -1,7 +1,9 @@
 ---
 date: 2014-12-09 23:49:01+00:00
 layout: post
-title: NetFlow on Open vSwitch
+title: Open vSwitch (OVS) における NetFlow の実装
+description: OVS での NetFlow の動作を確認する
+image: '/images/sajad-nori-21mJd5NUGZU-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク
 - 仕事
@@ -118,3 +120,6 @@ ICMPのフローがエクスポートされる際の扱いですが、OVSは一�
 フローレコード中のNextHop、ソース/デスティネーションAS番号およびnetmaskは0になります。これはOVSが「スイッチ」であることを考えると妥当な動きと言えます。
 
 ここまでで述べてきたように、OVSでNetFlowを使うにあたってはいくつかのポイントについて留意をしておく必要があります。sFlowやIPFIXと比べた時のNetFlowの強みの一つは、NetFlowをサポートしたオープンソースや商用のコレクタが豊富にあることだと思います。どのようなコレクタを選択してもまず間違いなくNetFlow V5はサポートされているはずです。ぜひ、OVSのNetFlow機能を試してみてください。きっとあなたのネットワークにいままでにない可視性を提供してくれることと思います。
+
+Photo by <a href="https://unsplash.com/@sajadnori?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sajad Nori</a> on <a href="https://unsplash.com/photos/person-holding-black-and-white-round-ornament-21mJd5NUGZU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
