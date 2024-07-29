@@ -18,7 +18,8 @@ language:
 
 ふだんはカラオケの映像が流れている画面にPCの画面が映し出されているのはかなりシュールな絵図ではある。
 
-![BigEcho Business Plan]({{site.baseurl}}/images/IMG_2130.jpg "ビッグエコーのビジネスプランを使ってみた")
+![BigEcho Business Plan]({{site.baseurl}}/images/IMG_2130.jpg)
+*ビッグエコーのビジネスプランを使ってみた*
 
 少々困ったのはTVへのHDMIケーブルの接続。カラオケボックスのTVは壁に据え付けられていることが多いので、TVの背面や側面を自由に見ることができない。HDMIをどこに挿したらいいのか手探りで探す必要があった。
 

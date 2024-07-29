@@ -27,7 +27,8 @@ OVN share the same goal as OVS, that is, supporting large scale deployment consi
 
 Please see the diagram depicted below showing the high level architecture of OVN.
 
-![OVN Architecture]({{site.baseurl}}/images/OVN-Architecture.png "OVN Architecture")
+![OVN Architecture]({{site.baseurl}}/images/OVN-Architecture.png)
+*OVN Architecture*
 
 As you can see, OVN has two new components (processes). One is "ovn-northd" and another is "ovn-controller". As its name implies, ovn-northd provides a northbound interface to CMS. As of this writing, only one ovn-northd exists in one OVN deployment. However, this part will be enhanced in the future to support some sort of clustering for redundancy and the scale-out.
 
@@ -48,6 +49,7 @@ In terms of L3 feature, OVN provides so called a "distributed logical routing". 
 OVS plugin in OpenStack Neutron today implements Security Group by applying iptables to tap interface (vnet) on Linux Bridge. Having both OVS and Linux Bridge at the same time makes the architecture somewhat complex. 
 
 ![under-the-hood-scenario-1-ovs-compute]({{site.baseurl}}/images/under-the-hood-scenario-1-ovs-compute.png)
+*The conventional architecture of OpenStack Neutron OVS plugin (source: http://docs.ocselected.org/openstack-manuals/kilo/networking-guide/content/figures/6/a/a/common/figures/under-the-hood-scenario-1-ovs-compute.png)*
 
 Since OVS 2.4, OVS has been integrated with "conntrack" feature available on Linux, so it is possible to implement stateful ACL by OVS without relying on iptables. OVN takes advantages of this OVS & conntrack integration to implement the ACL. 
 
