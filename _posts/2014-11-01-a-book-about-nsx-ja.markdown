@@ -2,6 +2,8 @@
 date: 2014-11-01 04:32:45+00:00
 layout: post
 title: ネットワーク仮想化とNSXに関する本が出ます
+description: 世界に先駆けて日本語で出版！
+image: '/images/hasnain-sikora-7Z7inwOHAQ0-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク
 - 仕事
@@ -12,39 +14,25 @@ keywords:
 - NSX
 - ネットワーク
 - 仮想化
+- 書籍
 ---
 
 いままでなにか形になったものを残したいとずっと思っていましたが、少しだけ目標が叶いました。このたび、ヴイエムウェアの同僚たち数名と「[詳解VMware NSX ネットワーク仮想化の基礎と応用](http://www.amazon.co.jp/dp/4844337114)」という書籍を出す事になりました。
 
-[![詳解VMware NSX]({{site.baseurl}}/images/29dc77e4a22f58375aeeee8cf6079309-234x300.jpg) 詳解VMware NSX
+![詳解VMware NSX]({{site.baseurl}}/images/29dc77e4a22f58375aeeee8cf6079309-234x300.jpg) 
+*詳解VMware NSX*
 
 翻訳本ではなく完全書き下ろしです。500ページを越えるボリュームなので、ちょっとお値段も張ってしまい申し訳ありませんが、もしご興味があれば買ってみてください。
 
 章立ては以下のようになっています。
 
-
-
-	
   * Chapter 01 技術背景と定義
-
-	
   * Chapter 02 標準化とメリット
-
-	
   * Chapter 03 既存ネットワークの課題
-
-	
   * Chapter 04 ネットワーク仮想化のAPI
-
-	
   * Chapter 05 NSXの技術解説
-
-	
   * Chapter 06 OpenStackとNeutron
-
-	
   * Chapter 07 SDDCとNSX
-
 
 この中で私は「Chapter 05 NSXの技術解説」の前半部分といくつかのコラムを書かせていただいています。いままでも本の執筆や雑誌等への寄稿はそれなりにやっていましたが、名前が陽に出る形のものは今回がはじめてで、ちょっと感慨深いものがあります。
 
@@ -53,3 +41,6 @@ keywords:
 この本を出すのは簡単ではありませんでした。構想からほぼ1年。途中頓挫しそうになったこともありましたが、なんとかやり遂げる事ができました。また、世界に先駆けて日本でこのような本を出せたのも意義深いことであると思っています。これもひとえに他の著者さん（水本さん、田中さん、横井さん、高田さん、小椋さん）が日々の業務の傍ら頑張ってくれたおかげです。特に、執筆者としてだけではなく、本プロジェクトをリードもしてくれた田中さんの、ともするとさぼりがちな筆者一同への激励と "ケツ叩き"（笑）のおかげで、なんとか[vForum Tokyo 2014](http://vforum.jp)というヴイエムウェア（株）のイベントまでに出版をするという目標が達せられました。また、我々の不慣れな文章の編集に連日の徹夜でおつき合いくださった株式会社Heculaの丸山弘詩様と株式会社インプレスジャパン畑中二四様にも感謝をしたいと思います。
 
 本を出すのが我々のゴールではありません。この本によってみなさんのネットワークの仮想化についての理解が少しでも深まり、NSXをより身近なものに感じていただけるようになれば幸いです。
+
+Photo by <a href="https://unsplash.com/@hasnainsikora?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hasnain Sikora</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-steering-wheel-with-a-button-7Z7inwOHAQ0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
