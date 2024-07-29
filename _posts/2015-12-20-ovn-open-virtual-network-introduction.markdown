@@ -2,10 +2,12 @@
 date: 2015-12-20 05:22:45+00:00
 layout: post
 title: OVN (Open Virtual Network) Introduction
+description: Virtual Networking based on Open vSwitch (OVS)
+image: '/images/mike-gattorna-zCIFIYEYhio-unsplash.jpg'
 tags:
 - Computer and Networking
 language:
-- 日本語
+- English
 keywords:
 - GENEVE
 - Open vSwitch
@@ -25,7 +27,7 @@ OVN share the same goal as OVS, that is, supporting large scale deployment consi
 
 Please see the diagram depicted below showing the high level architecture of OVN.
 
-[![OVN Architecture]({{site.baseurl}}/images/OVN-Architecture.png) OVN Architecture
+![OVN Architecture]({{site.baseurl}}/images/OVN-Architecture.png "OVN Architecture")
 
 As you can see, OVN has two new components (processes). One is "ovn-northd" and another is "ovn-controller". As its name implies, ovn-northd provides a northbound interface to CMS. As of this writing, only one ovn-northd exists in one OVN deployment. However, this part will be enhanced in the future to support some sort of clustering for redundancy and the scale-out.
 
@@ -45,10 +47,13 @@ In terms of L3 feature, OVN provides so called a "distributed logical routing". 
 
 OVS plugin in OpenStack Neutron today implements Security Group by applying iptables to tap interface (vnet) on Linux Bridge. Having both OVS and Linux Bridge at the same time makes the architecture somewhat complex. 
 
-[![under-the-hood-scenario-1-ovs-compute]({{site.baseurl}}/images/under-the-hood-scenario-1-ovs-compute.png)
+![under-the-hood-scenario-1-ovs-compute]({{site.baseurl}}/images/under-the-hood-scenario-1-ovs-compute.png)
 
 Since OVS 2.4, OVS has been integrated with "conntrack" feature available on Linux, so it is possible to implement stateful ACL by OVS without relying on iptables. OVN takes advantages of this OVS & conntrack integration to implement the ACL. 
 
 Since conntrack integration is an OVS feature, one can use OVS+conntrack without OVN. However, OVN allows you to use stateful ACL without explicit awareness of conntrack because OVN compiles logical ACL rules to conntrack-based rules automatically, which would be appreciated by many people. 
 
 I will go into a bit more detail about L2, L3 and ACL features of OVN in the subsequent posts.
+
+Photo by <a href="https://unsplash.com/@mikegattorna?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mike Gattorna</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-stove-and-oven-in-a-kitchen-zCIFIYEYhio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
