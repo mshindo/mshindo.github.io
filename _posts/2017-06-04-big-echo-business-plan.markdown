@@ -2,6 +2,8 @@
 date: 2017-06-04 06:52:45+00:00
 layout: post
 title: ビッグエコー・ビジネスプランを試してみた
+abstract: ビッグエコーが昼間提供しているビジネスプランは意外と快適でおすすめ！
+image: '/images/aleksi-partanen-tr2W9u4kLNA-unsplash.jpg'
 tags:
 - 仕事
 language:
@@ -23,3 +25,6 @@ language:
 ビジネスプランで借りて、仕事に行き詰まったら気晴らしに歌えるのかって？　どうやらそれは店舗によるようだ。特に制約なしという店舗とビジネスプランでは歌えないという店舗があった（歌えないと言われた店舗もかなり近くでガンガン歌っていたので、ビジネスプランと通常利用の部屋をきっちり分けている（例えばフロアで分ける、など）はしてない模様。したがってビジネスプランで使っているにもかかわらず、周りからは絶叫ソングが聴こえてくることもあるが、これが気にならないのであればビッグエコーのビジネスプランはかなりお得で快適な環境を与えてくれると思う。
 
 このビジネスプラン、まだ使える店舗は東京と神奈川の一部の店舗に限られているが、なかなか快適な環境なのでノマドワーカーの方は一度試されてみてはいかが？
+
+Photo by <a href="https://unsplash.com/@aleksi_p?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aleksi Partanen</a> on <a href="https://unsplash.com/photos/a-neon-sign-on-the-side-of-a-building-tr2W9u4kLNA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
