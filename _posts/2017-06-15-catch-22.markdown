@@ -2,7 +2,7 @@
 date: 2017-06-15 14:09:11+00:00
 layout: post
 title: Catch-22
-abstract: ネット接続サービスのサインアップにネットが必要で詰んだ話。
+description: ネット接続サービスのサインアップにネットが必要で詰んだ話。
 image: '/images/altumcode-fPx0cdZ1vuI-unsplash.jpg'
 tags:
 - 仕事

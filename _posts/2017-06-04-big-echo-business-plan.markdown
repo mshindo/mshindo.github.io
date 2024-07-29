@@ -2,7 +2,7 @@
 date: 2017-06-04 06:52:45+00:00
 layout: post
 title: ビッグエコー・ビジネスプランを試してみた
-abstract: ビッグエコーが昼間提供しているビジネスプランは意外と快適でおすすめ！
+description: ビッグエコーが昼間提供しているビジネスプランは意外と快適でおすすめ！
 image: '/images/aleksi-partanen-tr2W9u4kLNA-unsplash.jpg'
 tags:
 - 仕事
@@ -18,7 +18,7 @@ language:
 
 ふだんはカラオケの映像が流れている画面にPCの画面が映し出されているのはかなりシュールな絵図ではある。
 
-[![BigEcho Business Plan]({{site.baseurl}}/images/IMG_2130.jpg) ビッグエコーのビジネスプランを使ってみた
+![BigEcho Business Plan]({{site.baseurl}}/images/IMG_2130.jpg "ビッグエコーのビジネスプランを使ってみた")
 
 少々困ったのはTVへのHDMIケーブルの接続。カラオケボックスのTVは壁に据え付けられていることが多いので、TVの背面や側面を自由に見ることができない。HDMIをどこに挿したらいいのか手探りで探す必要があった。
 

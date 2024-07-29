@@ -2,7 +2,7 @@
 date: 2017-06-19 15:00:42+00:00
 layout: post
 title: NAT still can be tricky
-abstract: Apple's AirMax Express NAT behavior looked weird first but turned out to be legit.
+description: Apple's AirMax Express NAT behavior looked weird first but turned out to be legit.
 image: '/images/edurne-tx-5Z8mR4vqJD4-unsplash.jpg'
 tags:
 - Computer and Networking

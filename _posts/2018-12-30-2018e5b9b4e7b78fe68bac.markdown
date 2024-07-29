@@ -2,7 +2,7 @@
 date: 2018-12-30 06:30:03+00:00
 layout: post
 title: 2018年総括
-abstract: 2018年の振り返りと、2019年の抱負について
+description: 2018年の振り返りと、2019年の抱負について
 image: '/images/carl-raw-YWCzXMRf6iE-unsplash.jpg'
 tags:
 - 総括

@@ -2,7 +2,7 @@
 date: 2018-01-13 07:17:17+00:00
 layout: post
 title: h323decoder Primer
-abstract: How to decode the cryptic hex dump of H.323 packet
+description: How to decode the cryptic hex dump of H.323 packet
 image: '/images/danielle-claude-belanger-ZZbChBjxqws-unsplash.jpg'
 tags:
 - Computer and Networking

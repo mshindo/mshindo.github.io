@@ -2,7 +2,7 @@
 date: 2018-10-13 11:32:08+00:00
 layout: post
 title: VMware is the Dialtone for Kubernetes / 20代の人には分からないだろうけどw
-abstract: 最近よく聞く "Dialtone" って言葉の意味
+description: 最近よく聞く "Dialtone" って言葉の意味
 image: '/images/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク

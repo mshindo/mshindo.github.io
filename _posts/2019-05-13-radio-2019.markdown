@@ -2,7 +2,7 @@
 date: 2019-05-13 17:23:37+00:00
 layout: post
 title: RADIO 2019
-abstract: RADIO 2019に参加してきました。
+description: RADIO 2019に参加してきました。
 image: '/images/dave-weatherall-51H2LuKFHsI-unsplash.jpg'
 tags:
 - 仕事

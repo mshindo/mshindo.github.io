@@ -2,7 +2,7 @@
 date: 2017-06-18 22:41:27+00:00
 layout: post
 title: NATは意外と難しい
-abstract: 一見奇妙に見える Apple の AirMax Express の NAT の振る舞いは実は真っ当だった！
+description: 一見奇妙に見える Apple の AirMax Express の NAT の振る舞いは実は真っ当だった！
 image: '/images/edurne-tx-5Z8mR4vqJD4-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク

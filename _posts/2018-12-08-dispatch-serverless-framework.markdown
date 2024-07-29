@@ -2,7 +2,7 @@
 date: 2018-12-08 13:48:36+00:00
 layout: post
 title: Dispatch Serverless Framework
-abstract: VMware がオープンソースで開発中の Serverless Framework (FaaS) について
+description: VMware がオープンソースで開発中の Serverless Framework (FaaS) について
 image: '/images/celine-chung-1CQsrW0oT1g-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク

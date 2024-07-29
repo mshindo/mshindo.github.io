@@ -2,7 +2,7 @@
 date: 2017-12-31 11:03:37+00:00
 layout: post
 title: 2017年総括
-abstract: 2017年の振り返りと、2018年の抱負について
+description: 2017年の振り返りと、2018年の抱負について
 image: '/images/freestocks-vL56-WXyBEk-unsplash.jpg'
 tags:
 - 総括
