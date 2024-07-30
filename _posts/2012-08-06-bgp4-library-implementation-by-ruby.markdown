@@ -1,7 +1,9 @@
 ---
 date: 2012-08-06 22:02:00+00:00
 layout: post
-title: BGP4 library implementation by Ruby
+title: RubyによるBGP4ライブラリの実装
+description: テスト用途のパッシブな BGP4 を作ってみた
+image: '/images/victoria-priessnitz-EhPih0l5bjw-unsplash.jpg'
 tags:
 - コンピュータ＆ネットワーク
 language:
@@ -69,3 +71,6 @@ language:
 また、このコードを使ってテストをする対象が主にGenieATMだったために、いくつか制限・制約があります。まず、本コードはBGPセッションを自分からは張りにいきません。相手からセッションが張られる事を期待しています（BGP「サーバー」の実装）。また、相手からBGPメッセージが来てもそれを読む事は基本せずに、自分からメッセージを送る事しかしません。いろいろなメッセージを送ってピアのBGPスピーカーの挙動を調べることに主眼を置いているためにこのようになっています。
 
 もちろん、BGPの全ての機能を実装しているわけではありませんし、zebraに比べたら１万分の一の事もしていない「超なんちゃってBGP実装」ですから、あまり有用でないかも知れませんが、世の中の物好きな人に少しでも役に立てば、と思い、恥ずかしながら公開する事にしました。公開に関して私の背中を押してくれた田島＠アイマトリックスさんに感謝をしたいと思います。
+
+Photo by <a href="https://unsplash.com/@victoriapriessnitz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Victoria Priessnitz</a> on <a href="https://unsplash.com/photos/red-and-silver-beaded-necklace-EhPih0l5bjw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
