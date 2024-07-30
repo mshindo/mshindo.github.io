@@ -2,13 +2,17 @@
 date: 2012-08-15 14:57:06+00:00
 layout: post
 title: 万里の長城に行ってみた
+description: 中国出張の際に足を伸ばして本物のThe Great Wallを見てきた！
+image: '/images/melissa-AWh9C-QjhE4-unsplash.jpg'
 tags:
 - 旅行
 language:
 - 日本語
 ---
 
-[![慕田峪長城入口]({{site.baseurl}}/images/IMG_1015-300x225.jpg) 慕田峪長城入口
+{: align="center"}
+![慕田峪長城入口]({{site.baseurl}}/images/IMG_1015-300x225.jpg)
+*慕田峪長城入口*
 
 日航の北京発羽田着便は夕方発なので、それまでの時間を利用して万里の長城に行ってみる事にした。もちろん初体験。
 
@@ -16,20 +20,31 @@ language:
 
 入り口から徒歩で上がる事もできるようだが、今回はケーブルカーである程度上まで登ってから万里の長城を楽しむ事にした（あとの事を考えると、この選択は正しかったと思われるw）。ケーブルカーを降りて右に行くコースと左に行くコースがあったが、今回は左のコースを選択した。朝早かった事もあり、客数は少ない。
 
-[![Relatively easy slope]({{site.baseurl}}/images/IMG_1032-300x225.jpg) 最初は比較的なだらかな道のり。
+{: align="center"}
+![Relatively easy slope]({{site.baseurl}}/images/IMG_1032-300x225.jpg)
+*最初は比較的なだらかな道のり*
 
 最初は比較的なだらかな坂道である。慕田峪長城は万里の長城の中でも比較的よく整備がされているそうで、石畳と階段がしっかりとしており歩き易い。しかし、徐々にきつい坂が続くようになり、場所によっては角度が60度くらいの階段もあり（こうなると階段と言うよりもむしろ梯子に近い）かなりしんどい。
 
-[![Steep slope.]({{site.baseurl}}/images/IMG_1035-225x300.jpg) 厳しい階段。
+{: align="center"}
+![Steep slope.]({{site.baseurl}}/images/IMG_1035-225x300.jpg)
+*厳しい階段*
 
 ポイントポイントに砦のようなものがある。ここからの眺めは抜群である。また、吹く風が心地よい。
 
 一応最後の砦まで行ってもその先に進む事はできるようだ。ただし、その先には整備が一切されていないので、滑落の危険等があるため進まないほうが賢明、ということで、そこで引き返してくる事にした。良く言う事であるが、登りよりも下りのほうがつらい。登りで足が疲労しているせいもあるのだろうが、下りは踏ん張らなければいけないくて、それがかなりこたえる。フラフラしながら無事に下山。
 
-[![Steep step. Almost like a ladder.]({{site.baseurl}}/images/IMG_1075-225x300.jpg) 急な階段。というよりほとんど梯子w。
+{: align="center"}
+![Steep step. Almost like a ladder.]({{site.baseurl}}/images/IMG_1075-225x300.jpg) 
+*急な階段。というよりほとんど梯子(笑)。*
 
 ともかく圧巻であった。よくもまあ、こんな事をやろうと思い、そしてそれをやってのけてしまったもんだと感心してしまった。普通に考えたら国の廻り3000キロも壁てくくってしまおうなんて、馬鹿げててとても実行には移せないと思う。それをやってのけてしまうところが中国の凄いところだ。
 
 帰りにケーブルカー降り場のトイレに同行したもう一人のエンジニア（彼は台湾人）が入ったが、彼がしばらくして居心地悪そうに出てきた。トイレットペイパーがなかったとのこと。なんとか持っていたパンフレットなどを使って対処をしてきたとのこと。海外からの観光客も多い施設なはずなのに、このへんにも中国らしさを感じてしまった（笑）
 
-[![Unmaintained wall]({{site.baseurl}}/images/IMG_1053-225x300.jpg) 最終の砦の先にも長城は続いているが、整備はされておらず、こんな感じの状態。危険なのでこれより先には行かず。
+{: align="center"}
+![Unmaintained wall]({{site.baseurl}}/images/IMG_1053-225x300.jpg)
+*最終の砦の先にも長城は続いているが、整備はされておらず、こんな感じの状態。危険なのでこれより先には行かず。*
+
+Photo by <a href="https://unsplash.com/@imagineauniquename?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Melissa</a> on <a href="https://unsplash.com/photos/great-wall-of-china-AWh9C-QjhE4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
