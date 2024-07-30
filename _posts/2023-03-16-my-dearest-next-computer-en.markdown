@@ -5,7 +5,7 @@ title: My Dearest NeXT Computer
 description: The story around my NeXT Station
 image: '/images/serhii-butenko-zx2Vc1zPDIs-unsplash.jpg'
 tags:
-- Computer&Internet
+- Computer and Networking
 language:
 - English
 keywords:
