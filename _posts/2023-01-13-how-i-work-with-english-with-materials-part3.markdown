@@ -45,6 +45,6 @@ keywords:
 
 その他にも面白い映画やドラマは数えきれないくらいあるのですが、一つ一つ紹介していてはキリがないので、以上のものにとどめておくことにします。皆さんもお勧めの作品などがありましたら教えてくださいね。
 
-さて、ドラマ・映画に関するネタは以上です。次回は役に立ちそうなPodcastをいろいろ紹介したいと思います。
+さて、ドラマ・映画に関するネタは以上です。[次回]({{site.baseurl}}/2023/01/how-i-work-with-english-with-materials-part4/)は役に立ちそうなPodcastをいろいろ紹介したいと思います。
 
 Photo by [Denise Jans](https://unsplash.com/@dmjdenise?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/movie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

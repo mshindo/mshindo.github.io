@@ -35,6 +35,6 @@ keywords:
 
 先日、ラムズフェルド元国防長官亡くなった際のニュースの右左両面からの記事を読みましたが、両者全然トーンが異なっていて大変興味深かったです。
 
-さて、ニュースに関しては以上です。次回は、ドラマ・映画について紹介をしたいと思います。
+さて、ニュースに関しては以上です。[次回]({{site.baseurl}}/2023/01/how-i-work-with-english-with-materials-part3/)は、ドラマ・映画について紹介をしたいと思います。
 
 Photo by [Filip Mishevski](https://unsplash.com/ja/@filipthedesigner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/news?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
