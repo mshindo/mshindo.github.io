@@ -159,7 +159,7 @@ Crescendo Pro Amplified 20は、いわゆるイヤープロテクターです。
 
 ## Blog
 
-今年はこの記事以外には1本記事（[Supermicro E300-9D で vSAN するぞ！](https://blog.shin.do/2024/05/vsan-on-supermicro-e300-9d/)）を書いただけでした。筆が進まなかった理由は色々ありますが、ま、全部言い訳ですね。。来年は頑張るゾ！
+今年はこの記事以外には1本記事（[Supermicro E300-9D で vSAN するぞ！]({{site.baseurl}}/2024/05/vsan-on-supermicro-e300-9d/)）を書いただけでした。筆が進まなかった理由は色々ありますが、ま、全部言い訳ですね。。来年は頑張るゾ！
 
 ## コミュニティへの貢献
 
