@@ -4,5 +4,8 @@ gem "jekyll"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "github-pages", "~> 228", group: :jekyll_plugins
+gem "csv"
+gem "base64"
+gem "bigdecimal"
 
 gem "webrick", "~> 1.8"
