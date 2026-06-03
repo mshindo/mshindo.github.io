@@ -5,7 +5,7 @@ title: 目ん玉ビョビョーンだった技術
 description: 今まで出会った技術の中でびっくりしたもの
 image: '/images/ben-white-qDY9ahp0Mto-unsplash.jpg'
 tags:
-- コンピュータ＆インターネット
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 ---

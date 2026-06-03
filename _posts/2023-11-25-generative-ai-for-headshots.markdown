@@ -5,7 +5,7 @@ title: 生成AIによる顔写真生成サービス
 description: HeadshotPro というサービスを試してみた
 image: '/images/markus-winkler-tGBXiHcPKrM-unsplash.jpg'
 tags:
-- コンピュータ＆インターネット
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 keywords:

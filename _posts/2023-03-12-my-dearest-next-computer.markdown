@@ -5,7 +5,7 @@ title: 我が愛しのNeXT
 description: 愛機のNeXT Stationにまつわる物語
 image: '/images/serhii-butenko-zx2Vc1zPDIs-unsplash.jpg'
 tags:
-- コンピュータ＆インターネット
+- コンピュータ＆ネットワーク
 language:
 - 日本語
 keywords:
